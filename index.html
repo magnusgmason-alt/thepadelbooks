@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Padel Books</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<meta name="description" content="The Padel Playbook series by The Padel Academy: visual padel coaching books for beginners, advanced players and juniors, plus 100 drills to train smarter.">
+<meta property="og:title" content="The Padel Books · The Padel Academy">
+<meta property="og:description" content="Play smarter padel. Tactics, drills and court positioning for every level.">
+<meta property="og:image" content="https://thepadelbooks.com/photo-net-ball.jpg">
+<meta property="og:url" content="https://thepadelbooks.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://thepadelbooks.com/">
+<style>
+/* Layout: Swiss sports-editorial. Off-white court-paper ground, navy ink, lime as the ball, coral for the one warning line. Hard left axis, ruled sections. */
+:root{
+  --paper:#F3F4EF; --paper-2:#E8EAE2; --ink:#14213D; --ink-soft:#4A5672;
+  --lime:#CFEA3E; --lime-ink:#14213D; --coral:#F2603F; --line:#14213D;
+  --card:#FFFFFF; --court:#1F4E8C; --court-line:#FFFFFF;
+  --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
+  --f-body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0E1729; --paper-2:#16223A; --ink:#EEF1E6; --ink-soft:#A3AEC6;
+  --lime:#CFEA3E; --lime-ink:#0E1729; --coral:#FF7A5C; --line:#EEF1E6;
+  --card:#16223A; --court:#183D70; --court-line:#DCE6F5; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0E1729; --paper-2:#16223A; --ink:#EEF1E6; --ink-soft:#A3AEC6;
+  --lime:#CFEA3E; --lime-ink:#0E1729; --coral:#FF7A5C; --line:#EEF1E6;
+  --card:#16223A; --court:#183D70; --court-line:#DCE6F5; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;margin:0}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:.92;letter-spacing:-.01em}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:800;font-stretch:110%;text-transform:uppercase;letter-spacing:.06em;font-size:14px;padding:15px 22px;border:2px solid var(--ink);text-decoration:none;cursor:pointer;background:transparent;color:var(--ink);transition:transform .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+.btn.primary{background:var(--lime);color:var(--lime-ink);border-color:var(--lime)}
+
+/* nav */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:2px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--paper)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
+.logo{display:flex;flex-direction:column;text-decoration:none;line-height:1}
+.logo b{font-family:var(--f-display);font-weight:900;font-stretch:125%;font-size:20px;letter-spacing:.02em}
+.logo span{font-family:var(--f-mono);font-size:10px;letter-spacing:.32em;color:var(--ink-soft);margin-top:4px}
+.nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-weight:600;font-size:15px}
+.nav ul a{text-decoration:none}
+.nav ul a:hover{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:3px;text-underline-offset:6px}
+.nav .btn{padding:10px 16px;font-size:12px}
+@media (max-width:860px){.nav ul{display:none}}
+
+/* hero */
+.hero{padding-block:56px 64px;border-bottom:2px solid var(--line)}
+.hero-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center}
+.hero h1{font-weight:900;font-stretch:72%;font-size:clamp(64px,11vw,148px);text-transform:uppercase;margin:18px 0 22px}
+.hero h1 em{font-style:normal;background:var(--lime);color:var(--lime-ink);padding:0 .08em}
+.hero p.lede{font-size:20px;max-width:34ch;color:var(--ink-soft);margin:0 0 28px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
+.hero-photo{margin:0;min-width:0;position:relative}
+.hero-photo img{display:block;width:100%;max-width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border:2px solid var(--line)}
+.hero-photo figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.court-fig{min-width:0}
+.court-fig svg{width:100%;height:auto;display:block}
+.court-fig figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}.hero{padding-block:36px 44px}}
+
+/* section shell */
+section.block{padding-block:72px;border-bottom:2px solid var(--line)}
+.sec-head{display:grid;grid-template-columns:220px 1fr;gap:32px;margin-bottom:40px}
+.sec-head h2{font-weight:900;font-stretch:80%;font-size:clamp(40px,6vw,72px);text-transform:uppercase}
+@media (max-width:760px){.sec-head{grid-template-columns:1fr;gap:10px}}
+
+/* story */
+.story{display:grid;grid-template-columns:220px 1fr 1fr;gap:32px}
+.story p{margin:0;max-width:60ch}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);border-top:2px solid var(--line);margin-top:44px}
+.fact{padding:22px 20px 0 0}
+.fact+.fact{padding-left:20px;border-left:1px solid var(--line)}
+.fact b{display:block;font-family:var(--f-display);font-weight:900;font-stretch:75%;font-size:56px;line-height:1}
+.fact span{font-size:14px;color:var(--ink-soft)}
+@media (max-width:760px){.story{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.fact+.fact{border-left:0;border-top:1px solid var(--line);padding-left:0}.fact{padding-bottom:18px}}
+
+/* levels */
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:2px solid var(--line)}
+.level{padding:28px 26px 30px;display:flex;flex-direction:column;gap:14px;text-decoration:none;background:var(--card);transition:background .15s}
+.level+.level{border-left:2px solid var(--line)}
+.level:hover{background:var(--paper-2)}
+.level .tag{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em}
+.level h3{font-weight:900;font-stretch:85%;font-size:34px;text-transform:uppercase}
+.level p{margin:0;color:var(--ink-soft);font-size:16px}
+.level .go{margin-top:auto;font-weight:600;display:flex;align-items:center;gap:8px}
+.level .go i{display:inline-block;width:14px;height:14px;border-radius:50%;background:var(--lime);border:1.5px solid var(--ink)}
+@media (max-width:860px){.levels{grid-template-columns:1fr}.level+.level{border-left:0;border-top:2px solid var(--line)}}
+
+/* shelf */
+.shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:40px 24px}
+.book{display:flex;flex-direction:column;gap:14px;min-width:0}
+.cover-img{display:block;width:100%;max-width:100%;aspect-ratio:2/3;object-fit:cover;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45);transition:transform .2s}
+.book:hover .cover-img{transform:translateY(-4px)}
+.cover{aspect-ratio:6/9;max-width:100%;position:relative;overflow:hidden;padding:7% 8%;display:flex;flex-direction:column;color:#14213D;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45)}
+.cover .c-the{font-family:var(--f-display);font-weight:700;font-stretch:125%;letter-spacing:.5em;font-size:11px}
+.cover .c-padel{font-family:var(--f-display);font-weight:900;font-stretch:80%;font-size:clamp(46px,6.2vw,74px);line-height:.85;margin-top:4px}
+.cover .c-pb{font-family:var(--f-display);font-weight:700;font-stretch:125%;letter-spacing:.42em;font-size:11px;margin-top:6px}
+.cover .c-rule{height:2px;background:currentColor;margin:12px 0}
+.cover .c-ed{align-self:flex-start;font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.08em;padding:4px 7px;background:#CFEA3E;color:#14213D}
+.cover svg{margin:auto 0;width:100%;height:auto}
+.cover .c-foot{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:9px;letter-spacing:.14em;border-top:1.5px solid currentColor;padding-top:7px}
+.cv-gray{background:#DADDD6}.cv-white{background:#FFFFFF}.cv-blue{background:#CDE3F2}.cv-light{background:#EEEFEC}
+.cv-navy{background:#14213D;color:#F3F4EF}.cv-coral{background:#F7D7CC}
+.book.soon .cover{filter:saturate(.6)}
+.soon-badge{position:absolute;top:12px;right:-34px;transform:rotate(35deg);background:var(--coral);color:#fff;font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.12em;padding:5px 40px}
+.book h3{font-family:var(--f-body);font-weight:600;font-size:17px;line-height:1.35}
+.book .meta{display:flex;justify-content:space-between;align-items:center;gap:10px;font-family:var(--f-mono);font-size:13px;color:var(--ink-soft)}
+.book .meta b{color:var(--ink);font-size:15px}
+.book .buy{display:flex;gap:8px;flex-wrap:wrap}
+.book .buy .btn{padding:10px 14px;font-size:12px}
+@media (max-width:980px){.shelf{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:460px){.shelf{grid-template-columns:1fr;max-width:340px}}
+
+/* freebie */
+.free{background:var(--ink);color:var(--paper);padding-block:72px;border-bottom:2px solid var(--line)}
+.free .eyebrow{color:var(--lime)}
+.free-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.free h2{font-weight:900;font-stretch:78%;font-size:clamp(42px,6vw,76px);text-transform:uppercase;margin:14px 0 18px}
+.free p{opacity:.85;max-width:46ch;margin:0}
+.free ul{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:8px;font-family:var(--f-mono);font-size:14px}
+.free li::before{content:"●";color:var(--lime);margin-right:10px}
+form.signup{display:grid;gap:12px;background:var(--paper);color:var(--ink);padding:26px;border:2px solid var(--lime)}
+form.signup label{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase}
+form.signup input{font:inherit;padding:14px;border:2px solid var(--ink);background:var(--card);color:var(--ink);width:100%}
+form.signup .note{font-size:13px;color:var(--ink-soft)}
+form.signup .ok{font-weight:600}
+@media (max-width:860px){.free-grid{grid-template-columns:1fr}}
+
+/* blog */
+.posts{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.post{display:flex;flex-direction:column;gap:12px;text-decoration:none;border-top:2px solid var(--line);padding-top:18px}
+.post .row{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);letter-spacing:.06em}
+.post .row .cat{color:var(--coral);font-weight:600;text-transform:uppercase}
+.post h3{font-weight:800;font-stretch:90%;font-size:26px;line-height:1.05}
+.post p{margin:0;color:var(--ink-soft);font-size:16px}
+.post:hover h3{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:4px;text-underline-offset:5px}
+@media (max-width:860px){.posts{grid-template-columns:1fr}}
+
+/* footer */
+footer{padding-block:48px 56px}
+.foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.foot h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px;color:var(--ink-soft);font-weight:400}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.foot a{text-decoration:none}.foot a:hover{text-decoration:underline}
+.legal{margin-top:40px;font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (max-width:760px){.foot{grid-template-columns:1fr 1fr}}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.ball{animation:fly 3.2s ease-in-out infinite}
+@keyframes fly{0%,100%{transform:translate(0,0)}50%{transform:translate(-6px,-10px)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top"><b>THE PADEL ACADEMY</b><span>THEPADELBOOKS.COM</span></a>
+    <ul>
+      <li><a href="#books">Books</a></li>
+      <li><a href="#levels">Find your level</a></li>
+      <li><a href="#free">Free drills</a></li>
+      <li><a href="#blog">Tips &amp; Tactics</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a class="btn primary" href="#books">Shop books</a>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">The Padel Playbook series · 2027 editions</div>
+        <h1>Play <em>smarter</em> padel.</h1>
+        <p class="lede">Clear tactics, proven drills and court positioning for every level, from your first bandeja to winning the net.</p>
+        <div class="ctas">
+          <a class="btn primary" href="#books">Shop the books</a>
+          <a class="btn" href="#free">Get free drills</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="photo-net-ball.jpg" alt="Padel ball resting on a blue court beside the net" width="1600" height="2400">
+        <figcaption><span>Court 20 m × 10 m</span><span>Net 88 cm in the middle</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="wrap">
+      <div class="story">
+        <div class="eyebrow">Why padel</div>
+        <p><strong>Padel is easy to start and hard to master.</strong> Anyone can rally in their first hour. Winning matches is different: the walls change every angle, the lob decides who owns the net, and most club players never learn where to stand.</p>
+        <p>The Padel Academy writes short, visual playbooks that fix exactly that. Every book uses court diagrams, step-by-step drills and match situations you'll recognise from your Tuesday-night game, so you can take one idea to the court and use it the same day.</p>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>4</b><span>players, 2 per side, always doubles at club level</span></div>
+        <div class="fact"><b>3 m</b><span>of glass behind you, the wall that changes every rally</span></div>
+        <div class="fact"><b>100</b><span>drills in The Padel Drill Book, solo, pairs or as a four</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="levels">
+    <div class="wrap">
+      <div class="sec-head"><div class="eyebrow">Start here</div><h2>Find your book</h2></div>
+      <div class="levels">
+        <a class="level" href="#books"><span class="tag">NEW TO PADEL</span><h3>Beginner</h3><p>Grips, the walls, serve and return, and where to stand so you stop losing easy points.</p><span class="go"><i></i>The Padel Playbook: Beginner &amp; Intermediate</span></a>
+        <a class="level" href="#books"><span class="tag">LEVEL 3–6</span><h3>Advanced</h3><p>Bandeja, víbora, net control and the tactics that win close matches.</p><span class="go"><i></i>The Padel Playbook: Intermediate &amp; Advanced</span></a>
+        <a class="level" href="#books"><span class="tag">AGES 10–14</span><h3>Juniors</h3><p>Fun, simple coaching for young players and the parents who play with them.</p><span class="go"><i></i>The Padel Playbook: Kids Edition</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="books">
+    <div class="wrap">
+      <div class="sec-head"><div class="eyebrow">The series</div><h2>The Padel Playbook</h2></div>
+      <div class="shelf" id="shelf"></div>
+    </div>
+  </section>
+
+  <section class="free" id="free">
+    <div class="wrap free-grid">
+      <div>
+        <div class="eyebrow">Free download</div>
+        <h2>10 drills for your next session</h2>
+        <p>A one-page printable from The Padel Drill Book. Take it to the court, pick three drills, play better by the end of the hour.</p>
+        <ul><li>Wall-exit warm-up</li><li>Lob-and-close net drill</li><li>Bandeja target practice</li></ul>
+      </div>
+      <form class="signup" id="signup">
+        <label for="email">Your email</label>
+        <input id="email" type="email" required placeholder="you@example.com">
+        <button class="btn primary" type="submit">Send me the drills</button>
+        <span class="note" id="signup-note">One email when a new book comes out. No spam.</span>
+      </form>
+    </div>
+  </section>
+
+  <section class="block" id="blog">
+    <div class="wrap">
+      <div class="sec-head"><div class="eyebrow">Tips &amp; Tactics</div><h2>From the blog</h2></div>
+      <div class="posts">
+        <a class="post" href="#blog"><div class="row"><span class="cat">Technique</span><span>6 min read</span></div><h3>How to hit a bandeja that keeps you at the net</h3><p>The shot every intermediate player needs, broken into four steps.</p></a>
+        <a class="post" href="#blog"><div class="row"><span class="cat">Tactics</span><span>5 min read</span></div><h3>Where to stand: padel positioning for doubles</h3><p>Move as a pair, cover the middle and stop leaving gaps.</p></a>
+        <a class="post" href="#blog"><div class="row"><span class="cat">Rules</span><span>7 min read</span></div><h3>Padel rules explained for tennis players</h3><p>Underarm serves, the walls and the scoring that catches everyone out.</p></a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div><div class="logo"><b>THE PADEL ACADEMY</b><span>THEPADELBOOKS.COM</span></div><p style="color:var(--ink-soft);font-size:15px;max-width:34ch">Short, visual padel coaching books for club players of every level.</p></div>
+      <div><h4>Books</h4><ul><li><a href="#books">Beginner &amp; Intermediate</a></li><li><a href="#books">Intermediate &amp; Advanced</a></li><li><a href="#books">Kids Edition</a></li><li><a href="#books">The Padel Drill Book</a></li></ul></div>
+      <div><h4>Also on</h4><ul><li>Amazon</li><li>Apple Books</li><li>Google Play Books</li><li>Kobo</li></ul></div>
+      <div><h4>Learn</h4><ul><li><a href="#blog">Technique</a></li><li><a href="#blog">Tactics</a></li><li><a href="#blog">Fitness &amp; Injury</a></li><li><a href="#blog">Gear</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 The Padel Academy</span><span>Checkout by Discover Store · Apple Pay · PayPal</span></div>
+  </div>
+</footer>
+
+<script>
+const books=[
+ {img:"cover-beginner.jpg",full:"The Padel Playbook: Tips, Tricks & Techniques for Beginner and Intermediate Players",tag:"Beginner & Intermediate",p:"$4.99"},
+ {img:"cover-advanced.jpg",full:"The Padel Playbook: Tactics, Tips & Techniques for Intermediate and Advanced Players",tag:"Intermediate & Advanced",p:"$6.99"},
+ {img:"cover-kids.jpg",full:"The Padel Playbook: Kids Edition, Padel for Ages 10 to 14",tag:"Kids · Ages 10–14",p:"$4.99"},
+ {img:"cover-drill.jpg",full:"The Padel Drill Book: 100 Drills to Train Smarter",tag:"100 Drills",p:"$6.99"}
+];
+document.getElementById("shelf").innerHTML=books.map(b=>`
+ <article class="book">
+  <img class="cover-img" src="${b.img}" alt="Cover of ${b.full}" width="700" height="1050" loading="lazy">
+  <span class="eyebrow">${b.tag}</span>
+  <h3>${b.full}</h3>
+  <div class="meta"><b>${b.p}</b><span>Ebook</span></div>
+  <div class="buy"><a class="btn primary" href="#books">Buy · Apple Pay</a><a class="btn" href="#books">Amazon</a></div>
+ </article>`).join("");
+document.getElementById("signup").addEventListener("submit",e=>{e.preventDefault();const n=document.getElementById("signup-note");n.textContent="Preview only: sign-up connects when the site goes live.";n.className="note ok";});
+</script>
+</body>
+</html>
