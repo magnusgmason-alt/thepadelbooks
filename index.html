@@ -66,7 +66,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero p.lede{font-size:20px;max-width:34ch;color:var(--ink-soft);margin:0 0 28px}
 .hero .ctas{display:flex;flex-wrap:wrap;gap:12px}
 .hero-photo{margin:0;min-width:0;position:relative}
-.hero-photo img{display:block;width:100%;max-width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border:2px solid var(--line)}
+.hero-photo img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border:2px solid var(--line)}
 .hero-photo figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
 .court-fig{min-width:0}
 .court-fig svg{width:100%;height:auto;display:block}
@@ -104,7 +104,7 @@ section.block{padding-block:72px;border-bottom:2px solid var(--line)}
 /* shelf */
 .shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:40px 24px}
 .book{display:flex;flex-direction:column;gap:14px;min-width:0}
-.cover-img{display:block;width:100%;max-width:100%;aspect-ratio:2/3;object-fit:cover;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45);transition:transform .2s}
+.cover-img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45);transition:transform .2s}
 .book:hover .cover-img{transform:translateY(-4px)}
 .cover{aspect-ratio:6/9;max-width:100%;position:relative;overflow:hidden;padding:7% 8%;display:flex;flex-direction:column;color:#14213D;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45)}
 .cover .c-the{font-family:var(--f-display);font-weight:700;font-stretch:125%;letter-spacing:.5em;font-size:11px}
@@ -173,7 +173,7 @@ footer{padding-block:48px 56px}
       <li><a href="#books">Books</a></li>
       <li><a href="#levels">Find your level</a></li>
       <li><a href="#free">Free drills</a></li>
-      <li><a href="#blog">Tips &amp; Tactics</a></li>
+      <li><a href="/journal">Tips &amp; Tactics</a></li>
       <li><a href="#about">About</a></li>
     </ul>
     <a class="btn primary" href="#books">Shop books</a>
@@ -253,10 +253,11 @@ footer{padding-block:48px 56px}
     <div class="wrap">
       <div class="sec-head"><div class="eyebrow">Tips &amp; Tactics</div><h2>From the blog</h2></div>
       <div class="posts">
-        <a class="post" href="#blog"><div class="row"><span class="cat">Technique</span><span>6 min read</span></div><h3>How to hit a bandeja that keeps you at the net</h3><p>The shot every intermediate player needs, broken into four steps.</p></a>
-        <a class="post" href="#blog"><div class="row"><span class="cat">Tactics</span><span>5 min read</span></div><h3>Where to stand: padel positioning for doubles</h3><p>Move as a pair, cover the middle and stop leaving gaps.</p></a>
-        <a class="post" href="#blog"><div class="row"><span class="cat">Rules</span><span>7 min read</span></div><h3>Padel rules explained for tennis players</h3><p>Underarm serves, the walls and the scoring that catches everyone out.</p></a>
+        <a class="post" href="/how-to-hit-a-bandeja"><div class="row"><span class="cat">Technique</span><span>5 min read</span></div><h3>How to hit a bandeja that keeps you at the net</h3><p>The shot every intermediate player needs, broken into four steps.</p></a>
+        <a class="post" href="/padel-positioning-doubles"><div class="row"><span class="cat">Tactics</span><span>5 min read</span></div><h3>Where to stand: padel positioning for doubles</h3><p>Move as a pair, cover the middle and stop leaving gaps.</p></a>
+        <a class="post" href="/padel-rules"><div class="row"><span class="cat">Rules</span><span>6 min read</span></div><h3>Padel rules explained for tennis players</h3><p>Underarm serves, the walls and the scoring that catches everyone out.</p></a>
       </div>
+      <p style="margin-top:28px"><a class="btn" href="/journal">All articles</a></p>
     </div>
   </section>
 </main>
@@ -267,7 +268,7 @@ footer{padding-block:48px 56px}
       <div><div class="logo"><b>THE PADEL ACADEMY</b><span>THEPADELBOOKS.COM</span></div><p style="color:var(--ink-soft);font-size:15px;max-width:34ch">Short, visual padel coaching books for club players of every level.</p></div>
       <div><h4>Books</h4><ul><li><a href="#books">Beginner &amp; Intermediate</a></li><li><a href="#books">Intermediate &amp; Advanced</a></li><li><a href="#books">Kids Edition</a></li><li><a href="#books">The Padel Drill Book</a></li></ul></div>
       <div><h4>Also on</h4><ul><li>Amazon</li><li>Apple Books</li><li>Google Play Books</li><li>Kobo</li></ul></div>
-      <div><h4>Learn</h4><ul><li><a href="#blog">Technique</a></li><li><a href="#blog">Tactics</a></li><li><a href="#blog">Fitness &amp; Injury</a></li><li><a href="#blog">Gear</a></li></ul></div>
+      <div><h4>Learn</h4><ul><li><a href="/how-to-hit-a-bandeja">Technique</a></li><li><a href="/padel-positioning-doubles">Tactics</a></li><li><a href="/padel-rules">Rules</a></li><li><a href="/how-to-choose-a-padel-racket">Gear</a></li></ul></div>
     </div>
     <div class="legal"><span>© 2026 The Padel Academy</span><span>Checkout by Discover Store · Apple Pay · PayPal</span></div>
   </div>
