@@ -45,11 +45,20 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .logo b{font-family:var(--f-display);font-weight:900;font-stretch:125%;font-size:20px;letter-spacing:.02em}
 .logo span{font-family:var(--f-mono);font-size:10px;letter-spacing:.32em;color:var(--ink-soft);margin-top:4px}
 header.top .logo span{color:var(--on-navy-soft)}
-.nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-weight:600;font-size:15px}
+.nav ul.menu{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-weight:600;font-size:15px}
 .nav ul a{text-decoration:none}
 .nav ul a:hover{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:3px;text-underline-offset:6px}
 .nav .btn{padding:10px 16px;font-size:12px;white-space:nowrap}
-@media (max-width:860px){.nav ul{display:none}}
+.nav-end{display:flex;align-items:center;gap:12px}
+.mnav{display:none;position:relative}
+.mnav summary{list-style:none;cursor:pointer;width:42px;height:42px;display:grid;place-content:center;gap:5px;border:2px solid var(--on-navy-soft)}
+.mnav summary::-webkit-details-marker{display:none}
+.mnav summary span{display:block;width:20px;height:2px;background:var(--on-navy)}
+.mnav[open] summary{border-color:var(--lime)}
+.mnav ul{position:absolute;right:0;top:52px;background:var(--navy);border:2px solid var(--lime);list-style:none;margin:0;padding:8px 0;min-width:200px;z-index:30}
+.mnav li a{display:block;padding:12px 20px;text-decoration:none;font-weight:600}
+@media (max-width:980px){.nav ul.menu{display:none}.mnav{display:block}}
+@media (max-width:420px){.nav-end .btn{display:none}}
 
 /* hero */
 .hero{padding-block:56px 64px;border-bottom:2px solid var(--line)}
@@ -169,14 +178,9 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
 <header class="top">
   <div class="wrap nav">
     <a class="logo" href="#top"><b>THE PADEL ACADEMY</b><span>THEPADELBOOKS.COM</span></a>
-    <ul>
-      <li><a href="#books">Books</a></li>
-      <li><a href="#levels">Find your level</a></li>
-      <li><a href="#free">Free drills</a></li>
-      <li><a href="/journal">Tips &amp; Tactics</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-    <a class="btn primary" href="#books">Shop books</a>
+    <ul class="menu"><li><a href="#books">Books</a></li><li><a href="/shots">Shots</a></li><li><a href="/tactics">Tactics</a></li><li><a href="/drills">Drills</a></li><li><a href="/rules">Rules</a></li><li><a href="/journal">Journal</a></li></ul>
+    <div class="nav-end"><a class="btn primary" href="#books">Shop books</a>
+    <details class="mnav"><summary aria-label="Menu"><span></span><span></span><span></span></summary><ul><li><a href="#books">Books</a></li><li><a href="/shots">Shots</a></li><li><a href="/tactics">Tactics</a></li><li><a href="/drills">Drills</a></li><li><a href="/rules">Rules</a></li><li><a href="/journal">Journal</a></li></ul></details></div>
   </div>
 </header>
 
@@ -243,6 +247,7 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
         <h2>10 drills for your next session</h2>
         <p>A one-page printable from The Padel Drill Book. Take it to the court, pick three drills, play better by the end of the hour.</p>
         <ul><li>Wall-exit warm-up</li><li>Lob-and-close net drill</li><li>Bandeja target practice</li></ul>
+        <p style="margin-top:22px"><a href="/drills" style="color:var(--lime);font-weight:600">Browse the free drill library →</a></p>
       </div>
       <form class="signup" id="signup">
         <label for="email">Your email</label>
@@ -272,7 +277,7 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
       <div><div class="logo"><b>THE PADEL ACADEMY</b><span>THEPADELBOOKS.COM</span></div><p style="color:var(--ink-soft);font-size:15px;max-width:34ch">Short, visual padel coaching books for club players of every level.</p></div>
       <div><h4>Books</h4><ul><li><a href="#books">Beginner &amp; Intermediate</a></li><li><a href="#books">Intermediate &amp; Advanced</a></li><li><a href="#books">Kids Edition</a></li><li><a href="#books">The Padel Drill Book</a></li></ul></div>
       <div><h4>Also on</h4><ul><li>Amazon</li><li>Apple Books</li><li>Google Play Books</li><li>Kobo</li></ul></div>
-      <div><h4>Learn</h4><ul><li><a href="/how-to-hit-a-bandeja">Technique</a></li><li><a href="/padel-positioning-doubles">Tactics</a></li><li><a href="/padel-rules">Rules</a></li><li><a href="/how-to-choose-a-padel-racket">Gear</a></li></ul></div>
+      <div><h4>Learn</h4><ul><li><a href="/shots">Shots</a></li><li><a href="/tactics">Tactics</a></li><li><a href="/drills">Free drills</a></li><li><a href="/rules">Rules</a></li><li><a href="/journal">Journal</a></li></ul></div>
     </div>
     <div class="legal"><span>© 2026 The Padel Academy</span><span>Checkout by Discover Store · Apple Pay · PayPal</span></div>
   </div>
