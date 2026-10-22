@@ -259,7 +259,7 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
         <label for="email">Your email</label>
         <input id="email" type="email" required placeholder="you@example.com">
         <button class="btn primary" type="submit">Send me the drills</button>
-        <span class="note" id="signup-note">One email when a new book comes out. No spam.</span>
+        <span class="note" id="signup-note">Instant PDF download. One email when a new book comes out. No spam.</span>
       </form>
     </div>
   </section>
@@ -304,7 +304,7 @@ document.getElementById("shelf").innerHTML=books.map(b=>`
   <div class="meta"><b>${b.p}</b><span>Ebook · ${b.pages} pages</span></div>
   <div class="buy"><a class="btn primary" href="${b.buy}">Buy · Apple Pay</a><a class="btn" href="${b.url}#look-inside">Look inside</a></div>
  </article>`).join("");
-document.getElementById("signup").addEventListener("submit",e=>{e.preventDefault();const n=document.getElementById("signup-note");n.textContent="Preview only: sign-up connects when the site goes live.";n.className="note ok";});
+document.getElementById("signup").addEventListener("submit",e=>{e.preventDefault();const em=document.getElementById("email").value.trim();const n=document.getElementById("signup-note");n.textContent="Opening your free download…";n.className="note ok";location.href="https://discover.lemonsqueezy.com/checkout/buy/6d50f339-36b7-46d6-a2c0-04a7e4b73e22?checkout%5Bemail%5D="+encodeURIComponent(em)+"&checkout%5Bcustom%5D%5Bsource%5D=thepadelbooks.com";});
 </script>
 </body>
 </html>
