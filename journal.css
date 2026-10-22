@@ -1,17 +1,13 @@
 /* The Padel Academy journal: same tokens as the homepage (Swiss sports-editorial: paper, navy ink, lime ball, coral accent) */
 :root{
-  --paper:#F3F4EF; --paper-2:#E8EAE2; --ink:#14213D; --ink-soft:#4A5672;
-  --lime:#CFEA3E; --lime-ink:#14213D; --coral:#E2512F; --line:#14213D;
-  --card:#FFFFFF; --ok:#2E7D4F; --no:#C2412A;
+  --paper:#ECEEEA; --paper-2:#E0E3DD; --ink:#14213D; --ink-soft:#4E5870;
+  --lime:#CFEA3E; --lime-ink:#14213D; --coral:#D9512F; --line:#14213D;
+  --card:#F8F9F6; --ok:#2E7D4F; --no:#C2412A; --navy:#14213D; --on-navy:#F2F4EE; --on-navy-soft:#AEB8CC;
   --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
   --f-body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
-  --paper:#0E1729; --paper-2:#16223A; --ink:#EEF1E6; --ink-soft:#A3AEC6;
-  --lime:#CFEA3E; --lime-ink:#0E1729; --coral:#FF7A5C; --line:#EEF1E6;
-  --card:#16223A; --ok:#6FCF97; --no:#FF8A70; color-scheme:dark}}
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
@@ -26,7 +22,8 @@ h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:
 a:focus-visible,summary:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
 
 /* header */
-header.top{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:2px solid var(--line)}
+header.top{position:sticky;top:0;z-index:20;background:var(--navy);color:var(--on-navy);border-bottom:3px solid var(--lime)}
+header.top .logo span{color:var(--on-navy-soft)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
 .logo{display:flex;flex-direction:column;text-decoration:none;line-height:1}
 .logo b{font-family:var(--f-display);font-weight:900;font-stretch:125%;font-size:20px;letter-spacing:.02em}
@@ -38,8 +35,8 @@ header.top{position:sticky;top:0;z-index:20;background:var(--paper);border-botto
 
 /* article head */
 .art-head{border-bottom:2px solid var(--line);padding-block:48px 44px}
-.art-grid{display:grid;grid-template-columns:1fr 280px;gap:48px;align-items:end}
-.art-court{width:100%;height:auto;color:var(--ink);opacity:.9}
+.art-grid{display:grid;grid-template-columns:1fr 340px;gap:48px;align-items:end}
+.art-court{width:100%;height:auto;display:block}
 .crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:18px}
 .crumbs a{text-decoration:none;color:var(--coral);font-weight:600}
 .art-head h1{font-weight:900;font-stretch:78%;text-transform:uppercase;font-size:clamp(40px,6.4vw,84px);line-height:.92}
@@ -110,7 +107,8 @@ th{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:
 @media (max-width:860px){.posts{grid-template-columns:1fr}}
 
 /* footer */
-footer{border-top:2px solid var(--line);padding-block:48px 56px}
+footer{padding-block:48px 56px;background:var(--navy);color:var(--on-navy)}
+footer .logo span,footer h4,footer .legal,footer .muted{color:var(--on-navy-soft)}
 .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
 .foot h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px;color:var(--ink-soft);font-weight:400}
 .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px;font-size:16px}

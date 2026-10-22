@@ -17,22 +17,14 @@
 <style>
 /* Layout: Swiss sports-editorial. Off-white court-paper ground, navy ink, lime as the ball, coral for the one warning line. Hard left axis, ruled sections. */
 :root{
-  --paper:#F3F4EF; --paper-2:#E8EAE2; --ink:#14213D; --ink-soft:#4A5672;
+  --paper:#ECEEEA; --paper-2:#E0E3DD; --ink:#14213D; --ink-soft:#4E5870;
   --lime:#CFEA3E; --lime-ink:#14213D; --coral:#F2603F; --line:#14213D;
-  --card:#FFFFFF; --court:#1F4E8C; --court-line:#FFFFFF;
+  --card:#F8F9F6; --navy:#14213D; --on-navy:#F2F4EE; --on-navy-soft:#AEB8CC;
   --f-display:"Archivo","Arial Narrow",Arial,sans-serif;
   --f-body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
   --f-mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
   color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#0E1729; --paper-2:#16223A; --ink:#EEF1E6; --ink-soft:#A3AEC6;
-  --lime:#CFEA3E; --lime-ink:#0E1729; --coral:#FF7A5C; --line:#EEF1E6;
-  --card:#16223A; --court:#183D70; --court-line:#DCE6F5; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --paper:#0E1729; --paper-2:#16223A; --ink:#EEF1E6; --ink-soft:#A3AEC6;
-  --lime:#CFEA3E; --lime-ink:#0E1729; --coral:#FF7A5C; --line:#EEF1E6;
-  --card:#16223A; --court:#183D70; --court-line:#DCE6F5; color-scheme:dark}
 
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:17px;line-height:1.6;margin:0}
@@ -46,16 +38,17 @@ h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:.92
 .btn.primary{background:var(--lime);color:var(--lime-ink);border-color:var(--lime)}
 
 /* nav */
-header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border-bottom:2px solid var(--line)}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--paper)}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--navy);color:var(--on-navy);border-bottom:3px solid var(--lime)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--navy)}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding-block:14px}
 .logo{display:flex;flex-direction:column;text-decoration:none;line-height:1}
 .logo b{font-family:var(--f-display);font-weight:900;font-stretch:125%;font-size:20px;letter-spacing:.02em}
 .logo span{font-family:var(--f-mono);font-size:10px;letter-spacing:.32em;color:var(--ink-soft);margin-top:4px}
+header.top .logo span{color:var(--on-navy-soft)}
 .nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-weight:600;font-size:15px}
 .nav ul a{text-decoration:none}
 .nav ul a:hover{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:3px;text-underline-offset:6px}
-.nav .btn{padding:10px 16px;font-size:12px}
+.nav .btn{padding:10px 16px;font-size:12px;white-space:nowrap}
 @media (max-width:860px){.nav ul{display:none}}
 
 /* hero */
@@ -68,6 +61,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hero-photo{margin:0;min-width:0;position:relative}
 .hero-photo img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border:2px solid var(--line)}
 .hero-photo figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.hero-board{margin:0;min-width:0}
+.hero-board svg{display:block;width:100%;height:auto}
+.hero-board figcaption,.story-photo figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.story-photo{margin:44px 0 0}
+.story-photo img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:3/1;object-fit:cover;object-position:50% 45%}
+.level .mini{display:block;width:150px;max-width:100%;height:auto;margin-bottom:6px}
 .court-fig{min-width:0}
 .court-fig svg{width:100%;height:auto;display:block}
 .court-fig figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
@@ -152,7 +151,8 @@ form.signup .ok{font-weight:600}
 @media (max-width:860px){.posts{grid-template-columns:1fr}}
 
 /* footer */
-footer{padding-block:48px 56px}
+footer{padding-block:48px 56px;background:var(--navy);color:var(--on-navy)}
+footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!important}
 .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
 .foot h4{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 12px;color:var(--ink-soft);font-weight:400}
 .foot ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
@@ -192,9 +192,9 @@ footer{padding-block:48px 56px}
           <a class="btn" href="#free">Get free drills</a>
         </div>
       </div>
-      <figure class="hero-photo">
-        <img src="photo-net-ball.jpg" alt="Padel ball resting on a blue court beside the net" width="1600" height="2400">
-        <figcaption><span>Court 20 m × 10 m</span><span>Net 88 cm in the middle</span></figcaption>
+      <figure class="hero-board">
+        <svg class="tactic" viewBox="-12 -12 224 124" width="560" role="img" aria-label="Tactic board: player 2 lobs deep over the net pair, who turn and run back"><rect x="-6" y="-6" width="212" height="112" rx="3" fill="#14213D"/><g stroke="#CFEA3E" stroke-width="3" fill="none"><path d="M-6 14 V-6 H22"/><path d="M178 -6 H206 V14"/><path d="M-6 86 V106 H22"/><path d="M178 106 H206 V86"/></g><g stroke="#fff" stroke-width="1.3" fill="none"><rect x="0" y="0" width="200" height="100"/><line x1="30.5" y1="0" x2="30.5" y2="100"/><line x1="169.5" y1="0" x2="169.5" y2="100"/><line x1="30.5" y1="50" x2="169.5" y2="50"/></g><line x1="100" y1="-3" x2="100" y2="103" stroke="#fff" stroke-width="2.4" stroke-dasharray="1.2 3"/><path d="M44 74 Q110 -40 184 48" fill="none" stroke="#CFEA3E" stroke-width="2" stroke-dasharray="5 4"/><path d="M180.5 44.5 L187.5 51.5 M187.5 44.5 L180.5 51.5" stroke="#CFEA3E" stroke-width="1.8"/><circle cx="184" cy="48" r="1.8" fill="#CFEA3E"/><line x1="136" y1="33" x2="160" y2="40" stroke="#F2603F" stroke-width="2"/><polygon points="161.9,40.6 154.2,41.5 155.9,35.6" fill="#F2603F"/><circle cx="62" cy="26" r="7" fill="#F2603F"/><text x="62" y="29.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">1</text><circle cx="38" cy="76" r="7" fill="#F2603F"/><text x="38" y="79.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">2</text><circle cx="136" cy="26" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="136" y="29.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">3</text><circle cx="136" cy="74" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="136" y="77.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">4</text><circle cx="44" cy="74" r="3.6" fill="#CFEA3E"/></svg>
+        <figcaption><span>Play 01 · The lob</span><span>Lob deep over the net pair, then take the net</span></figcaption>
       </figure>
     </div>
   </section>
@@ -206,6 +206,10 @@ footer{padding-block:48px 56px}
         <p><strong>Padel is easy to start and hard to master.</strong> Anyone can rally in their first hour. Winning matches is different: the walls change every angle, the lob decides who owns the net, and most club players never learn where to stand.</p>
         <p>The Padel Academy writes short, visual playbooks that fix exactly that. Every book uses court diagrams, step-by-step drills and match situations you'll recognise from your Tuesday-night game, so you can take one idea to the court and use it the same day.</p>
       </div>
+      <figure class="story-photo">
+        <img src="photo-net-ball.jpg" alt="Padel ball resting on a blue court beside the net" width="1600" height="2400">
+        <figcaption><span>Court 20 m × 10 m</span><span>Net 88 cm in the middle, 92 cm at the posts</span></figcaption>
+      </figure>
       <div class="facts">
         <div class="fact"><b>4</b><span>players, 2 per side, always doubles at club level</span></div>
         <div class="fact"><b>3 m</b><span>of glass behind you, the wall that changes every rally</span></div>
@@ -218,9 +222,9 @@ footer{padding-block:48px 56px}
     <div class="wrap">
       <div class="sec-head"><div class="eyebrow">Start here</div><h2>Find your book</h2></div>
       <div class="levels">
-        <a class="level" href="#books"><span class="tag">NEW TO PADEL</span><h3>Beginner</h3><p>Grips, the walls, serve and return, and where to stand so you stop losing easy points.</p><span class="go"><i></i>The Padel Playbook: Beginner &amp; Intermediate</span></a>
-        <a class="level" href="#books"><span class="tag">LEVEL 3–6</span><h3>Advanced</h3><p>Bandeja, víbora, net control and the tactics that win close matches.</p><span class="go"><i></i>The Padel Playbook: Intermediate &amp; Advanced</span></a>
-        <a class="level" href="#books"><span class="tag">AGES 10–14</span><h3>Juniors</h3><p>Fun, simple coaching for young players and the parents who play with them.</p><span class="go"><i></i>The Padel Playbook: Kids Edition</span></a>
+        <a class="level" href="#books"><svg class="tactic mini" viewBox="-12 -12 224 124" width="180" aria-hidden="true"><rect x="-6" y="-6" width="212" height="112" rx="3" fill="#14213D"/><g stroke="#CFEA3E" stroke-width="3" fill="none"><path d="M-6 14 V-6 H22"/><path d="M178 -6 H206 V14"/><path d="M-6 86 V106 H22"/><path d="M178 106 H206 V86"/></g><g stroke="#fff" stroke-width="1.3" fill="none"><rect x="0" y="0" width="200" height="100"/><line x1="30.5" y1="0" x2="30.5" y2="100"/><line x1="169.5" y1="0" x2="169.5" y2="100"/><line x1="30.5" y1="50" x2="169.5" y2="50"/></g><line x1="100" y1="-3" x2="100" y2="103" stroke="#fff" stroke-width="2.4" stroke-dasharray="1.2 3"/><path d="M84 30 Q130 55 176 76" fill="none" stroke="#CFEA3E" stroke-width="2" stroke-dasharray="5 4"/><circle cx="176" cy="76" r="1.8" fill="#CFEA3E"/><circle cx="78" cy="30" r="7" fill="#F2603F"/><text x="78" y="33.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">1</text><circle cx="78" cy="70" r="7" fill="#F2603F"/><text x="78" y="73.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">2</text><circle cx="175" cy="30" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="175" y="33.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">3</text><circle cx="175" cy="70" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="175" y="73.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">4</text><circle cx="84" cy="30" r="3.6" fill="#CFEA3E"/></svg><span class="tag">NEW TO PADEL</span><h3>Beginner</h3><p>Grips, the walls, serve and return, and where to stand so you stop losing easy points.</p><span class="go"><i></i>The Padel Playbook: Beginner &amp; Intermediate</span></a>
+        <a class="level" href="#books"><svg class="tactic mini" viewBox="-12 -12 224 124" width="180" aria-hidden="true"><rect x="-6" y="-6" width="212" height="112" rx="3" fill="#14213D"/><g stroke="#CFEA3E" stroke-width="3" fill="none"><path d="M-6 14 V-6 H22"/><path d="M178 -6 H206 V14"/><path d="M-6 86 V106 H22"/><path d="M178 106 H206 V86"/></g><g stroke="#fff" stroke-width="1.3" fill="none"><rect x="0" y="0" width="200" height="100"/><line x1="30.5" y1="0" x2="30.5" y2="100"/><line x1="169.5" y1="0" x2="169.5" y2="100"/><line x1="30.5" y1="50" x2="169.5" y2="50"/></g><line x1="100" y1="-3" x2="100" y2="103" stroke="#fff" stroke-width="2.4" stroke-dasharray="1.2 3"/><path d="M28 70 Q100 0 170 50" fill="none" stroke="#CFEA3E" stroke-width="2" stroke-dasharray="5 4"/><path d="M166.5 46.5 L173.5 53.5 M173.5 46.5 L166.5 53.5" stroke="#CFEA3E" stroke-width="1.8"/><circle cx="170" cy="50" r="1.8" fill="#CFEA3E"/><circle cx="22" cy="70" r="7" fill="#F2603F"/><text x="22" y="73.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">1</text><circle cx="22" cy="30" r="7" fill="#F2603F"/><text x="22" y="33.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">2</text><circle cx="80" cy="30" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="80" y="33.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">3</text><circle cx="80" cy="70" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="80" y="73.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">4</text><circle cx="28" cy="70" r="3.6" fill="#CFEA3E"/></svg><span class="tag">LEVEL 3–6</span><h3>Advanced</h3><p>Bandeja, víbora, net control and the tactics that win close matches.</p><span class="go"><i></i>The Padel Playbook: Intermediate &amp; Advanced</span></a>
+        <a class="level" href="#books"><svg class="tactic mini" viewBox="-12 -12 224 124" width="180" aria-hidden="true"><rect x="-6" y="-6" width="212" height="112" rx="3" fill="#14213D"/><g stroke="#CFEA3E" stroke-width="3" fill="none"><path d="M-6 14 V-6 H22"/><path d="M178 -6 H206 V14"/><path d="M-6 86 V106 H22"/><path d="M178 106 H206 V86"/></g><g stroke="#fff" stroke-width="1.3" fill="none"><rect x="0" y="0" width="200" height="100"/><line x1="30.5" y1="0" x2="30.5" y2="100"/><line x1="169.5" y1="0" x2="169.5" y2="100"/><line x1="30.5" y1="50" x2="169.5" y2="50"/></g><line x1="100" y1="-3" x2="100" y2="103" stroke="#fff" stroke-width="2.4" stroke-dasharray="1.2 3"/><path d="M46 50 Q100 20 150 52" fill="none" stroke="#CFEA3E" stroke-width="2" stroke-dasharray="5 4"/><circle cx="150" cy="52" r="1.8" fill="#CFEA3E"/><circle cx="40" cy="50" r="7" fill="#F2603F"/><text x="40" y="53.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">1</text><circle cx="160" cy="50" r="7" fill="none" stroke="#fff" stroke-width="1.6"/><text x="160" y="53.3" text-anchor="middle" font-family="Archivo,Arial,sans-serif" font-weight="800" font-size="9" fill="#fff">2</text><circle cx="46" cy="50" r="3.6" fill="#CFEA3E"/></svg><span class="tag">AGES 10–14</span><h3>Juniors</h3><p>Fun, simple coaching for young players and the parents who play with them.</p><span class="go"><i></i>The Padel Playbook: Kids Edition</span></a>
       </div>
     </div>
   </section>
