@@ -7,6 +7,8 @@ import math, os
 from html import escape as esc
 
 NAVY, LIME, CORAL, PAPER, CARD = "#14213D", "#CFEA3E", "#D9512F", "#ECEEEA", "#F8F9F6"
+COVER_NAVY = "#0B2969"
+THEME = {"name": "cover"}  # set THEME["name"] = "cover" for the Playbook-cover look
 OK, NO, SOFT = "#2E7D4F", "#C2412A", "#4E5870"
 FONT = "Helvetica Neue,Helvetica,Arial,Inter,sans-serif"
 S = 32          # px per metre (top view)
@@ -28,6 +30,8 @@ class Top:
 
     # ---------- court ----------
     def court(self, half=None, walls=True, lines=True, wall_labels=False):
+        if THEME["name"] == "cover":
+            return self._court_cover(walls, lines)
         X, Y = self.X, self.Y
         p = []
         p.append(f'<rect x="{X(0)}" y="{Y(0)}" width="{20*S}" height="{10*S}" fill="none" stroke="{NAVY}" stroke-width="1.4" opacity=".55"/>')
@@ -52,12 +56,44 @@ class Top:
             self.text(18, -0.55, "GLASS", size=10, color=SOFT, mono=True)
         return self
 
+    def _court_cover(self, walls=True, lines=True):
+        X, Y = self.X, self.Y
+        self.cover = True
+        p = [f'<rect x="{X(0)-6}" y="{Y(0)-6}" width="{20*S+12}" height="{10*S+12}" fill="{COVER_NAVY}"/>']
+        W = "#FFFFFF"
+        p.append(f'<rect x="{X(0)}" y="{Y(0)}" width="{20*S}" height="{10*S}" fill="none" stroke="{W}" stroke-width="2.2"/>')
+        if lines:
+            for sx in (3.05, 16.95):
+                p.append(f'<line x1="{X(sx)}" y1="{Y(0)}" x2="{X(sx)}" y2="{Y(10)}" stroke="{W}" stroke-width="2.2"/>')
+            p.append(f'<line x1="{X(2.85)}" y1="{Y(5)}" x2="{X(17.15)}" y2="{Y(5)}" stroke="{W}" stroke-width="2.2"/>')
+        if walls:
+            g5 = f'stroke="{W}" stroke-width="5" stroke-linecap="square"'
+            p.append(f'<line x1="{X(0)}" y1="{Y(0)}" x2="{X(0)}" y2="{Y(10)}" {g5}/><line x1="{X(20)}" y1="{Y(0)}" x2="{X(20)}" y2="{Y(10)}" {g5}/>')
+            for (a, b) in ((0, 4), (16, 20)):
+                for yy in (0, 10):
+                    p.append(f'<line x1="{X(a)}" y1="{Y(yy)}" x2="{X(b)}" y2="{Y(yy)}" {g5}/>')
+            for yy in (0, 10):
+                p.append(f'<line x1="{X(4)}" y1="{Y(yy)}" x2="{X(16)}" y2="{Y(yy)}" stroke="{W}" stroke-width="5" stroke-dasharray="2 4" opacity=".7"/>')
+        p.append(f'<line x1="{X(10)}" y1="{Y(-0.2)}" x2="{X(10)}" y2="{Y(10.2)}" stroke="{W}" stroke-width="3" stroke-dasharray="1.5 4" stroke-linecap="round"/>')
+        L = 1.6
+        g = f'stroke="{LIME}" stroke-width="5" fill="none"'
+        for (cx, cy, dx, dy) in ((0, 0, 1, 1), (20, 0, -1, 1), (0, 10, 1, -1), (20, 10, -1, -1)):
+            x0, y0 = X(cx) + dx * 9, Y(cy) + dy * 9
+            p.append(f'<path d="M{x0} {y0 + dy*L*S} V{y0} H{x0 + dx*L*S}" {g}/>')
+        self.L[0] += p
+        return self
+
+    def _in(self, x, y):
+        return getattr(self, "cover", False) and 0 <= x <= 20 and 0 <= y <= 10
+
     # ---------- marks ----------
     def player(self, x, y, n, team="a", r=0.34):
         X, Y = self.X(x), self.Y(y)
         rr = r * S
         if team == "a":
             self.L[2].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CORAL}"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{n}</text>')
+        elif getattr(self, "cover", False):
+            self.L[2].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{COVER_NAVY}" stroke="#fff" stroke-width="2.4"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{n}</text>')
         else:
             self.L[2].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CARD}" stroke="{NAVY}" stroke-width="2"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="{NAVY}">{n}</text>')
         return self
@@ -67,6 +103,8 @@ class Top:
         return self
 
     def path(self, pts, color=NAVY, dash="7 5", width=2.2, arrow=True, curve=True):
+        if getattr(self, "cover", False) and color == NAVY:
+            color = LIME
         P = [(self.X(x), self.Y(y)) for x, y in pts]
         if curve and len(P) >= 3:
             d = f"M{P[0][0]:.1f} {P[0][1]:.1f}"
@@ -100,6 +138,8 @@ class Top:
         self.parts.append('<polygon points="' + " ".join(f"{x:.1f},{y:.1f}" for x, y in pts) + f'" fill="{color}"/>')
 
     def bounce(self, x, y, color=CORAL):
+        if getattr(self, "cover", False):
+            color = CORAL if color != NAVY else "#FFFFFF"
         X, Y = self.X(x), self.Y(y)
         self.parts.append(f'<path d="M{X-5:.1f} {Y-5:.1f} L{X+5:.1f} {Y+5:.1f} M{X+5:.1f} {Y-5:.1f} L{X-5:.1f} {Y+5:.1f}" stroke="{color}" stroke-width="2.6" stroke-linecap="round"/>')
         return self
@@ -113,7 +153,10 @@ class Top:
         if label:
             dx = 17 if side == "right" else -17
             anc = "start" if side == "right" else "end"
-            self.L[3].append(halo(f'<text x="{X+dx:.1f}" y="{Y+4.5:.1f}" text-anchor="{anc}" font-family="{FONT}" font-weight="700" font-size="13" fill="{c}">{esc(label)}</text>'))
+            if self._in(x, y):
+                self.L[3].append(halo(f'<text x="{X+dx:.1f}" y="{Y+4.5:.1f}" text-anchor="{anc}" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{esc(label)}</text>', COVER_NAVY))
+            else:
+                self.L[3].append(halo(f'<text x="{X+dx:.1f}" y="{Y+4.5:.1f}" text-anchor="{anc}" font-family="{FONT}" font-weight="700" font-size="13" fill="{c}">{esc(label)}</text>'))
         return self
 
     def num(self, x, y, n, ok=True, r=11):
@@ -129,6 +172,9 @@ class Top:
         return self
 
     def zone(self, x, y, w, h, color=LIME, opacity=.45, label=None, lsize=12, stroke=None):
+        if getattr(self, "cover", False):
+            stroke = stroke or color
+            opacity = min(opacity, .22)
         st = f' stroke="{stroke}" stroke-width="2" stroke-dasharray="5 4"' if stroke else ""
         self.L[0].append(f'<rect x="{self.X(x):.1f}" y="{self.Y(y):.1f}" width="{w*S:.1f}" height="{h*S:.1f}" fill="{color}" fill-opacity="{opacity}"{st}/>')
         if label:
@@ -140,6 +186,10 @@ class Top:
         ls = ' letter-spacing="1.2"' if mono else ""
         X, Y = self.X(x), self.Y(y)
         rot = f' transform="rotate({rotate} {X:.1f} {Y:.1f})"' if rotate else ""
+        if self._in(x, y):
+            if color in (NAVY, SOFT): color = "#FFFFFF"
+            self.L[3].append(halo(f'<text x="{X:.1f}" y="{Y:.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}{rot}>{esc(t)}</text>', COVER_NAVY))
+            return self
         self.L[3].append(halo(f'<text x="{X:.1f}" y="{Y:.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}{rot}>{esc(t)}</text>'))
         return self
 
@@ -258,11 +308,11 @@ def legend(items):
     return '<div class="dg-legend">' + "".join(f'<span>{sw[k]}{esc(t)}</span>' for k, t in items) + '</div>'
 
 CSS = """
-.dg-fig{margin:28px 0;padding:18px 16px 14px;border:2px solid var(--line);background:var(--card)}
+.dg-fig{margin:28px 0;padding:0 0 12px;border:2px solid var(--line);background:var(--card)}
 .dg-fig svg.dg{display:block;width:100%;height:auto}
 .dg-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
 @media (max-width:640px){.dg-fig{padding:12px 10px}.dg-fig svg.dg{min-width:560px}}
-.dg-fig figcaption{font-size:13px;color:var(--ink-soft);margin-top:10px;text-align:center}
+.dg-fig figcaption{font-size:13px;color:var(--ink-soft);margin-top:4px;padding:0 16px;text-align:center}
 .dg-legend{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;margin-top:10px;font-size:13px;font-weight:600}
 .dg-legend span{display:inline-flex;align-items:center;gap:7px}
 """
@@ -285,3 +335,33 @@ def export(svg, folder, name, bg=CARD):
     open(os.path.join(folder, name + ".svg"), "w").write(s)
     cairosvg.svg2pdf(bytestring=s.encode(), write_to=os.path.join(folder, name + ".pdf"))
     cairosvg.svg2png(bytestring=s.encode(), write_to=os.path.join(folder, name + ".png"), output_width=3000)
+
+
+# ---------- brand frame: lime corner brackets (as on The Padel Playbook covers) + Padel Academy footer ----------
+def brand(svg, footer=True):
+    """Wrap any diagram SVG in the branded frame. Returns a new standalone SVG string."""
+    import re as _re
+    head_end = svg.find('>')
+    head = svg[:head_end]
+    vb = _re.search(r'viewBox="([\d.\-]+) ([\d.\-]+) ([\d.]+) ([\d.]+)"', head)
+    W, H = float(vb.group(3)), float(vb.group(4))
+    pad, foot = 26, (40 if footer else 0)
+    TW, TH = W + 2 * pad, H + 2 * pad + foot
+    inner = svg[head_end + 1:svg.rfind('</svg>')]
+    cls = 'class="dg" ' if 'class="dg"' in head else ''
+    aria = _re.search(r'(role="img" aria-label="[^"]*"|aria-hidden="true")', head)
+    aria = aria.group(1) if aria else 'aria-hidden="true"'
+    L = 22  # bracket arm length
+    has_court = COVER_NAVY in inner
+    b = "" if has_court else (f'<g stroke="{LIME}" stroke-width="5" fill="none" stroke-linecap="square">'
+         f'<path d="M8 {8+L} V8 H{8+L}"/><path d="M{TW-8-L} 8 H{TW-8} V{8+L}"/>'
+         f'<path d="M8 {TH-8-L} V{TH-8} H{8+L}"/><path d="M{TW-8-L} {TH-8} H{TW-8} V{TH-8-L}"/></g>')
+    f = ""
+    if footer:
+        y = TH - pad - 4
+        f = (f'<line x1="{pad}" y1="{y-22}" x2="{TW-pad}" y2="{y-22}" stroke="{NAVY}" stroke-width="1" opacity=".18"/>'
+             f'<text x="{pad}" y="{y}" font-family="{FONT}" font-weight="700" font-size="13" letter-spacing="2.2" fill="{COVER_NAVY}">THE PADEL ACADEMY</text>'
+             f'<text x="{TW-pad}" y="{y}" text-anchor="end" font-family="JetBrains Mono,Menlo,monospace" font-size="11" letter-spacing="1.4" fill="{SOFT}">THEPADELBOOKS.COM</text>')
+    return (f'<svg {cls}xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {TW:.0f} {TH:.0f}" width="{TW:.0f}" {aria}>'
+            f'<rect width="{TW:.0f}" height="{TH:.0f}" fill="{CARD}"/>{b}'
+            f'<svg x="{pad}" y="{pad}" width="{W:.0f}" height="{H:.0f}" viewBox="0 0 {W:.0f} {H:.0f}">{inner}</svg>{f}</svg>')

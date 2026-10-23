@@ -2,12 +2,12 @@
 and which Mac folder it is exported to."""
 import graphics_court as GC
 import graphics_rules as GR
-from diagrams import figure, legend
+from diagrams import figure, legend, brand
 
 GLASS_MESH = legend([("glass", "Glass"), ("mesh", "Mesh (metal fence)")])
 
 def fig(svg, caption, leg=""):
-    f = figure(svg if isinstance(svg, str) else svg.svg(), caption)
+    f = figure(brand(svg if isinstance(svg, str) else svg.svg()), caption)
     return f.replace("</figure>", leg + "</figure>") if leg else f
 
 # id -> (folder, builder, caption, legend)
@@ -80,4 +80,4 @@ def export_all(root):
     import diagrams, os
     for gid, (folder, fn, cap, leg) in G.items():
         s = fn(); s = s if isinstance(s, str) else s.svg()
-        diagrams.export(s, os.path.join(root, folder), gid)
+        diagrams.export(diagrams.brand(s), os.path.join(root, folder), gid)

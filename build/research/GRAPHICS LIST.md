@@ -1,5 +1,5 @@
 # The Padel Academy: graphics list
-Created 24 Oct 2026. All graphics in the site style (navy court lines on light grey, lime and coral accents, Helvetica Bold labels). Every rule diagram is checked against the FIP rulebook before use.
+Created 24 Oct 2026. All graphics in The Padel Playbook cover style: royal navy court (#0B2969) with white lines, lime corner brackets, coral numbered players, white-ring opponents, lime dashed shots, coral bounce marks, Helvetica Bold labels, and a THE PADEL ACADEMY · THEPADELBOOKS.COM footer on every graphic (approved 24 Oct 2026). Every rule diagram is checked against the FIP rulebook before use.
 
 **Files per graphic:** SVG (vector, editable), PDF (vector, print) and PNG (3000 px wide, for books and social media).
 **Folder on the Mac:** ~/Downloads/PADEL GRAPHICS 2027/, with one subfolder per step.

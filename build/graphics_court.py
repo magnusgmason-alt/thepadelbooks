@@ -18,9 +18,9 @@ def c01():
     d.dim(16.95, 10.95, 20, 10.95, "3.05 m")
     d.text(1.52, 5.15, "BACK", size=9, color=SOFT, mono=True)
     X, Y = d.X, d.Y
-    d.raw(f'<line x1="{X(6.2)}" y1="{Y(11.75)}" x2="{X(7.2)}" y2="{Y(11.75)}" stroke="{NAVY}" stroke-width="5"/>')
+    d.raw(f'<rect x="{X(6.05)}" y="{Y(11.45)}" width="{1.3*S}" height="{0.6*S}" fill="#0B2969"/><line x1="{X(6.2)}" y1="{Y(11.75)}" x2="{X(7.2)}" y2="{Y(11.75)}" stroke="#fff" stroke-width="5"/>')
     d.text(7.4, 11.88, "GLASS", size=10, color=SOFT, mono=True, anchor="start")
-    d.raw(f'<line x1="{X(10.6)}" y1="{Y(11.75)}" x2="{X(11.6)}" y2="{Y(11.75)}" stroke="{NAVY}" stroke-width="5" stroke-dasharray="2 4" opacity=".75"/>')
+    d.raw(f'<rect x="{X(10.45)}" y="{Y(11.45)}" width="{1.3*S}" height="{0.6*S}" fill="#0B2969"/><line x1="{X(10.6)}" y1="{Y(11.75)}" x2="{X(11.6)}" y2="{Y(11.75)}" stroke="#fff" stroke-width="5" stroke-dasharray="2 4" opacity=".8"/>')
     d.text(11.8, 11.88, "MESH (METAL FENCE)", size=10, color=SOFT, mono=True, anchor="start")
     d.text(18.48, 5.15, "BACK", size=9, color=SOFT, mono=True)
     return d
