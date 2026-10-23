@@ -16,8 +16,12 @@ class Top:
     def __init__(self, x0=0, x1=20, y0=0, y1=10, margin=M, title=None, label=""):
         self.x0, self.x1, self.y0, self.y1, self.m = x0, x1, y0, y1, margin
         self.parts, self.defs, self.label = [], [], label
+        self.L = {0: [], 1: [], 2: [], 3: []}
         self.w = (x1 - x0 + 2 * margin) * S
         self.h = (y1 - y0 + 2 * margin) * S
+
+    def add(self, layer, s):
+        self.L[layer].append(s); return self
 
     def X(self, x): return (x - self.x0 + self.m) * S
     def Y(self, y): return (y - self.y0 + self.m) * S
@@ -41,7 +45,7 @@ class Top:
             for yy in (0, 10):
                 p.append(f'<line x1="{X(4)}" y1="{Y(yy)}" x2="{X(16)}" y2="{Y(yy)}" stroke="{NAVY}" stroke-width="5" stroke-dasharray="2 4" opacity=".75"/>')
         p.append(f'<line x1="{X(10)}" y1="{Y(-0.25)}" x2="{X(10)}" y2="{Y(10.25)}" stroke="{NAVY}" stroke-width="3" stroke-dasharray="1.5 3.5"/>')
-        self.parts += p
+        self.L[0] += p
         if wall_labels:
             self.text(2, -0.55, "GLASS", size=10, color=SOFT, mono=True)
             self.text(10, -0.55, "MESH (METAL FENCE)", size=10, color=SOFT, mono=True)
@@ -53,13 +57,13 @@ class Top:
         X, Y = self.X(x), self.Y(y)
         rr = r * S
         if team == "a":
-            self.parts.append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CORAL}"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{n}</text>')
+            self.L[2].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CORAL}"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{n}</text>')
         else:
-            self.parts.append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CARD}" stroke="{NAVY}" stroke-width="2"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="{NAVY}">{n}</text>')
+            self.L[2].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{rr:.1f}" fill="{CARD}" stroke="{NAVY}" stroke-width="2"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="{NAVY}">{n}</text>')
         return self
 
     def ball(self, x, y):
-        self.parts.append(f'<circle cx="{self.X(x):.1f}" cy="{self.Y(y):.1f}" r="6" fill="{LIME}" stroke="{NAVY}" stroke-width="1.6"/>')
+        self.L[2].append(f'<circle cx="{self.X(x):.1f}" cy="{self.Y(y):.1f}" r="6" fill="{LIME}" stroke="{NAVY}" stroke-width="1.6"/>')
         return self
 
     def path(self, pts, color=NAVY, dash="7 5", width=2.2, arrow=True, curve=True):
@@ -105,16 +109,28 @@ class Top:
         c = OK if ok else NO
         mark = (f'<path d="M{X-5:.1f} {Y:.1f} L{X-1.5:.1f} {Y+4:.1f} L{X+5.5:.1f} {Y-4.5:.1f}" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>' if ok else
                 f'<path d="M{X-4.5:.1f} {Y-4.5:.1f} L{X+4.5:.1f} {Y+4.5:.1f} M{X+4.5:.1f} {Y-4.5:.1f} L{X-4.5:.1f} {Y+4.5:.1f}" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>')
-        self.parts.append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="11" fill="{c}"/>' + mark)
+        self.L[3].append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="11" fill="{c}"/>' + mark)
         if label:
             dx = 17 if side == "right" else -17
             anc = "start" if side == "right" else "end"
-            self.parts.append(f'<text x="{X+dx:.1f}" y="{Y+4.5:.1f}" text-anchor="{anc}" font-family="{FONT}" font-weight="700" font-size="13" fill="{c}">{esc(label)}</text>')
+            self.L[3].append(halo(f'<text x="{X+dx:.1f}" y="{Y+4.5:.1f}" text-anchor="{anc}" font-family="{FONT}" font-weight="700" font-size="13" fill="{c}">{esc(label)}</text>'))
+        return self
+
+    def num(self, x, y, n, ok=True, r=11):
+        X, Y = self.X(x), self.Y(y)
+        c = OK if ok else NO
+        self.L[3].append(f'<rect x="{X-r:.1f}" y="{Y-r:.1f}" width="{2*r}" height="{2*r}" rx="4" fill="{c}" stroke="{CARD}" stroke-width="2"/><text x="{X:.1f}" y="{Y+4.6:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="13" fill="#fff">{n}</text>')
+        return self
+
+    def key(self, x, y, n, ok, label):
+        """legend row: numbered badge + text, coordinates in metres"""
+        self.num(x, y, n, ok)
+        self.L[3].append(halo(f'<text x="{self.X(x)+18:.1f}" y="{self.Y(y)+4.6:.1f}" text-anchor="start" font-family="{FONT}" font-weight="700" font-size="13" fill="{OK if ok else NO}">{esc(label)}</text>'))
         return self
 
     def zone(self, x, y, w, h, color=LIME, opacity=.45, label=None, lsize=12, stroke=None):
         st = f' stroke="{stroke}" stroke-width="2" stroke-dasharray="5 4"' if stroke else ""
-        self.parts.append(f'<rect x="{self.X(x):.1f}" y="{self.Y(y):.1f}" width="{w*S:.1f}" height="{h*S:.1f}" fill="{color}" opacity="{opacity}"{st}/>')
+        self.L[0].append(f'<rect x="{self.X(x):.1f}" y="{self.Y(y):.1f}" width="{w*S:.1f}" height="{h*S:.1f}" fill="{color}" fill-opacity="{opacity}"{st}/>')
         if label:
             self.text(x + w / 2, y + h / 2 + 0.12, label, size=lsize)
         return self
@@ -124,13 +140,14 @@ class Top:
         ls = ' letter-spacing="1.2"' if mono else ""
         X, Y = self.X(x), self.Y(y)
         rot = f' transform="rotate({rotate} {X:.1f} {Y:.1f})"' if rotate else ""
-        self.parts.append(f'<text x="{X:.1f}" y="{Y:.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}{rot}>{esc(t)}</text>')
+        self.L[3].append(halo(f'<text x="{X:.1f}" y="{Y:.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}{rot}>{esc(t)}</text>'))
         return self
 
     def dim(self, x1, y1, x2, y2, t, off=0.0, size=12, color=SOFT):
         """dimension line with end ticks and a centred label"""
         X1, Y1, X2, Y2 = self.X(x1), self.Y(y1), self.X(x2), self.Y(y2)
         horiz = abs(Y2 - Y1) < abs(X2 - X1)
+        _start = len(self.parts)
         self.parts.append(f'<line x1="{X1:.1f}" y1="{Y1:.1f}" x2="{X2:.1f}" y2="{Y2:.1f}" stroke="{color}" stroke-width="1.2"/>')
         for (X, Y) in ((X1, Y1), (X2, Y2)):
             if horiz:
@@ -142,6 +159,7 @@ class Top:
             self.parts.append(f'<rect x="{mx-len(t)*3.9-5:.1f}" y="{my-9:.1f}" width="{len(t)*7.8+10:.1f}" height="17" fill="{CARD}"/><text x="{mx:.1f}" y="{my+4.5:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="{size}" fill="{color}">{esc(t)}</text>')
         else:
             self.parts.append(f'<rect x="{mx-len(t)*3.9-5:.1f}" y="{my-9:.1f}" width="{len(t)*7.8+10:.1f}" height="17" fill="{CARD}"/><text x="{mx:.1f}" y="{my+4.5:.1f}" text-anchor="middle" font-family="{FONT}" font-weight="700" font-size="{size}" fill="{color}">{esc(t)}</text>')
+        self.L[3] += self.parts[_start:]; del self.parts[_start:]
         return self
 
     def raw(self, s):
@@ -151,7 +169,13 @@ class Top:
         w = w or self.w
         aria = f'role="img" aria-label="{esc(self.label)}"' if self.label else 'aria-hidden="true"'
         return (f'<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w:.0f} {self.h:.0f}" width="{w:.0f}" {aria}>'
-                + "".join(self.defs) + "".join(self.parts) + '</svg>')
+                + "".join(self.defs) + "".join(self.L[0]) + "".join(self.parts) + "".join(self.L[1]) + "".join(self.L[2]) + "".join(self.L[3]) + '</svg>')
+
+
+def halo(t, col=CARD, w=4):
+    """draw a text element twice: a thick background-coloured outline, then the text itself"""
+    outline = t.replace("<text ", f'<text stroke="{col}" stroke-width="{w}" stroke-linejoin="round" ', 1)
+    return outline + t
 
 
 class Side:
@@ -203,7 +227,8 @@ class Side:
     def text(self, x, z, t, size=13, color=NAVY, anchor="middle", weight=700, mono=False):
         fam = "JetBrains Mono,Menlo,monospace" if mono else FONT
         ls = ' letter-spacing="1.2"' if mono else ""
-        self.parts.append(f'<text x="{self.X(x):.1f}" y="{self.Z(z):.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}>{esc(t)}</text>')
+        self.labels = getattr(self, "labels", [])
+        self.labels.append(halo(f'<text x="{self.X(x):.1f}" y="{self.Z(z):.1f}" text-anchor="{anchor}" font-family="{fam}" font-weight="{weight}" font-size="{size}" fill="{color}"{ls}>{esc(t)}</text>'))
         return self
 
     def raw(self, s):
@@ -213,7 +238,7 @@ class Side:
         w = w or self.w
         aria = f'role="img" aria-label="{esc(self.label)}"' if self.label else 'aria-hidden="true"'
         return (f'<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {self.w:.0f} {self.h:.0f}" width="{w:.0f}" {aria}>'
-                + "".join(self.parts) + '</svg>')
+                + "".join(self.parts) + "".join(getattr(self, "labels", [])) + '</svg>')
 
 
 def figure(svg, caption):

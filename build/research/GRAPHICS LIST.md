@@ -16,29 +16,29 @@ Already done: racket shapes, balance, level guide and spec cards (7 racket artic
 - [x] C04 Court size comparison: padel vs tennis vs pickleball → padel-vs-tennis, padel-vs-pickleball, what-is-padel
 
 ## Step 2: Rules (02 RULES)
-- [ ] R01 The serve: one foot behind the service line, bounce, diagonal into the box → padel-serve-and-return, how-to-play-padel
-- [ ] R02 Waist-height rule, side view: contact at or below the waist, one foot on the ground → padel-serve-rules-waist-height
-- [ ] R03 Service faults map: in, line good, out, mesh after bounce = fault, glass OK → padel-service-faults
-- [ ] R04 Net serve and let: what gets replayed (first vs second serve) → padel-let-and-net-serve-rules
-- [ ] R05 Return of serve: must bounce first; receiver may stand anywhere on their side → can-you-volley-the-serve-in-padel
-- [ ] R06 Serving order across four games (A, C, B, D) → padel-serving-and-receiving-order
-- [ ] R07 Tie-break serving rotation (1, 2, 2, 2…) and end changes every 6 points → padel-scoring, padel-serving-and-receiving-order
-- [ ] R08 Own wall: own glass then over the net = good; own mesh = point lost → can-you-play-the-ball-off-your-own-wall
-- [ ] R09 Opponents' wall: bounce first then glass = good; straight into their glass = point lost → padel-ball-hits-opponents-wall-directly, padel-rules
-- [ ] R10 The mesh: all outcomes (after bounce, on the full, own mesh, serve) → padel-ball-hits-the-fence
-- [ ] R11 Top of the wall, hole in the fence, the floor-wall corner → padel-ball-on-top-of-the-wall
-- [ ] R12 Ceiling and lights: after the bounce vs before the bounce → padel-ball-hits-ceiling
-- [ ] R13 Out-of-court play: over the side wall or through the door vs over the back wall, plus safety area sizes → padel-out-of-court-play
-- [ ] R14 Touching the net: net, posts and opponents' court = point lost; door post neutral zone → can-you-touch-the-net-in-padel
-- [ ] R15 Reaching over: hitting before the ball crosses = lost; a ball that comes back over can be played → can-you-reach-over-the-net-in-padel
-- [ ] R16 Ball hits a player: body = point lost, racket = return → padel-ball-hits-player
-- [ ] R17 Double hit and both partners hitting → padel-double-hit-rule
-- [ ] R18 Racket rules diagram: 45.5 cm, 26 cm, 38 mm, holes, 35 cm strap → padel-racket-strap-rule, how-to-choose-a-padel-racket
-- [ ] R19 Change of ends timeline: games 1, 3, 5…, no rest after game 1, set breaks → padel-change-of-ends
-- [ ] R20 Player positions: server fixed, everyone else free; the Australian formation → padel-player-positions-rules
-- [ ] R21 Interference: involuntary = let, deliberate = point, second involuntary = point → padel-interference-and-hindrance
-- [ ] R22 Match times: 3-minute warm-up, 20 s, 90 s, 120 s, medical breaks → padel-match-times-and-warm-up
-- [ ] R23 Scoring ladder: 15, 30, 40, deuce → advantage, golden point or Star Point → padel-scoring, padel-rules
+- [x] R01 The serve: one foot behind the service line, bounce, diagonal into the box → padel-serve-and-return, how-to-play-padel
+- [x] R02 Waist-height rule, side view: contact at or below the waist, one foot on the ground → padel-serve-rules-waist-height
+- [x] R03 Service faults map: in, line good, out, mesh after bounce = fault, glass OK → padel-service-faults
+- [x] R04 Net serve and let: what gets replayed (first vs second serve) → padel-let-and-net-serve-rules
+- [x] R05 Return of serve: must bounce first; receiver may stand anywhere on their side → can-you-volley-the-serve-in-padel
+- [x] R06 Serving order across four games (A, C, B, D) → padel-serving-and-receiving-order
+- [x] R07 Tie-break serving rotation (1, 2, 2, 2…) and end changes every 6 points → padel-scoring, padel-serving-and-receiving-order
+- [x] R08 Own wall: own glass then over the net = good; own mesh = point lost → can-you-play-the-ball-off-your-own-wall
+- [x] R09 Opponents' wall: bounce first then glass = good; straight into their glass = point lost → padel-ball-hits-opponents-wall-directly, padel-rules
+- [x] R10 The mesh: all outcomes (after bounce, on the full, own mesh, serve) → padel-ball-hits-the-fence
+- [x] R11 Top of the wall, hole in the fence, the floor-wall corner → padel-ball-on-top-of-the-wall
+- [x] R12 Ceiling and lights: after the bounce vs before the bounce → padel-ball-hits-ceiling
+- [x] R13 Out-of-court play: over the side wall or through the door vs over the back wall, plus safety area sizes → padel-out-of-court-play
+- [x] R14 Touching the net: net, posts and opponents' court = point lost; door post neutral zone → can-you-touch-the-net-in-padel
+- [x] R15 Reaching over: hitting before the ball crosses = lost; a ball that comes back over can be played → can-you-reach-over-the-net-in-padel
+- [x] R16 Ball hits a player: body = point lost, racket = return → padel-ball-hits-player
+- [x] R17 Double hit and both partners hitting → padel-double-hit-rule
+- [x] R18 Racket rules diagram: 45.5 cm, 26 cm, 38 mm, holes, 35 cm strap → padel-racket-strap-rule, how-to-choose-a-padel-racket
+- [x] R19 Change of ends timeline: games 1, 3, 5…, no rest after game 1, set breaks → padel-change-of-ends
+- [x] R20 Player positions: server fixed, everyone else free; the Australian formation → padel-player-positions-rules
+- [x] R21 Interference: involuntary = let, deliberate = point, second involuntary = point → padel-interference-and-hindrance
+- [x] R22 Match times: 3-minute warm-up, 20 s, 90 s, 120 s, medical breaks → padel-match-times-and-warm-up
+- [x] R23 Scoring ladder: 15, 30, 40, deuce → advantage, golden point or Star Point → padel-scoring, padel-rules
 
 ## Step 3: Shots and technique (03 SHOTS)
 - [ ] S01 The three overheads by contact height: bandeja, víbora, smash (side view) → how-to-hit-a-bandeja, padel-vibora, padel-smash
