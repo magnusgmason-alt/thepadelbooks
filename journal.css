@@ -223,3 +223,4 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 .rk-ends{display:flex;justify-content:space-between;font-size:11px;color:var(--ink-soft)}
 .rk-info p{margin:12px 0 0;font-size:15px}
 @media (max-width:640px){.rk-row{grid-template-columns:1fr;gap:26px}.rk-col svg{width:96px}.rk-card{grid-template-columns:1fr}.rk-pic{max-width:90px}.rk-specs{grid-template-columns:repeat(2,1fr)}}
+.jnav{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.jnav a{border:2px solid var(--line);padding:8px 14px;font-weight:600;font-size:15px;text-decoration:none;color:inherit;background:var(--card)}.jnav a:hover{background:#CFEA3E}.jnav span{font-family:var(--f-mono);font-size:12px;opacity:.7;margin-left:4px}.journal-list .rules-group:first-child{border-top:0;margin-top:8px;padding-top:0}
