@@ -196,3 +196,30 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 @media (max-width:700px){.lead{grid-template-columns:1fr}.lead img{max-width:180px}}
 
 .muted-note{font-size:14px;color:var(--ink-soft)}
+
+.rules-group{font-size:clamp(22px,3vw,30px);margin:48px 0 18px;padding-top:28px;border-top:2px solid var(--line)}
+
+.rk-fig{margin:28px 0;padding:22px 18px 16px;border:2px solid var(--line);background:var(--card)}
+.rk-fig figcaption{font-size:13px;color:var(--ink-soft);margin-top:12px;text-align:center}
+.rk-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;text-align:center}
+.rk-col svg{display:block;margin:0 auto 10px;max-width:100%;height:auto}
+.rk-col b{display:block;font-size:16px}
+.rk-col p{font-size:14px;margin:6px 0 0;line-height:1.45}
+.rk-table td{vertical-align:middle}
+.rk-mini{display:inline-block;vertical-align:middle;margin-right:10px}
+.rk-mini svg{display:block;height:auto}
+.rk-cards{display:grid;gap:18px;margin:24px 0 8px}
+.rk-card{display:grid;grid-template-columns:110px 1fr;gap:20px;border:2px solid var(--line);background:var(--card);padding:20px}
+.rk-pic svg{display:block;width:100%;height:auto}
+.rk-info h3{margin:0 0 10px}
+.rk-specs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px 14px;margin:0 0 12px}
+.rk-specs div{min-width:0}
+.rk-specs dt{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+.rk-specs dd{margin:2px 0 0;font-size:15px;font-weight:600}
+.rk-bar{display:grid;grid-template-columns:70px 1fr;gap:4px 12px;align-items:center;margin:6px 0}
+.rk-bl{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);grid-row:span 2}
+.rk-track{position:relative;height:4px;background:#C9CCD3;border-radius:2px}
+.rk-track i{position:absolute;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:#F2603F;border:2px solid #fff}
+.rk-ends{display:flex;justify-content:space-between;font-size:11px;color:var(--ink-soft)}
+.rk-info p{margin:12px 0 0;font-size:15px}
+@media (max-width:640px){.rk-row{grid-template-columns:1fr;gap:26px}.rk-col svg{width:96px}.rk-card{grid-template-columns:1fr}.rk-pic{max-width:90px}.rk-specs{grid-template-columns:repeat(2,1fr)}}
