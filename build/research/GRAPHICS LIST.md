@@ -3,7 +3,7 @@ Created 24 Oct 2026. All graphics in The Padel Playbook cover style: royal navy 
 
 **Files per graphic:** SVG (vector, editable), PDF (vector, print) and PNG (3000 px wide, for books and social media).
 **Folder on the Mac:** ~/Downloads/PADEL GRAPHICS 2027/, with one subfolder per step.
-**Status:** [ ] to do · [x] done (on the website and saved in the folder)
+**Status:** [ ] to do · [~] made and saved in the folder, waiting for approval before going on the website · [x] done (on the website and saved in the folder)
 
 Already done: racket shapes, balance, level guide and spec cards (7 racket articles) → saved in 06 GEAR.
 
@@ -66,20 +66,20 @@ Already done: racket shapes, balance, level guide and spec cards (7 racket artic
 - [x] T08 Intermediate patterns (e.g. lob to the backhand corner, then close) → padel-tactics-intermediate
 
 ## Step 5: Drills (05 DRILLS), one diagram per drill (42 court diagrams)
-Beginners: [ ] Ladder rally · [ ] Soft volley chain · [ ] Serve to the box · [ ] Back-glass catch · [ ] Lob ladder · [ ] Call the middle · (Split-step shadow, Yellow card: no court diagram needed)
-2 players: [ ] Cross-court counter · [ ] Ladder rally, net against back · [ ] Volley to volley · [ ] Feet and fence · [ ] Glass and back · [ ] Lob and bandeja · [ ] Half-court singles · [ ] Net challenge
-4 players: [ ] Volley war · [ ] Defend the net · [ ] Lob and take the net · [ ] Serve and stay · [ ] Middle madness · [ ] Rope pairs · [ ] King of the court · [ ] Two against one at the net · [ ] Feeder and pair · (Yellow card: no diagram)
-Solo: [ ] Volley wall · [ ] Bounce rally · [ ] Back-glass rally · [ ] Corner rebound · [ ] Serve targets · [ ] Self-fed overheads · (Face taps, Split-step: no court diagram)
-Intermediate: [ ] Lob, read, go · [ ] Bandeja chain · [ ] Feet, deep, finish · [ ] Double-glass defence · [ ] Smash defence · [ ] Low and deep · [ ] Half-court error game · [ ] Three-ball net challenge
-Kids: [ ] Rally ladder · [ ] Target zones · [ ] Wall bounce challenge · [ ] Volley catch · [ ] Serve skittles · [ ] Crocodile and fish · (Racket balance relay, Bounce count: no court diagram)
+Beginners: [~] Ladder rally · [~] Soft volley chain · [~] Serve to the box · [~] Back-glass catch · [~] Lob ladder · [~] Call the middle · (Split-step shadow, Yellow card: no court diagram needed)
+2 players: [~] Cross-court counter · [~] Ladder rally, net against back · [~] Volley to volley · [~] Feet and fence · [~] Glass and back · [~] Lob and bandeja · [~] Half-court singles · [~] Net challenge
+4 players: [~] Volley war · [~] Defend the net · [~] Lob and take the net · [~] Serve and stay · [~] Middle madness · [~] Rope pairs · [~] King of the court · [~] Two against one at the net · [~] Feeder and pair · (Yellow card: no diagram)
+Solo: [~] Volley wall · [~] Bounce rally · [~] Back-glass rally · [~] Corner rebound · [~] Serve targets · [~] Self-fed overheads · (Face taps, Split-step: no court diagram)
+Intermediate: [~] Lob, read, go · [~] Bandeja chain · [~] Feet, deep, finish · [~] Double-glass defence · [~] Smash defence · [~] Low and deep · [~] Half-court error game · [~] Three-ball net challenge
+Kids: [~] Rally ladder · [~] Target zones · [~] Wall bounce challenge · [~] Volley catch · [~] Serve skittles · [~] Crocodile and fish · (Racket balance relay, Bounce count: no court diagram)
 
 ## Step 6: Basics, fitness and gear (06 GEAR and 07 BASICS & FITNESS)
-- [ ] B01 Padel levels chart: Playtomic 0–7 next to LTA bands and letter categories → padel-levels-explained
-- [ ] B02 Beginner mistake: standing in no-man's-land (court zones) → padel-beginner-mistakes
-- [ ] F01 Warm-up timeline (RAMP: raise, activate, mobilise, potentiate) → padel-warm-up
-- [ ] F02 Calories per hour by body weight (bar chart from the article's table) → padel-calories
-- [ ] F03 Weekly strength plan chart → padel-exercises
-- [ ] G01 Shoe soles: herringbone, omni and hybrid patterns → padel-shoes
+- [~] B01 Padel levels chart: Playtomic 0–7 next to LTA bands and letter categories → padel-levels-explained
+- [~] B02 Beginner mistake: standing in no-man's-land (court zones) → padel-beginner-mistakes
+- [~] F01 Warm-up timeline (RAMP: raise, activate, mobilise, potentiate) → padel-warm-up
+- [~] F02 Calories per hour by body weight (bar chart from the article's table) → padel-calories
+- [~] F03 Weekly strength plan chart → padel-exercises
+- [~] G01 Shoe soles: herringbone, omni and hybrid patterns → padel-shoes
 - [x] Racket shapes, balance, level guide, spec cards (already done)
 
 ## Step 7: Article headers
