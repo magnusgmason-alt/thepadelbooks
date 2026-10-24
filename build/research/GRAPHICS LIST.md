@@ -56,14 +56,14 @@ Already done: racket shapes, balance, level guide and spec cards (7 racket artic
 - [x] S13 Return targets (added) → padel-serve-and-return
 
 ## Step 4: Tactics (04 TACTICS)
-- [ ] T01 Move as a pair (the "rope") → padel-positioning-doubles, padel-doubles-strategy
-- [ ] T02 Attack and defence zones: net, no-man's-land, back → padel-positioning-doubles, padel-tactics-for-beginners
-- [ ] T03 Left side vs right side roles → padel-left-side-vs-right-side
-- [ ] T04 Who takes the middle ball → padel-doubles-strategy
-- [ ] T05 Winning the net back: lob, then move up together → padel-tactics-for-beginners, padel-tactics-intermediate
-- [ ] T06 Singles court 20 × 6 m vs doubles court → padel-singles
-- [ ] T07 Cross-court vs down the line: safe targets → padel-tactics-for-beginners
-- [ ] T08 Intermediate patterns (e.g. lob to the backhand corner, then close) → padel-tactics-intermediate
+- [x] T01 Move as a pair (the "rope") → padel-positioning-doubles, padel-doubles-strategy
+- [x] T02 Attack and defence zones: net, no-man's-land, back → padel-positioning-doubles, padel-tactics-for-beginners
+- [x] T03 Left side vs right side roles → padel-left-side-vs-right-side
+- [x] T04 Who takes the middle ball → padel-doubles-strategy
+- [x] T05 Winning the net back: lob, then move up together → padel-tactics-for-beginners, padel-tactics-intermediate
+- [x] T06 Singles court 20 × 6 m vs doubles court → padel-singles
+- [x] T07 Cross-court vs down the line: safe targets → padel-tactics-for-beginners
+- [x] T08 Intermediate patterns (e.g. lob to the backhand corner, then close) → padel-tactics-intermediate
 
 ## Step 5: Drills (05 DRILLS), one diagram per drill (42 court diagrams)
 Beginners: [ ] Ladder rally · [ ] Soft volley chain · [ ] Serve to the box · [ ] Back-glass catch · [ ] Lob ladder · [ ] Call the middle · (Split-step shadow, Yellow card: no court diagram needed)

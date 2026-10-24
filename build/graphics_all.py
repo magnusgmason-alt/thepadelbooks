@@ -3,6 +3,7 @@ and which Mac folder it is exported to."""
 import graphics_court as GC
 import graphics_rules as GR
 import graphics_shots as GS
+import graphics_tactics as GT
 from diagrams import figure, legend, brand
 
 GLASS_MESH = legend([("glass", "Glass"), ("mesh", "Mesh (metal fence)")])
@@ -89,6 +90,28 @@ PLACE3 = {
  "padel-serve-and-return": [("Where to aim your serve", "S12-serve-targets"), ("Return targets that work at club level", "S13-return-targets")],
 }
 for _k, _v in PLACE3.items():
+    PLACE.setdefault(_k, []).extend(_v)
+
+TA = "04 TACTICS"
+G.update({
+ "T01-move-as-a-pair": (TA, GT.t01, "Move as a pair: both at the net or both at the back. One up and one back leaves a diagonal gap through the middle.", ""),
+ "T02-court-zones": (TA, GT.t02, "The three zones: back (the last 2 m before the glass), the middle (pass through, don't stay) and the net (about 2–3 m from the net).", ""),
+ "T03-left-vs-right-side": (TA, GT.t03, "Left side vs right side for two right-handers: the left-side player has the forehand and overhead in the middle; the right-side player builds the point.", ""),
+ "T04-who-takes-the-middle": (TA, GT.t04, "Who takes the ball down the middle: agree a default before the match and call every ball.", ""),
+ "T05-win-the-net-back": (TA, GT.t05, "Winning the net back: a deep lob over the net players, they turn and run, you move up together.", ""),
+ "T06-singles-vs-doubles-court": (TA, GT.t06, "Singles vs doubles court to scale: 20 × 6 m singles courts keep the length and walls but are 4 m narrower. Only the 20 × 10 m court is an FIP specification.", ""),
+ "T07-cross-court-middle-line": (TA, GT.t07, "Safe targets from the back: cross-court has the most margin, the middle is rarely wrong, down the line has the least margin.", ""),
+ "T08-intermediate-net-pattern": (TA, GT.t08, "A three-ball pattern at the net: deep volley, then feet or middle, then finish the high ball.", ""),
+})
+PLACE4 = {
+ "padel-positioning-doubles": [("The one rule: move as a pair", "T01-move-as-a-pair"), ("The two home positions", "T02-court-zones"), ("Who takes the middle?", "T04-who-takes-the-middle")],
+ "padel-doubles-strategy": [("Padel doubles strategy: one team, one shape", "T01-move-as-a-pair"), ("Who takes the middle?", "T04-who-takes-the-middle")],
+ "padel-tactics-for-beginners": [("Padel tactics for beginners: the eight rules", "T07-cross-court-middle-line")],
+ "padel-left-side-vs-right-side": [("Padel left side vs right side at a glance", "T03-left-vs-right-side")],
+ "padel-tactics-intermediate": [("Padel tactics for intermediate players: think in three zones", "T02-court-zones"), ("Taking the net: go on the right ball", "T05-win-the-net-back"), ("Building a point instead of forcing it", "T08-intermediate-net-pattern")],
+ "padel-singles": [("Padel singles court size", "T06-singles-vs-doubles-court")],
+}
+for _k, _v in PLACE4.items():
     PLACE.setdefault(_k, []).extend(_v)
 
 def figure_html(gid):

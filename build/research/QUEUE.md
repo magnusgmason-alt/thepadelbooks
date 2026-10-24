@@ -1,1 +1,1 @@
-- [ ] Buy buttons: replace the text 'Apple Pay' with the official Apple Pay logo mark (requested 24 Oct 12:09)
+- [x] Buy buttons: replace the text 'Apple Pay' with the official Apple Pay logo mark (requested 24 Oct 12:09)
