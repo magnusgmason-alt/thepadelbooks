@@ -4,6 +4,8 @@ import graphics_court as GC
 import graphics_rules as GR
 import graphics_shots as GS
 import graphics_tactics as GT
+import graphics_drills as GD
+import graphics_basics as GB
 from diagrams import figure, legend, brand
 
 GLASS_MESH = legend([("glass", "Glass"), ("mesh", "Mesh (metal fence)")])
@@ -114,6 +116,21 @@ PLACE4 = {
 for _k, _v in PLACE4.items():
     PLACE.setdefault(_k, []).extend(_v)
 
+# ---- Step 5 drills and Step 6 basics (approved 25 Oct 2026) ----
+import re as _re
+def _drill_tags():
+    out = {}
+    for slug, items in GD.GRAPHICS.items():
+        for gid, fn, num in items:
+            G[gid] = ("05 DRILLS", fn, "@: lime = the drill shot, white = feed or incoming ball, coral arrow = movement.", "")
+            out.setdefault(slug, []).append(("H3:" + num + ".", gid))
+    return out
+for _k, _v in _drill_tags().items():
+    PLACE.setdefault(_k, []).extend(_v)
+for _gid, (_folder, _fn, _slug, _h, _cap) in GB.GRAPHICS.items():
+    G[_gid] = (_folder, _fn, _cap, "")
+    PLACE.setdefault(_slug, []).append((("H3:8." if _gid.startswith("B02") else _h), _gid))
+
 def figure_html(gid):
     folder, fn, cap, leg = G[gid]
     return fig(fn(), cap, leg)
@@ -123,13 +140,24 @@ def place(articles):
     n = 0
     for a in articles:
         for h2, gid in PLACE.get(a["slug"], []):
-            tag = f"<h2>{h2}</h2>"
-            i = a["body"].find(tag)
-            assert i >= 0, (a["slug"], h2)
+            if h2.startswith("H3:"):
+                m = re.search(r"<h3>" + re.escape(h2[3:]) + r"[^<]*</h3>", a["body"])
+                assert m, (a["slug"], h2)
+                i, tag = m.start(), m.group(0)
+            else:
+                tag = f"<h2>{h2}</h2>"
+                i = a["body"].find(tag)
+                assert i >= 0, (a["slug"], h2)
             j = a["body"].find("</p>", i)
-            k = a["body"].find("<h2>", i + len(tag))
+            k = (min([x for x in (a["body"].find("<h2>", i + len(tag)), a["body"].find("<h3>", i + len(tag))) if x >= 0] or [-1])
+                 if h2.startswith("H3:") else a["body"].find("<h2>", i + len(tag)))
             pos = j + 4 if (j >= 0 and (k < 0 or j < k)) else i + len(tag)
-            a["body"] = a["body"][:pos] + figure_html(gid) + a["body"][pos:]
+            fh = figure_html(gid)
+            if G[gid][2].startswith("@"):
+                import html as _h
+                title = _h.unescape(re.sub(r"<[^>]+>", "", tag)).split(". ", 1)[-1]
+                fh = fh.replace("<figcaption>@", "<figcaption>" + _h.escape(title))
+            a["body"] = a["body"][:pos] + fh + a["body"][pos:]
             n += 1
     return n
 
