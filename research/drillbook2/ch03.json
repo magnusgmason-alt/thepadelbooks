@@ -1,0 +1,1200 @@
+{
+ "chapter": "03",
+ "title": "The Overhead Arsenal",
+ "kicker": "BANDEJA · VÍBORA · RULO · GANCHO · POR TRES · POR CUATRO · RECOVERY",
+ "opener_line": "Every lob asks a question. Your overhead is the answer, and you have to choose it.",
+ "intro_title": "Choosing the right overhead.",
+ "intro": [
+  "At club level most overheads are lost before the racket touches the ball. The player picks a shot out of habit, arrives late under the lob, or hits a decent smash and then stands still to admire it. This chapter treats the overhead as a set of tools with different jobs: the bandeja to hold the net, the víbora to keep the ball low in the corner, the rulo and the gancho for awkward lobs, and two smashes that try to end the point.",
+  "Each drill adds a choice. You read the height, depth and pace of the lob, check where the opponents are standing, and then commit. You also train the part most players skip: the two or three steps after the shot. A bandeja that lands deep is wasted if you are still behind the service line when the reply arrives. Feeders, vary your lobs. A predictable feed trains a swing, not a decision."
+ ],
+ "pillars": [
+  {
+   "title": "Read before you reach",
+   "text": "The height, depth and drift of the lob tell you which overhead is possible before you take a step."
+  },
+  {
+   "title": "Feet first",
+   "text": "Turn sideways and move early. A late arrival leaves you only the safest, weakest overhead."
+  },
+  {
+   "title": "Pick a job",
+   "text": "Every overhead has one task: hold the net, push them back or end the point. Know which."
+  },
+  {
+   "title": "Recover forward",
+   "text": "The shot is not over until you are back in net position, balanced and ready for the reply."
+  }
+ ],
+ "box": {
+  "label": "THE HONEST OVERHEAD",
+  "text": "If you cannot get your body under and slightly behind the ball, do not smash it. A deep bandeja that keeps you at the net is worth more than a hopeful winner."
+ },
+ "drills": [
+  {
+   "id": "O1",
+   "title": "Three-lane bandeja call.",
+   "level": "3–5",
+   "players": "2–3",
+   "time": "12 min",
+   "focus": "Bandeja direction",
+   "summary": "F lobs to A at the net and calls a lane as the ball rises; A sends a deep bandeja into it.",
+   "setup": "A at net position on the right. F feeds from the far baseline with a basket. Cones split the opponents' back third into three lanes. B may join on the left.",
+   "run": [
+    "F lobs a medium-height ball over A's forehand side. As the ball reaches its highest point, F calls one lane: left, middle or right.",
+    "A turns sideways, takes two or three small steps back and plays a sliced bandeja that lands beyond the opponents' service line in the called lane.",
+    "After contact A steps forward to net position and splits. F feeds again only when A is set and balanced.",
+    "Sets of twelve. Once A lands the early calls, F calls later, just before A's racket swings forward."
+   ],
+   "decision": "You learn to keep the shoulders side-on and the racket face neutral until late, so the direction comes from a stable position instead of being fixed during the backswing.",
+   "watch": "Opening the chest to the target too early costs depth and gives the direction away. Stay sideways through contact and steer with the racket face.",
+   "up": "C and D stand at the back in the outside lanes and may volley or play off the glass anything that lands short.",
+   "down": "F calls before feeding, and only two lanes are used, left and right.",
+   "pass": "Nine of twelve bandejas land deep in the called lane, with A back at the net each time.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      5.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "L",
+      "x": 16.95,
+      "y": 0.0,
+      "w": 3.05,
+      "h": 3.3
+     },
+     {
+      "label": "M",
+      "x": 16.95,
+      "y": 3.35,
+      "w": 3.05,
+      "h": 3.3
+     },
+     {
+      "label": "R",
+      "x": 16.95,
+      "y": 6.7,
+      "w": 3.05,
+      "h": 3.3
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        5.0
+       ],
+       [
+        12.0,
+        8.5
+       ],
+       [
+        6.8,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        6.4,
+        7.2
+       ],
+       [
+        12.5,
+        4.0
+       ],
+       [
+        18.4,
+        1.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       6.5,
+       7.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "F calls a lane during the lob; A plays the bandeja deep into it and returns to the net."
+  },
+  {
+   "id": "O2",
+   "title": "Back, strike, forward.",
+   "level": "3–5",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Overhead footwork",
+   "summary": "F lobs deep over A at the net; A retreats side-on, plays a bandeja from behind the service line and sprints back.",
+   "setup": "A starts at net position on the right. F feeds from the far side with a basket. One cone sits 1 m behind A's service line, another at net position as the recovery mark.",
+   "run": [
+    "F lobs high and deep, bringing the ball down near A's service line or just behind it. A turns the shoulders before the feet move.",
+    "A retreats with side shuffles or crossover steps, ball in front of the hitting shoulder, and plants the back foot by the rear cone.",
+    "A plays a deep cross-court bandeja, weight travelling forward through the ball, so the first recovery step is part of the stroke.",
+    "A sprints to the net cone and splits as F strikes the next lob. Sets of eight, short rest between sets."
+   ],
+   "decision": "When a lob is deeper than expected, decide early: can you still get behind it? If yes, bandeja and recover. If not, turn and let it reach the glass.",
+   "watch": "Backpedalling square to the net leaves the ball behind your head and your weight falling away. Turn side-on at once, front shoulder pointing at the ball.",
+   "up": "F mixes deep and short lobs at random, then drives at A once A reaches the net cone.",
+   "down": "Medium-depth lobs only, landing around the service line, with a full reset between balls.",
+   "pass": "Six of eight sequences: a deep bandeja, then a split-step at the net cone in time.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.2
+     ]
+    ],
+    "feeders": [
+     [
+      17.0,
+      5.0
+     ]
+    ],
+    "cones": [
+     [
+      2.05,
+      8.4
+     ],
+     [
+      7.5,
+      8.4
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.6,
+        5.2
+       ],
+       [
+        10.0,
+        9.2
+       ],
+       [
+        3.5,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.9,
+        7.0
+       ],
+       [
+        11.0,
+        6.0
+       ],
+       [
+        18.3,
+        2.5
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.2
+      ],
+      [
+       3.3,
+       7.4
+      ]
+     ],
+     [
+      [
+       3.3,
+       6.8
+      ],
+      [
+       7.1,
+       6.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A turns and retreats to the back cone for a deep cross-court bandeja, then sprints back to the net mark."
+  },
+  {
+   "id": "O3",
+   "title": "Víbora into the pocket.",
+   "level": "4–6",
+   "players": "2–3",
+   "time": "15 min",
+   "focus": "Víbora placement",
+   "summary": "A plays víboras into a pocket by the opponents' cross-court side glass, so the ball stays low after the glass.",
+   "setup": "A at net position on the right. F feeds lobs from the far side. Mark a pocket about 2.5 m wide along the side glass in A's cross-court corner, near the back. C optional there.",
+   "run": [
+    "F lobs to A's forehand side, at a height A can strike above and to the side of the head without full stretch.",
+    "A swings across the ball from high to low with slice and side spin, bouncing it in the pocket so it runs into the side glass.",
+    "F or C watches the exit. A ball that pops up off the glass towards the middle is a miss, even if it bounced in.",
+    "A recovers to net position after every ball. Sets of ten; players who also play the left add a set from there."
+   ],
+   "decision": "Judge whether the lob is low and close enough for pace and spin. If it is too deep or too high to attack, the bandeja is the better shot.",
+   "watch": "A flat, hard víbora bounces up off the glass at a comfortable height for the defender. Brush across the back and side of the ball; spin keeps it low.",
+   "up": "C plays every víbora back from the corner; A scores only if C's reply is a lob or an error.",
+   "down": "A larger pocket, slower lobs, and A starts already under the ball.",
+   "pass": "Six of ten víboras bounce in the pocket and come off the side glass below the defender's waist.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.3,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      7.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "P",
+      "x": 16.95,
+      "y": 0.0,
+      "w": 3.05,
+      "h": 2.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        7.0
+       ],
+       [
+        12.0,
+        9.0
+       ],
+       [
+        7.8,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.3,
+        6.6
+       ],
+       [
+        12.5,
+        4.2
+       ],
+       [
+        17.8,
+        1.6
+       ],
+       [
+        19.0,
+        0.0
+       ],
+       [
+        19.4,
+        1.6
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "A slices the víbora into the cross-court pocket; the ball runs into the side glass and stays low."
+  },
+  {
+   "id": "O4",
+   "title": "Rulo off the back glass.",
+   "level": "5–6",
+   "players": "2–3",
+   "time": "12 min",
+   "focus": "Topspin overhead",
+   "summary": "A hits topspin overheads that land deep and kick high and forward off the opponents' back glass, making the defender turn and chase.",
+   "setup": "A at net position, inside the service line. F feeds medium lobs from the far side. Mark a landing zone 2–3 m short of the opponents' back glass. C optional as defender.",
+   "run": [
+    "F lobs a ball A can take in front of the body, a little higher than an ideal bandeja and well inside A's service line.",
+    "A brushes up and over the ball with a fast forward swing and a slightly closed face, landing it in the zone with heavy topspin.",
+    "The ball should kick high and forward off the back glass. If C is in, C tries to play it; note whether C had to chase.",
+    "A recovers to net position after each ball. Two sets of eight, then a set with F calling rulo or bandeja."
+   ],
+   "decision": "You learn which lobs suit the rulo: inside the service line, not too high, with time to swing. Lobs that push you back stay bandejas.",
+   "watch": "Dropping the racket head to swing upwards for topspin sends the ball long or into the mesh. Meet it in front and above, then brush forward and over.",
+   "up": "C plays live after the glass and the rally runs two more balls; A must keep the net.",
+   "down": "F feeds lower, softer lobs from the service line; A aims only for depth with topspin.",
+   "pass": "Five of eight rulos land in the zone and rebound off the back glass above head height.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.0,
+      7.0
+     ],
+     [
+      "C",
+      18.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      16.5,
+      6.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "Z",
+      "x": 16.9,
+      "y": 2.0,
+      "w": 1.6,
+      "h": 6.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.1,
+        6.6
+       ],
+       [
+        12.0,
+        9.0
+       ],
+       [
+        7.5,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.0,
+        6.6
+       ],
+       [
+        12.5,
+        5.6
+       ],
+       [
+        17.6,
+        5.2
+       ],
+       [
+        19.9,
+        5.0
+       ],
+       [
+        15.8,
+        4.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       18.5,
+       3.0
+      ],
+      [
+       16.6,
+       3.6
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A's rulo bounces short of the back glass, kicks off it high and forward, and pulls C away from the corner."
+  },
+  {
+   "id": "O5",
+   "title": "Gancho over the middle.",
+   "level": "5–6",
+   "players": "3–4",
+   "time": "12 min",
+   "focus": "Backhand-side overhead",
+   "summary": "F lobs over the middle on A's backhand side; A attacks it with a gancho instead of a weak backhand overhead.",
+   "setup": "A and B at net position, A on the right. F feeds from the far baseline. One zone deep in the middle of the opponents' court, one in A's cross-court corner.",
+   "run": [
+    "F lobs over the centre line, just to A's backhand side and too high to volley. B calls 'yours' as F strikes, so A owns it.",
+    "A keeps the feet moving so the ball stays above the left side of the head, then swings over the top from right to left with a hooking motion.",
+    "A aims the gancho deep through the middle or into the cross-court zone, then both players level up at the net.",
+    "Rotate after sets of eight. A left-hander on the left mirrors it, since the middle is their backhand side too."
+   ],
+   "decision": "A middle lob on your backhand often ends in a soft reply or a retreat. The gancho attacks it, but only when the ball is high enough to strike above your head.",
+   "watch": "If the ball drifts too far left you are forced into a backhand swing. Keep moving so contact stays above the head, then let the arm wrap over.",
+   "up": "F mixes middle lobs with lobs to A's forehand side, so A chooses gancho or bandeja, and C returns live.",
+   "down": "Lower, slower lobs straight over the centre line, with no call.",
+   "pass": "Six of eight ganchos land deep in a zone, each one followed by A recovering to net position.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      5.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "M",
+      "x": 16.95,
+      "y": 3.5,
+      "w": 3.05,
+      "h": 3.0
+     },
+     {
+      "label": "X",
+      "x": 16.95,
+      "y": 0.0,
+      "w": 3.05,
+      "h": 2.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        5.0
+       ],
+       [
+        12.0,
+        6.8
+       ],
+       [
+        7.3,
+        5.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        6.8,
+        5.6
+       ],
+       [
+        12.5,
+        4.6
+       ],
+       [
+        18.4,
+        4.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        6.8,
+        5.6
+       ],
+       [
+        13.0,
+        3.0
+       ],
+       [
+        18.5,
+        1.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       6.9,
+       6.1
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "F lobs over the middle on A's backhand side; A plays the gancho deep through the centre or cross-court."
+  },
+  {
+   "id": "O6",
+   "title": "Por tres or bandeja.",
+   "level": "5–6",
+   "players": "3–5",
+   "time": "15 min",
+   "focus": "Smash selection",
+   "summary": "F mixes short and deep lobs; A smashes por tres only from a strong position inside the service line and plays a bandeja otherwise.",
+   "setup": "A at net position on the right, B on the left. F feeds from the far side. A cone marks A's service line; a zone by the opponents' side glass, near the back, is the por tres target.",
+   "run": [
+    "F mixes lobs: some short and high, dropping inside A's service line, others deeper and flatter. A starts each ball at the net.",
+    "If A gets under the ball inside the service line, balanced, A smashes por tres: bounce near the zone, back glass, out over the side.",
+    "If the lob pushes A behind the service line, or comes low and fast, A plays a deep bandeja and keeps the net.",
+    "After each ball F gives two marks: right or wrong choice, and in or out. Sets of twelve."
+   ],
+   "decision": "Position chooses the shot, not ambition. The por tres needs height, balance and contact inside the line; if any of the three is missing, play the bandeja.",
+   "watch": "Players see a high ball, commit to the smash and hit it from too far back. Check your feet against the service line before you swing.",
+   "up": "C and D defend. Where out-of-court play is allowed they may chase the por tres outside; otherwise, out over the side wins the point.",
+   "down": "F feeds only two clearly different lobs, short and high or long and deep.",
+   "pass": "Ten of twelve correct choices, and half the por tres attempts leaving over the side.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.0,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      5.5
+     ]
+    ],
+    "cones": [
+     [
+      3.05,
+      9.3
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T",
+      "x": 16.0,
+      "y": 0.0,
+      "w": 2.5,
+      "h": 2.2
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        5.6
+       ],
+       [
+        12.0,
+        8.0
+       ],
+       [
+        7.4,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.0,
+        6.6
+       ],
+       [
+        12.0,
+        4.0
+       ],
+       [
+        17.0,
+        1.2
+       ],
+       [
+        20.0,
+        0.8
+       ],
+       [
+        18.6,
+        -1.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.0,
+        6.0
+       ],
+       [
+        11.0,
+        9.5
+       ],
+       [
+        4.0,
+        7.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        3.5,
+        7.2
+       ],
+       [
+        11.0,
+        9.0
+       ],
+       [
+        18.5,
+        8.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.0,
+       7.0
+      ],
+      [
+       3.9,
+       7.3
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "Short lob inside the line: por tres off the back glass and out over the side. Deep lob: retreat and bandeja."
+  },
+  {
+   "id": "O7",
+   "title": "Por cuatro and the follow-up.",
+   "level": "5–6",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Smash and readiness",
+   "summary": "A smashes por cuatro from close to the net, then stays balanced and ready, because not every attempt leaves the court.",
+   "setup": "A at net position on the right, about 2 m from the net. F feeds short, high lobs from beside the far net post. C waits near the opponents' back glass with a few balls. Mark a bounce zone near the opponents' service line.",
+   "run": [
+    "F feeds a short, high lob A can strike well inside the service line. A smashes flat and hard into the zone.",
+    "As A lands, C acts. If the smash went out over the back, C feeds a new lob from the hand; if it stayed in, C plays the rebound live.",
+    "A recovers to net position or retreats under C's ball for a controlled overhead or volley. No second smash unless it is short again.",
+    "Sets of eight. Count the smashes that left the court and the follow-up balls A controlled."
+   ],
+   "decision": "After the smash you read whether it is gone. A ball out over the back cannot be played back, so the point is over; anything else means the rally continues.",
+   "watch": "Standing still to see if it goes out leaves you flat-footed. Land, split and treat every por cuatro as a ball that might come back.",
+   "up": "C lobs back over A straight off the glass, so A has to defend with a bandeja from deeper.",
+   "down": "C sends a gentle ball to A's forehand volley after every smash, with a fixed delay.",
+   "pass": "Six of eight follow-up balls controlled, however many smashes left the court.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.8,
+      7.0
+     ],
+     [
+      "C",
+      19.0,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      11.0,
+      9.3
+     ]
+    ],
+    "zones": [
+     {
+      "label": "Z",
+      "x": 15.5,
+      "y": 4.5,
+      "w": 2.5,
+      "h": 3.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        11.2,
+        9.0
+       ],
+       [
+        10.0,
+        9.6
+       ],
+       [
+        8.2,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.8,
+        6.6
+       ],
+       [
+        12.0,
+        6.0
+       ],
+       [
+        16.5,
+        6.0
+       ],
+       [
+        19.0,
+        6.0
+       ],
+       [
+        21.5,
+        6.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.6,
+        7.3
+       ],
+       [
+        12.0,
+        9.5
+       ],
+       [
+        6.0,
+        7.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.8,
+       7.0
+      ],
+      [
+       5.8,
+       7.2
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A's por cuatro bounces in the zone and leaves over the back; if it stays in, C replies."
+  },
+  {
+   "id": "O8",
+   "title": "Smash and reset.",
+   "level": "4–6",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Post-smash recovery",
+   "summary": "A smashes a lob from around the service line, then both players reset to net position in time to volley F's next ball.",
+   "setup": "A and B at net position. F at the far side with a basket, behind the opponents' service line and beside the side wall. Two cones mark net position, 2.5 m from the net, one per player.",
+   "run": [
+    "F lobs over A to come down around A's service line. A moves back and smashes flat and firm through the middle of the opponents' court.",
+    "As A lands, B shifts slightly towards the middle to cover. A then runs forward to the cone and both players split level with each other.",
+    "F waits a fixed beat of about two seconds after the smash, then drives hard at either player. The volley must go deep.",
+    "Sets of eight, then swap so B smashes and A covers. Rest forty seconds between sets."
+   ],
+   "decision": "Choose a smash you can recover from. A full-stretch smash hit off balance may be fast, but it leaves you too deep to reach the cone before the reply.",
+   "watch": "Landing on the back foot after a jump smash pulls your weight away from the net. Land on the front foot or both feet and take the first step forward at once.",
+   "up": "After the smash, F picks at random between a drive, a chiquita and a second lob.",
+   "down": "F waits three seconds after the smash and drives to the forehand only.",
+   "pass": "Seven of eight sequences with both players split at the cones when F drives, and the volley deep.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      4.0,
+      7.0
+     ],
+     [
+      "B",
+      7.3,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      9.0
+     ]
+    ],
+    "cones": [
+     [
+      7.5,
+      8.3
+     ],
+     [
+      7.5,
+      1.7
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.3,
+        8.6
+       ],
+       [
+        10.0,
+        9.5
+       ],
+       [
+        4.4,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        4.0,
+        6.6
+       ],
+       [
+        11.0,
+        5.6
+       ],
+       [
+        18.0,
+        5.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.2,
+        8.6
+       ],
+       [
+        12.0,
+        7.6
+       ],
+       [
+        7.6,
+        6.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       4.0,
+       7.0
+      ],
+      [
+       7.0,
+       7.0
+      ]
+     ],
+     [
+      [
+       7.3,
+       3.0
+      ],
+      [
+       7.1,
+       4.1
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A smashes from the service line and sprints back to the net cone while B covers the middle; then F drives."
+  },
+  {
+   "id": "O9",
+   "title": "Late-call overhead.",
+   "level": "4–6",
+   "players": "2",
+   "time": "15 min",
+   "focus": "Disguise and adaptability",
+   "summary": "F calls bandeja, víbora or smash as A prepares, so A needs one preparation that can turn into any of the three.",
+   "setup": "A at net position on the right. F feeds lobs from the far baseline and makes the call. Three zones: 1 deep middle for the bandeja, 2 the cross-court corner for the víbora, 3 the open area for the smash.",
+   "run": [
+    "F lobs to a height and depth where all three overheads are possible. A turns, racket up, the free arm pointing at the ball.",
+    "When A's preparation is complete, F calls one word: 'bandeja', 'víbora' or 'smash'. A plays the called shot into its zone.",
+    "A recovers to net position after every ball. F notes which calls produce errors and repeats those more often in the next set.",
+    "Three sets of nine. In the last set F calls later, just before A begins the forward swing."
+   ],
+   "decision": "You learn to delay commitment. One neutral preparation, sideways with the racket high, keeps all three options open until late, which is what makes an overhead hard to read.",
+   "watch": "Players open the racket face or drop the shoulder for the shot they expect. Keep the same preparation every time and change only the swing path and contact point.",
+   "up": "F may also call 'leave', and A must turn, let the ball pass and play it after the back glass.",
+   "down": "F calls only bandeja or víbora, and calls before the ball reaches its peak.",
+   "pass": "Twenty of twenty-seven calls played as the correct shot and landing in the matching zone.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.3,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      5.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "1",
+      "x": 17.5,
+      "y": 3.5,
+      "w": 2.5,
+      "h": 3.0
+     },
+     {
+      "label": "2",
+      "x": 16.95,
+      "y": 0.0,
+      "w": 3.05,
+      "h": 2.5
+     },
+     {
+      "label": "3",
+      "x": 13.0,
+      "y": 6.0,
+      "w": 3.5,
+      "h": 3.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        5.6
+       ],
+       [
+        12.0,
+        8.6
+       ],
+       [
+        7.7,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.3,
+        6.6
+       ],
+       [
+        12.5,
+        5.2
+       ],
+       [
+        18.6,
+        5.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.3,
+        6.6
+       ],
+       [
+        12.5,
+        3.6
+       ],
+       [
+        18.4,
+        1.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.3,
+        6.6
+       ],
+       [
+        10.5,
+        7.2
+       ],
+       [
+        14.6,
+        7.8
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "F calls the shot late; A sends the bandeja to 1, the víbora to 2 or the smash to 3."
+  },
+  {
+   "id": "O10",
+   "title": "Cover the counter-lob together.",
+   "level": "4–6",
+   "players": "4–5",
+   "time": "15 min",
+   "focus": "Pair cover",
+   "summary": "After A's overhead, C answers with a counter-lob; A and B call who takes it and rebalance as a pair before the next ball.",
+   "setup": "A and B at net position. F feeds the first lob from the far side. C stands near the opponents' back glass, ready to counter-lob. D may join beside C.",
+   "run": [
+    "F lobs to A, who plays a bandeja or víbora deep towards C. A steps forward again at once while B holds the left side.",
+    "C counter-lobs over A's side, over B's side or down the middle. The player it is travelling over calls 'mine' or 'switch' while it is still rising.",
+    "On 'mine', that player retreats for an overhead. On 'switch', the partner crosses diagonally behind to take it, and the lobbed player slides to the empty side.",
+    "Play the next ball live against C, and D if present. Sets of eight; rotate C after each set."
+   ],
+   "decision": "If the lob is reachable, the player it goes over keeps it. If it passes them, the partner who can see it coming takes it from behind, and the pair swaps sides.",
+   "watch": "Both players drift back under the same ball and leave one side open. One early, loud call settles it; the other player moves straight to the gap.",
+   "up": "C may drive low instead of lobbing, so the pair must read the shot before anyone moves.",
+   "down": "C counter-lobs only over A's side, and A always makes the call.",
+   "pass": "Six of eight sequences ending with one player on each side and the reply under control.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      6.5
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        6.6
+       ],
+       [
+        12.0,
+        8.6
+       ],
+       [
+        8.0,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.5,
+        6.6
+       ],
+       [
+        13.0,
+        4.6
+       ],
+       [
+        18.0,
+        3.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.5,
+        3.4
+       ],
+       [
+        12.0,
+        9.2
+       ],
+       [
+        3.5,
+        7.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       3.9,
+       6.6
+      ]
+     ],
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       7.0,
+       3.6
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "C's counter-lob passes A, so B crosses diagonally behind to play it while A slides over to cover the left."
+  }
+ ]
+}

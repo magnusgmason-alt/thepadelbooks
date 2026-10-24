@@ -1,0 +1,898 @@
+{
+ "chapter": "06",
+ "title": "Serve, Return & the First Four Shots",
+ "kicker": "SECOND SERVE · FIRST VOLLEY · RETURN LOB · LOW RETURN · THE POACH · DECIDING POINT · FIRST FOUR SHOTS",
+ "opener_line": "Many points are shaped before the fifth ball. Train the four that come first.",
+ "intro_title": "Win the start, shape the point.",
+ "intro": [
+  "In padel the serve is not a weapon in the tennis sense. It is hit underarm, from waist height or lower, once the ball has bounced behind the service line, so few serves win the point on their own. Its real value is that it lets the serving pair reach the net first. The return then decides whether the receivers stay pinned at the back or earn a chance to move up. Both sides of that exchange can be trained.",
+  "These eight drills work on the serve, the return and the two shots after them as one chain rather than as separate strokes. You will set targets for the second serve, follow it in with a first volley that has a purpose, return with a lob or a low ball depending on what the servers do, and plan a deciding point as a pair. The chapter ends with a game scored on the first four shots."
+ ],
+ "pillars": [
+  {
+   "title": "Placement over pace",
+   "text": "A serve into the side glass, the T or the body takes away angles. Speed matters far less."
+  },
+  {
+   "title": "Move after the serve",
+   "text": "The server's job does not end at contact. Step in on a line that covers the likely return."
+  },
+  {
+   "title": "Return with intent",
+   "text": "Send the return over the net player or at the incoming server's feet. Anything between invites a volley."
+  },
+  {
+   "title": "Plan the first four",
+   "text": "Agree before the point what the serve, the first volley and the cover will be."
+  }
+ ],
+ "box": {
+  "label": "LEGAL AND CALM",
+  "text": "Bounce it behind the line, strike it at or below the waist, keep a foot on the ground, aim diagonally. A legal second serve with a clear target beats a rushed one."
+ },
+ "drills": [
+  {
+   "id": "S1",
+   "title": "Second serve, called target.",
+   "level": "3–5",
+   "players": "2–3",
+   "time": "12 min",
+   "focus": "Second-serve accuracy",
+   "summary": "A hits second serves only, and B names the target as A bounces the ball: glass, T or body.",
+   "setup": "A serves from the right-hand box. Mark two zones in the diagonal box: one by the side line in the last 1.5 m before the service line, one at the T. C stands in the receiving position as the body target.",
+   "run": [
+    "Every serve is legal: one foot behind the line, the ball bounced behind it, contact no higher than the waist, and a foot on the ground.",
+    "As A bounces the ball, B calls \"glass\", \"T\" or \"body\". A hits the called target with a full second-serve routine.",
+    "A glass serve must run into the side glass after the bounce, not the mesh. A serve that touches the mesh before its second bounce is a fault.",
+    "Play sets of ten. One fault sends the count back to zero, so every serve carries the weight of a real second serve."
+   ],
+   "decision": "Choose your margin. Aim a racket-width inside each line, give up a little depth, and keep a pace you can repeat when the score is tight.",
+   "watch": "Under pressure servers brake the arm, and the ball lands short and sits up. Keep the same swing speed and find margin with height over the net.",
+   "up": "C returns live, and A must also win the next ball with a first volley.",
+   "down": "B calls the target before A starts the routine, giving A time to plan.",
+   "pass": "Complete a set of ten without a fault, seven of them on the called target.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.9
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      2.8
+     ]
+    ],
+    "zones": [
+     {
+      "label": "GLASS",
+      "x": 15.3,
+      "y": 0.0,
+      "w": 1.65,
+      "h": 1.3
+     },
+     {
+      "label": "T",
+      "x": 15.4,
+      "y": 3.6,
+      "w": 1.55,
+      "h": 1.4
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        5.0
+       ],
+       [
+        16.1,
+        0.7
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        6.5
+       ],
+       [
+        16.2,
+        4.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        5.8
+       ],
+       [
+        16.0,
+        2.8
+       ]
+      ]
+     }
+    ],
+    "moves": [],
+    "half": null
+   },
+   "caption": "Three second-serve targets from the right-hand box: the side-glass zone, the T and C's body."
+  },
+  {
+   "id": "S2",
+   "title": "Serve, split, volley deep.",
+   "level": "3–5",
+   "players": "3–4",
+   "time": "12 min",
+   "focus": "First volley depth",
+   "summary": "A serves and moves in; C returns at A, and A's first volley must land deep in the receivers' half.",
+   "setup": "A serves from the right-hand box with B at net position on the left. C receives on the far side, about 1.5 metres from the back glass, with a basket nearby for quick restarts.",
+   "run": [
+    "A serves deep and legally, then moves forward on a line towards the middle of the right half.",
+    "As C's racket starts forward, A split-steps wherever A is. Expect to play this volley around the service line, not close to the net.",
+    "A volleys deep, aiming for the last three metres of the court, cross-court or through the middle.",
+    "C and A play the point out, with B joining in. Rotate the server every ten serves."
+   ],
+   "decision": "From a low position the deep volley is the safe first ball. It pushes the receiver back and buys time to close. Choose the middle if you are late, the corner if you are early.",
+   "watch": "Servers stop to admire the serve and are caught flat-footed. Keep moving until the receiver's racket starts forward, then split.",
+   "up": "Add D at the net on the receivers' side; the first volley must stay away from D.",
+   "down": "C returns at medium pace straight to A, without trying to pass.",
+   "pass": "Seven of ten first volleys bounce in the deep zone.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.9
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "DEEP",
+      "x": 17.0,
+      "y": 0.5,
+      "w": 3.0,
+      "h": 9.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        5.5
+       ],
+       [
+        15.0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.6,
+        3.2
+       ],
+       [
+        11.0,
+        5.0
+       ],
+       [
+        5.1,
+        6.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        4.9,
+        7.0
+       ],
+       [
+        11.0,
+        5.5
+       ],
+       [
+        18.3,
+        3.8
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.9
+      ],
+      [
+       4.5,
+       7.3
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A serves, moves in to the service line, splits as C returns, and volleys deep into the zone."
+  },
+  {
+   "id": "S3",
+   "title": "First volley at the feet.",
+   "level": "4–6",
+   "players": "4",
+   "time": "12 min",
+   "focus": "Attacking first volley",
+   "summary": "After the return, C may follow it in; when C does, A's first volley must go low at the feet of the incoming player.",
+   "setup": "A serves from the right-hand box, with B at net position on the left. C receives on the far side and D starts on their service line. Both receivers may move forward after the return.",
+   "run": [
+    "A serves and closes. C returns cross-court and either holds the back or runs forward to join D.",
+    "If C or D is still moving forward, A's first volley goes low and slow, at the feet of that player.",
+    "If both receivers stay back, A volleys deep instead and takes another step towards the net.",
+    "Play the point out. A earns a bonus point each time the receivers have to volley upwards from A's first volley."
+   ],
+   "decision": "Read the receivers' feet, not the ball. A player moving forward struggles with a low ball; a player set at the back does not. Feet when they move, deep when they wait.",
+   "watch": "The low volley is hit too hard and runs through to the glass, giving the receiver time. Take pace off with a firm wrist and a short punch.",
+   "up": "C decides to stay or come in only after seeing A's position, so A must read later.",
+   "down": "C always follows the return in, so A knows the target.",
+   "pass": "Win six of ten points, or force five upward volleys from the receivers.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.9
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      16.8,
+      7.2
+     ]
+    ],
+    "zones": [
+     {
+      "label": "FEET",
+      "x": 12.5,
+      "y": 2.5,
+      "w": 3.0,
+      "h": 3.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        5.5
+       ],
+       [
+        15.0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        5.4,
+        7.0
+       ],
+       [
+        9.5,
+        5.5
+       ],
+       [
+        13.9,
+        4.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.9
+      ],
+      [
+       5.0,
+       7.2
+      ]
+     ],
+     [
+      [
+       18.0,
+       3.0
+      ],
+      [
+       14.5,
+       4.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "C follows the return in; A's first volley drops into the zone at C's feet before C can settle."
+  },
+  {
+   "id": "S4",
+   "title": "Return lob over the net player.",
+   "level": "3–5",
+   "players": "4",
+   "time": "12 min",
+   "focus": "Return lob",
+   "summary": "A returns every serve with a lob over D, the server's partner, and A and B take the net together if it passes.",
+   "setup": "C serves from the far right-hand box and follows the serve in; D starts at net position. A receives on the right, 1.5 metres from the back glass, with B on the left near the service line.",
+   "run": [
+    "C serves legally into A's box and moves forward. A lets the ball bounce and, if needed, come off the glass.",
+    "A lobs down the line over D, high enough that D cannot reach it with a bandeja from the net position.",
+    "If the lob passes D, C and D must turn and chase. A and B step forward to the net side by side.",
+    "If the lob is short, D attacks it and A and B defend from the back. Play every point to a finish."
+   ],
+   "decision": "Lob over D when D crowds the net and leans in for the volley. If D waits back near the service line, the lob loses its sting and a low return is the better choice.",
+   "watch": "The return lob is too low and D has an easy overhead. Lift from under the ball, finish high, and prefer a lob slightly long to one that is short.",
+   "up": "C mixes serves to the T and the body, which makes the lob harder to lift cleanly.",
+   "down": "C serves at half pace to A's forehand and stays back after the serve.",
+   "pass": "Six of ten return lobs pass D and let A and B reach the net.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      1.8,
+      7.6
+     ],
+     [
+      "B",
+      3.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      2.2
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.0,
+        2.2
+       ],
+       [
+        11.0,
+        5.0
+       ],
+       [
+        2.4,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.2,
+        7.2
+       ],
+       [
+        10.0,
+        9.2
+       ],
+       [
+        18.0,
+        8.3
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       1.8,
+       7.6
+      ],
+      [
+       7.0,
+       7.0
+      ]
+     ],
+     [
+      [
+       3.5,
+       3.0
+      ],
+      [
+       7.0,
+       3.2
+      ]
+     ],
+     [
+      [
+       18.0,
+       2.2
+      ],
+      [
+       14.5,
+       3.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A lobs down the line over D; when it passes, A and B move up together while C and D turn."
+  },
+  {
+   "id": "S5",
+   "title": "Return at the incoming feet.",
+   "level": "4–6",
+   "players": "4",
+   "time": "12 min",
+   "focus": "Low return",
+   "summary": "C serves and rushes the net; A returns low and slow cross-court so the ball drops at C's feet as C arrives.",
+   "setup": "C serves from the far right-hand box and must come in after every serve. D starts at net position on the other half. A receives on the right; B stands on the left near the service line.",
+   "run": [
+    "C serves and runs in. A takes the return before the glass where possible, cross-court and away from D.",
+    "The return must dip over the net and land around C's service line, so C has to volley or half-volley upwards.",
+    "If D steps across to cut off the cross-court return, A lobs over D down the line instead.",
+    "Play the point out. A and B move up as a pair as soon as C's first volley comes back high."
+   ],
+   "decision": "Read the server's speed. If C is still running when you hit, the ball at the feet works. If C is already set close to the net, a lob is the better reply.",
+   "watch": "Returners chase the feet with too much pace and the ball floats past at volley height. Shorten the swing and use slice so the ball drops.",
+   "up": "C varies the serve, including the T and the body, so A's angle keeps changing.",
+   "down": "C serves at medium pace to A's forehand and comes in more slowly.",
+   "pass": "Seven of ten returns force C to volley from below the net tape.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      1.8,
+      7.6
+     ],
+     [
+      "B",
+      3.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      2.2
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "FEET",
+      "x": 13.0,
+      "y": 1.5,
+      "w": 3.0,
+      "h": 3.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.0,
+        2.2
+       ],
+       [
+        11.0,
+        5.0
+       ],
+       [
+        2.4,
+        7.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.2,
+        7.2
+       ],
+       [
+        8.0,
+        5.0
+       ],
+       [
+        13.6,
+        3.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       18.0,
+       2.2
+      ],
+      [
+       14.0,
+       3.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "C runs in behind the serve; A's low cross-court return dips into the zone at C's feet, away from D."
+  },
+  {
+   "id": "S6",
+   "title": "Poach the return.",
+   "level": "5–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Poach and cover",
+   "summary": "B, at the net, crosses on a pre-agreed signal to intercept C's cross-court return, while A, the server, covers the side B leaves.",
+   "setup": "A serves from the right-hand box; B stands at net position on the left. C receives on the far side and D is at the net. B gives a hand signal behind the back before each serve.",
+   "run": [
+    "B signals \"poach\" or \"stay\". A confirms, then serves to the T or the body to take away the wide return.",
+    "On \"poach\", B moves across as C's racket starts forward, not before, and volleys firmly at D's feet or through the middle.",
+    "After serving, A moves in on a line towards the left half, covering the space B has left in case C goes down the line.",
+    "On \"stay\", both play normally. C does not see the signal, so C must choose a return every time."
+   ],
+   "decision": "B's read is timing. Leave too early and C changes direction; leave too late and the return is past. Go on C's forward swing, on a diagonal towards the net.",
+   "watch": "A watches B instead of covering. The server moves to the vacated side on every poach, even when B wins the ball, until it is automatic.",
+   "up": "B may also fake the poach, starting a step across and then recovering, to unsettle C.",
+   "down": "C returns at medium pace, always cross-court, so B can learn the timing.",
+   "pass": "Win six of ten poach points, with A in the vacated space on every one.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.9
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      2.8
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        6.0
+       ],
+       [
+        16.0,
+        4.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.6,
+        3.2
+       ],
+       [
+        13.0,
+        4.5
+       ],
+       [
+        8.0,
+        5.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.9,
+        5.6
+       ],
+       [
+        10.5,
+        6.0
+       ],
+       [
+        12.0,
+        6.7
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       7.6,
+       5.3
+      ]
+     ],
+     [
+      [
+       2.0,
+       7.9
+      ],
+      [
+       5.0,
+       3.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "B crosses to intercept C's cross-court return and volleys at D's feet; A runs in to cover B's side."
+  },
+  {
+   "id": "S7",
+   "title": "Plan the deciding point.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Golden point plan",
+   "summary": "Play golden points at 40–40: the receivers choose who receives, and the serving pair must agree a plan inside the 20 seconds between points.",
+   "setup": "Four players on court. Before the session, the serving pair writes down three serve-and-first-volley plans. Each golden point counts as one game. Swap serving pairs after five points.",
+   "run": [
+    "Start every point at 40–40 in golden point. The receiving pair chooses who receives, and the server serves from the box diagonal to that player.",
+    "The serving pair then has up to 20 seconds, the normal time between points, to agree the serve target and who covers what.",
+    "The receivers agree their own plan in the same time: return lob, low return, or straight at the net player.",
+    "After five points, swap roles. Then play five games from deuce in the advantage format and compare how each pair handled the pressure."
+   ],
+   "decision": "Plan for the receiver they chose, not the one you wanted. Which serve does this player like least, and which first volley follows it? Agree one plan, then commit.",
+   "watch": "Pairs reach for a risky serve because the point feels big. On a deciding point, a first serve that lands is worth more than an ambitious target.",
+   "up": "The serving pair plays every deciding point with a second serve only.",
+   "down": "Use only the three plans written before the session, one per point.",
+   "pass": "The serving pair wins three of five golden points, with a plan agreed every time.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      2.1
+     ],
+     [
+      "C",
+      12.5,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.2
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T",
+      "x": 15.4,
+      "y": 5.0,
+      "w": 1.55,
+      "h": 1.4
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        2.1
+       ],
+       [
+        9.0,
+        4.5
+       ],
+       [
+        16.0,
+        5.7
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       2.1
+      ],
+      [
+       4.5,
+       2.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "The receivers have chosen D, so B serves from the left-hand box, diagonally to D, aiming at the T."
+  },
+  {
+   "id": "S8",
+   "title": "Four shots decide.",
+   "level": "3–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "First four shots",
+   "summary": "Normal points, but play stops after the fourth shot: the pair holding the better position, or the pair that forced the error, takes the point.",
+   "setup": "Four players in normal serve and return positions. Count the shots aloud: serve one, return two, first volley three, reply four. One player in each pair keeps the count.",
+   "run": [
+    "Play the serve and the next three shots as normal. Any error or winner within those four shots ends the point as usual.",
+    "If the ball is still in play after shot four, stop. The point goes to the pair with both players in front of their own service line.",
+    "If both pairs or neither pair hold that position, play the point on and finish it normally.",
+    "Play a game to seven points, changing server every two points so all four players serve and receive from both sides."
+   ],
+   "decision": "Decide what the first four shots are for. The servers want to keep the net; the receivers want a return that lets them take it. Choose shots that win position, not just the rally.",
+   "watch": "Receivers return safely but never move up, so they lose every stopped point. After a good return lob, the pair steps forward together at once.",
+   "up": "First serves only: a single fault loses the point for the serving pair.",
+   "down": "Award the stopped point to any pair with at least one player in front of the service line.",
+   "pass": "Win the race to seven, or lose it by no more than two points.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.9
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      2.8
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.9
+       ],
+       [
+        9.0,
+        5.5
+       ],
+       [
+        15.0,
+        2.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.6,
+        3.2
+       ],
+       [
+        11.0,
+        5.5
+       ],
+       [
+        6.0,
+        6.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        5.8,
+        7.0
+       ],
+       [
+        12.0,
+        4.0
+       ],
+       [
+        18.3,
+        4.5
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.9
+      ],
+      [
+       5.3,
+       7.2
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "Shots one to three of a four-shot point: A serves, C returns, and A moves in for a deep first volley."
+  }
+ ]
+}

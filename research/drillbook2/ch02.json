@@ -1,0 +1,1009 @@
+{
+ "chapter": "02",
+ "title": "Owning the Net",
+ "kicker": "VOLLEY TARGETS · PACE CONTROL · LOW BALLS · ANGLES · REFLEXES · PAIR MOVEMENT",
+ "opener_line": "The net is rented, never owned. Every volley either renews the lease or hands it back.",
+ "intro_title": "Holding the best spot on court.",
+ "intro": [
+  "Holding the net is not about winning volleys quickly. It is about making the opponents play one more awkward ball, and then another, until one sits up for you. At this level, many net points slip away through a finish tried too early or a pair that moves as two separate players. The drills in this chapter train the choice behind each volley: how hard, how deep, where, and who takes it.",
+  "The first half works on the single volley: reading height, changing pace, digging out low balls and choosing the moment to angle. The second half puts the volley into a pair, with a patience rule, sideways shifting and the poach. Stay compact throughout. If a drill turns into a hitting contest, slow the feeds until the decisions are clean again, then build the pace back up."
+ ],
+ "pillars": [
+  {
+   "title": "Height sets pace",
+   "text": "Above the tape you can hit down. Below it you lift the ball deep and wait for the next one."
+  },
+  {
+   "title": "Compact every time",
+   "text": "The same short shape on every volley. The target is chosen with the racket face, not a bigger swing."
+  },
+  {
+   "title": "Middle first",
+   "text": "Deep through the middle is a safe pressure ball, and two defenders have to agree who takes it."
+  },
+  {
+   "title": "Two players, one wall",
+   "text": "Slide, close and cover together. A gap between partners is an open door, however good the volley."
+  }
+ ],
+ "box": {
+  "label": "RENT, DON'T OWN",
+  "text": "The net is never yours to keep. Every deep, low volley pays another round of rent. One rushed finish, and the opponents move straight back in."
+ },
+ "drills": [
+  {
+   "id": "N1",
+   "title": "Volley clock.",
+   "level": "3–5",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Late target choice",
+   "summary": "F calls a target from one to four as each feed leaves the racket, and A volleys to that cone.",
+   "setup": "A at net position on the drive side. F a couple of metres inside the far service line with a basket. Four cones mark targets: 1 and 2 deep, 3 and 4 short.",
+   "run": [
+    "F feeds medium-pace balls between hip and chest height, mixing forehand and backhand volleys. As F strikes each feed, F shouts a number.",
+    "A split-steps as F hits, listens, and volleys to the called cone. Deep targets need a firmer block; short targets need a softer, angled touch.",
+    "After each volley A recovers to the starting spot, racket up, ready for the next ball. Twenty feeds per set, with a short rest between sets.",
+    "In the second set F calls later, when the ball is halfway to A. In the third set F calls only as the ball crosses the net."
+   ],
+   "decision": "Can you hold your racket shape until the last moment? The call trains a quiet, early preparation that leaves the choice of target to the final instant before contact.",
+   "watch": "Swinging bigger for the deep targets, which makes the volley late and loose. Keep one compact shape; change only the face angle and grip firmness.",
+   "up": "F adds pace and a fifth call, 'middle', for the space between the four targets.",
+   "down": "F calls before feeding and uses only two targets, one deep and one short.",
+   "pass": "Fourteen of twenty volleys reach the called target in the third set.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      14.5,
+      5.0
+     ]
+    ],
+    "cones": [
+     [
+      18.5,
+      1.2
+     ],
+     [
+      18.5,
+      8.8
+     ],
+     [
+      12.0,
+      1.2
+     ],
+     [
+      12.0,
+      8.8
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        14.5,
+        5.0
+       ],
+       [
+        11.0,
+        6.0
+       ],
+       [
+        8.0,
+        6.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.6,
+        6.6
+       ],
+       [
+        12.0,
+        3.5
+       ],
+       [
+        18.1,
+        1.5
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "Cones 1–4 mark the targets. F calls one as the feed leaves the racket; here A volleys to the deep cross-court cone."
+  },
+  {
+   "id": "N2",
+   "title": "Two-speed volley.",
+   "level": "3–5",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Pace by height",
+   "summary": "F drives at two heights; A blocks low balls deep and punches high balls down at C's feet.",
+   "setup": "A at net position, drive side. F feeds from the far back court, so balls arrive with pace. C stands on the far service line, cross-court. Mark a deep zone behind C.",
+   "run": [
+    "F drives at A at two heights: below the net tape, and between the waist and the shoulder. F mixes them in no fixed order.",
+    "Low ball: A opens the face slightly and blocks it deep into the zone, borrowing the incoming pace, with almost no swing.",
+    "High ball: A steps in and punches down and short at C's feet, so C, standing on the service line, can only lift it.",
+    "C returns punched balls if possible and A plays one more volley. Fifteen feeds, then rotate. Count the volleys whose speed matched the height."
+   ],
+   "decision": "Is the ball above or below the tape at contact? Above, hit down. Below, you can only lift, so lift it long and make them start again from their glass.",
+   "watch": "Trying to punch a low ball, which either sits up for C or ends in the net. If contact is below the tape, take the pace off and send it deep.",
+   "up": "F adds a third height: fast balls at the chest, which A must also block deep.",
+   "down": "F feeds by hand from the net, slower, and calls 'high' or 'low' early.",
+   "pass": "Twelve of fifteen volleys at the right speed, in the zone or at C's feet.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "C",
+      16.95,
+      3.5
+     ]
+    ],
+    "feeders": [
+     [
+      18.5,
+      6.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 18.0,
+      "y": 0.3,
+      "w": 1.8,
+      "h": 4.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.5,
+        6.0
+       ],
+       [
+        13.0,
+        7.2
+       ],
+       [
+        8.0,
+        7.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.6,
+        6.6
+       ],
+       [
+        13.0,
+        4.0
+       ],
+       [
+        18.8,
+        1.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.7,
+        6.7
+       ],
+       [
+        11.0,
+        5.0
+       ],
+       [
+        16.3,
+        3.6
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "Low feeds are blocked deep into T1. High feeds are punched down short at C's feet."
+  },
+  {
+   "id": "N3",
+   "title": "Dig and close.",
+   "level": "3–5",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Low volley, recovery",
+   "summary": "A starts just inside the service line and digs a low ball deep, then moves forward to finish the second ball from net position.",
+   "setup": "A on the drive side, just inside the service line. F at the far net position, feeding two balls in quick succession. Mark a deep zone by the far back glass.",
+   "run": [
+    "F feeds a slow, dipping ball at A's feet. A sinks at the knees, racket face slightly open, and lifts the ball deep into the zone.",
+    "While the dig is travelling, A takes two or three quick steps forward and split-steps as F prepares to hit again.",
+    "F feeds the second ball higher, around chest height. A, now closer to the net, volleys down and through into the open court to finish.",
+    "Ten pairs of balls per set, three sets. In the third set F sometimes sends the second ball low again, so A must dig twice."
+   ],
+   "decision": "When is it safe to move forward? Step in only after a deep dig. If your lift lands short, hold your ground and get ready to defend the next ball.",
+   "watch": "Digging with a long swing that sends the ball high and short. Keep the stroke short, lift with the legs, and aim well above the tape but long.",
+   "up": "F sends the second ball as soon as the dig crosses the net, with no pause.",
+   "down": "F feeds the low ball by hand and waits for A to settle before the second.",
+   "pass": "Seven of ten sequences: a dig in the zone, then a finishing volley into open court.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      4.0,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      12.5,
+      5.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 0.3,
+      "w": 2.8,
+      "h": 4.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        12.5,
+        5.5
+       ],
+       [
+        8.0,
+        6.5
+       ],
+       [
+        4.5,
+        7.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        4.2,
+        6.6
+       ],
+       [
+        10.0,
+        4.0
+       ],
+       [
+        18.0,
+        2.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        12.5,
+        5.5
+       ],
+       [
+        10.0,
+        6.0
+       ],
+       [
+        8.0,
+        6.8
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       4.0,
+       7.0
+      ],
+      [
+       7.5,
+       6.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A digs the first ball deep into T1, closes to net position and finishes the higher second ball."
+  },
+  {
+   "id": "N4",
+   "title": "Finish into the side wall.",
+   "level": "4–6",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Angled put-away",
+   "summary": "F mixes high, slow balls with normal ones; A finishes the high ones short cross-court, bouncing first, then into the side mesh.",
+   "setup": "A at net position, drive side. F feeds from the far back court. C defends from the far baseline, cross-court. Mark a short zone by the side wall, near the net.",
+   "run": [
+    "Most feeds come at waist height and A blocks them deep. Every third or fourth ball is high and slow, well above the tape.",
+    "On the high ball A turns the shoulders, meets it well in front and angles it cross-court so it bounces in the zone and runs into the side mesh.",
+    "C tries to reach the ball after it comes off the side mesh. If C gets it back, A must volley again; the point is live.",
+    "Fifteen balls, then switch so B works on the backhand angle from the revés side, and C defends the other corner."
+   ],
+   "decision": "Is this ball high enough to finish? Only a ball above the tape lets you angle it down. Lower, the angle opens the court for them; keep it deep.",
+   "watch": "Hitting the angle so hard that it strikes their side wall before bouncing, which loses the point. Take pace off and aim for the floor first, the wall second.",
+   "up": "C starts on the service line instead of the baseline, so the angle has to be sharper and lower.",
+   "down": "F feeds only high balls and C does not chase.",
+   "pass": "In a final set of ten high balls, seven bounce in the zone and beat C.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "C",
+      18.5,
+      2.5
+     ]
+    ],
+    "feeders": [
+     [
+      18.5,
+      6.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 10.5,
+      "y": 0.0,
+      "w": 3.5,
+      "h": 2.2
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.5,
+        6.5
+       ],
+       [
+        13.0,
+        8.0
+       ],
+       [
+        8.0,
+        7.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.6,
+        6.6
+       ],
+       [
+        10.0,
+        3.5
+       ],
+       [
+        12.0,
+        1.2
+       ],
+       [
+        12.6,
+        0.5
+       ],
+       [
+        13.6,
+        0.05
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       18.5,
+       2.5
+      ],
+      [
+       15.5,
+       1.2
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "On the high ball, A angles short into T1. The ball bounces, hits the side mesh and runs away from C."
+  },
+  {
+   "id": "N5",
+   "title": "Split the pair.",
+   "level": "3–5",
+   "players": "4",
+   "time": "14 min",
+   "focus": "Middle targeting",
+   "summary": "A and B volley against C and D at the back; an unreturned volley into the middle channel scores double.",
+   "setup": "The net pair, A and B, face C and D, who defend from the back. Mark a 2 m channel down the middle of the far half. C starts each rally with a drive.",
+   "run": [
+    "C feeds a drive to A or B. The net pair volleys; C and D defend from the back with drives, lobs and low balls. Overheads are allowed.",
+    "A and B aim as many volleys as possible into the channel, especially deep ones that reach the back glass between C and D.",
+    "Every middle ball needs a call from C or D, 'mine' or 'yours'. A middle volley that they leave, or both chase, scores two.",
+    "Every other point scores one. Play to eleven, then switch roles. Keep a running count of volleys that found the channel."
+   ],
+   "decision": "Is the middle still open? The seam works best when both opponents hold their own side. If one cheats across, hit the space they left.",
+   "watch": "Too little depth, so a defender steps in and takes the ball early. The middle ball must reach the glass or the feet; halfway is a gift.",
+   "up": "C and D may stand closer together, forcing A and B to choose between the seam and the side glass.",
+   "down": "Play one net volleyer against two defenders, with F feeding instead of C.",
+   "pass": "Win the game, with at least a third of your volleys landing in the channel.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 11.0,
+      "y": 4.0,
+      "w": 8.8,
+      "h": 2.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.8,
+        3.4
+       ],
+       [
+        13.0,
+        4.5
+       ],
+       [
+        8.0,
+        6.7
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.6,
+        6.6
+       ],
+       [
+        13.0,
+        5.5
+       ],
+       [
+        19.5,
+        5.0
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "A sends C's drive deep through T1, the channel between the two defenders."
+  },
+  {
+   "id": "N6",
+   "title": "Two-feeder reflex.",
+   "level": "4–6",
+   "players": "3",
+   "time": "10 min",
+   "focus": "Reaction speed",
+   "summary": "F and C feed alternately from different angles at speed; A, alone at the net, must reset between every ball and volley each one into a deep zone.",
+   "setup": "A at net position, slightly right of centre. F stands at the far net position on the cross-court side; C stands on the far service line on the down-the-line side. Both have balls. Mark a deep zone between them.",
+   "run": [
+    "F feeds, A volleys, then C feeds at once. The second ball leaves as A's first volley crosses the net, so there is no time to admire the shot.",
+    "A volleys every ball deep into the zone, away from both feeders. Feeds stay below the shoulder, and nobody feeds while A is turned away.",
+    "Twenty balls per set, alternating. Rest thirty seconds between sets. Three sets, then rotate roles so everyone volleys.",
+    "In the third set the feeders break the pattern: one may feed twice in a row, so A must watch both rackets instead of guessing the rhythm."
+   ],
+   "decision": "Which racket is moving? Reflex volleys are won by watching the hitter, not the ball you have just played. Your eyes go to the next feeder the moment your volley leaves.",
+   "watch": "Watching your own volley land. Turn your head to the next feeder straight after contact and split-step as their racket starts forward.",
+   "up": "Feeders speed up and aim at the body as well as wide.",
+   "down": "Feeders alternate strictly and slow down, and any volley back over the net counts.",
+   "pass": "Sixteen of twenty volleys in the zone in the third set.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      6.0
+     ],
+     [
+      "C",
+      16.95,
+      7.5
+     ]
+    ],
+    "feeders": [
+     [
+      12.5,
+      2.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.5,
+      "y": 2.5,
+      "w": 2.3,
+      "h": 3.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        12.5,
+        2.5
+       ],
+       [
+        10.0,
+        4.0
+       ],
+       [
+        8.0,
+        5.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        16.6,
+        7.3
+       ],
+       [
+        12.0,
+        7.0
+       ],
+       [
+        8.0,
+        6.4
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.7,
+        5.9
+       ],
+       [
+        13.0,
+        4.5
+       ],
+       [
+        18.5,
+        4.0
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "F and C feed in turn from two angles. A resets after every ball and volleys deep into T1."
+  },
+  {
+   "id": "N7",
+   "title": "Body-ball defence.",
+   "level": "4–6",
+   "players": "2",
+   "time": "10 min",
+   "focus": "Volley at the body",
+   "summary": "F drives straight at A's chest and hips; A defends with a compact block in front of the body, low or deep.",
+   "setup": "A at net position, 2–3 m from the net. F on the far service line, feeding firm drives aimed at A's body. Every feed stays below shoulder height. Mark a deep zone.",
+   "run": [
+    "F drives at A's right hip, left hip and chest in a random order. Start at moderate pace and build up over the set.",
+    "For chest and left hip, A uses the backhand, racket head in front, elbow sliding out of the way. A clear right-hip ball may be a forehand.",
+    "A blocks with no swing. The aim is a ball that goes down at F's feet or deep into the zone, never up into the air.",
+    "Fifteen balls per set. In the second set F follows up any loose block with a second drive, and the exchange runs live."
+   ],
+   "decision": "Forehand or backhand? At the body there is no time to try both. Backhand by default, elbow cleared; only obvious right-hip balls go to the forehand.",
+   "watch": "Leaning back, which pops the ball up. Keep your weight forward and take the ball in front, even if that means stepping across.",
+   "up": "F moves a metre closer and adds pace, or mixes in a sudden lob over A's head.",
+   "down": "F feeds from the far baseline, so the drive has further to travel.",
+   "pass": "Eleven of fifteen body balls blocked low or deep in the second set.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      16.95,
+      6.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.5,
+      "y": 4.5,
+      "w": 2.3,
+      "h": 5.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.95,
+        6.5
+       ],
+       [
+        12.0,
+        7.0
+       ],
+       [
+        8.0,
+        7.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.7,
+        6.6
+       ],
+       [
+        12.5,
+        6.0
+       ],
+       [
+        18.5,
+        6.5
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "F drives at A's body. A blocks in front, backhand by default, down or deep into T1."
+  },
+  {
+   "id": "N8",
+   "title": "Six deep, then strike.",
+   "level": "3–5",
+   "players": "4",
+   "time": "14 min",
+   "focus": "Patience at the net",
+   "summary": "A and B volley and play bandejas deep against C and D at the back; only from their seventh shot may the net pair attack.",
+   "setup": "A and B hold net position; C and D defend from the back. The last 3 m of the far half is the deep zone. C starts each rally with a drive.",
+   "run": [
+    "C and D defend normally: drives, low balls and lobs. A and B count aloud every ball their pair plays, starting at one.",
+    "Shots one to six must land in the deep zone. A short ball, or a smash or attacking volley before seven, loses the point.",
+    "From seven, the net pair may attack any ball that offers it: a high ball, a short lob or a defender out of position.",
+    "C and D score two if they win a point before the count reaches seven. Play to eleven, then swap ends."
+   ],
+   "decision": "Is this the ball to finish, or one more deep ball? The count stops you forcing it. After seven you still have to pick a ball that really sits up.",
+   "watch": "Six safe but slow balls that give the defenders time to step in. Deep does not mean soft; push the volleys through to the glass with a firm, compact action.",
+   "up": "Raise the count to eight, and let C and D attack any short ball straight away.",
+   "down": "Count to four, and let F feed from the back instead of a live pair.",
+   "pass": "Reach seven in at least half of the rallies, and win the game.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 0.3,
+      "w": 2.8,
+      "h": 9.4
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.8,
+        3.4
+       ],
+       [
+        13.0,
+        5.0
+       ],
+       [
+        8.0,
+        6.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.6,
+        6.6
+       ],
+       [
+        13.0,
+        5.5
+       ],
+       [
+        19.0,
+        4.8
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "Shots one to six must land in T1, the last 3 m. Only from seven may A and B attack."
+  },
+  {
+   "id": "N9",
+   "title": "Slide as one wall.",
+   "level": "3–5",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Pair shifting",
+   "summary": "F feeds from five spots across the far court; before each feed A and B slide together to guard the line and the middle.",
+   "setup": "A and B at net position. F works along the far back court with a basket, moving between five marked spots from one side wall to the other.",
+   "run": [
+    "F moves to a spot and shows the ball. A and B slide so the player facing the ball guards the line and the partner shades the middle.",
+    "F feeds a drive at the pair. Whoever is responsible volleys it deep. Then F moves to a new spot and the pair slides again.",
+    "With F wide on A's side, A covers the line and B drifts to the centre. With F wide on B's side, the reverse.",
+    "Twenty feeds. A waiting player checks before each feed that the gap between A and B has not changed."
+   ],
+   "decision": "Where can this ball go from here? Every shift answers one question: which line is open from the hitter's spot. Keep your spacing fixed and move the pair, not one player.",
+   "watch": "One player sliding while the partner stays fixed, which opens the middle. Move as if you were carrying a bench between you: when A goes a metre, so does B.",
+   "up": "F feeds without showing the ball first and may lob, so the pair must also judge when to drop back.",
+   "down": "Walk it through without balls: F points to a spot, the pair slides, F checks.",
+   "pass": "Eighteen of twenty feeds with the pair correctly placed before F strikes the ball.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.5
+     ]
+    ],
+    "feeders": [
+     [
+      18.5,
+      9.0
+     ]
+    ],
+    "cones": [
+     [
+      18.5,
+      1.0
+     ],
+     [
+      18.5,
+      3.0
+     ],
+     [
+      18.5,
+      5.0
+     ],
+     [
+      18.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.3,
+        8.7
+       ],
+       [
+        13.0,
+        8.6
+       ],
+       [
+        8.0,
+        8.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       7.5,
+       8.2
+      ]
+     ],
+     [
+      [
+       7.5,
+       3.5
+      ],
+      [
+       7.5,
+       5.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "F feeds from the wide spot on A's side. A slides to the line; B closes the middle."
+  },
+  {
+   "id": "N10",
+   "title": "Poach and cover.",
+   "level": "5–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Intercept and switch",
+   "summary": "When C drives cross-court towards A, B crosses the middle to intercept, and A immediately switches to cover the side B has left.",
+   "setup": "A and B at net position. C and D at the back of the far court. C starts each rally with a cross-court drive towards A, and B decides whether to poach.",
+   "run": [
+    "C drives firmly cross-court towards A. If it crosses the net through the middle third, B moves diagonally forward and intercepts.",
+    "As B goes, B calls 'mine'. A crosses behind B straight away to the left side of the court, covering the line B has left open.",
+    "B aims the poach at D's feet or the seam. The point plays out live, and C and D attack the side B vacated.",
+    "If B does not poach, A volleys as normal. After ten points, swap so A poaches from the drive side and B covers."
+   ],
+   "decision": "Can you reach this ball in front of you and hit it down? Poach only a ball you can volley downwards, early and decisively. A half-hearted poach leaves two players on one side.",
+   "watch": "A watching B's volley instead of moving. The cover starts on B's call; by the time the poach lands, A should already be on the other side.",
+   "up": "C may disguise the drive and go down the line instead, punishing B for moving early.",
+   "down": "F feeds the cross-court ball slowly from the far net position, and the point stops after the poach.",
+   "pass": "Win six of ten points that include a poach, losing none through the vacated side.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.8,
+        3.4
+       ],
+       [
+        13.0,
+        5.5
+       ],
+       [
+        9.0,
+        6.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        8.9,
+        5.6
+       ],
+       [
+        13.0,
+        6.5
+       ],
+       [
+        17.6,
+        6.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       8.6,
+       5.6
+      ]
+     ],
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       6.5,
+       3.6
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "B cuts across to poach C's cross-court drive while A crosses behind to cover B's side."
+  }
+ ]
+}

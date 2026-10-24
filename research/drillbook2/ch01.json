@@ -1,0 +1,1129 @@
+{
+ "chapter": "01",
+ "title": "Glass Mastery",
+ "kicker": "READING THE REBOUND · EXIT CHOICE · BAJADA · CONTRA-PARED · LOW BALLS · MOVING UP",
+ "opener_line": "The glass gives you time. These drills teach you what to buy with it.",
+ "intro_title": "Turning the wall into a choice.",
+ "intro": [
+  "At level three you can get the ball back off the glass. The next step is getting something useful from it. A rebound hands you a moment of time, and time lets you choose. These ten drills put a decision into every wall ball: where it will drop, how high it will come out, where the opponents are standing, and whether your pair can move forward afterwards. Each one begins with a feed and ends with a choice.",
+  "Work through them roughly in order. The first drills sharpen the read of the rebound itself. The middle ones add a target that changes with the opponent. The last ones join the exit to whatever happens next, so the glass becomes the opening of a pattern rather than a rescue. Keep the feeder honest, too. A feed that is too kind trains a read you will never need in a match."
+ ],
+ "pillars": [
+  {
+   "title": "Read before moving",
+   "text": "Pace, height and spin of the feed tell you where the rebound will drop. Decide early, then go."
+  },
+  {
+   "title": "Wait for height",
+   "text": "Let the ball come to you after the wall. The contact height decides which shots are still possible."
+  },
+  {
+   "title": "Look up once",
+   "text": "A single glance at the opponents before contact turns a safe exit into a chosen one."
+  },
+  {
+   "title": "Exit, then act",
+   "text": "A good exit is only half a pattern. Know whether your pair now holds the back or moves up."
+  }
+ ],
+ "box": {
+  "label": "THE REBOUND RULE",
+  "text": "High off the glass, you may attack. Low, you lift it or slow it down. Past you, use your own wall. The ball picks the shot; your job is to read it first."
+ },
+ "drills": [
+  {
+   "id": "G1",
+   "title": "Call the drop.",
+   "level": "3–5",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Rebound reading",
+   "summary": "F feeds into the back glass and A must call where the ball will drop to hip height before moving to play it.",
+   "setup": "A starts on the service line, drive side. F stands 2–3 m from the net on the far side with a basket. Three cones sit one, two and three metres off the back glass.",
+   "run": [
+    "F mixes pace and height. A turns side-on the moment the ball crosses the net.",
+    "Before the ball touches the glass, A calls 'one', 'two' or 'three' for the cone where it will drop to hip height after the rebound.",
+    "A moves to that cone, lets the ball come down to the hip and plays a controlled cross-court ball into T1.",
+    "F confirms each call. Twelve balls, then switch to the revés side, where B hits and A calls for B."
+   ],
+   "decision": "Where will this ball be playable? Pace, depth and bounce height tell you how far it will come back off the glass. Commit to a spot early instead of drifting with the ball.",
+   "watch": "Calling late, after the rebound, which turns reading into reacting. The call must come before the glass; F counts a missing call as wrong.",
+   "up": "F adds side spin and the odd double-wall feed into the corner, so the rebound angle changes as well as the distance.",
+   "down": "Use two cones only, near and far, and let F feed at one steady pace for the first six balls.",
+   "pass": "Nine correct calls and nine clean returns out of twelve on each side.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      3.3,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      12.5,
+      5.0
+     ]
+    ],
+    "cones": [
+     [
+      1.0,
+      8.8
+     ],
+     [
+      2.0,
+      8.8
+     ],
+     [
+      3.0,
+      8.8
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 15.0,
+      "y": 0.5,
+      "w": 4.5,
+      "h": 3.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        12.5,
+        5.0
+       ],
+       [
+        7.0,
+        8.5
+       ],
+       [
+        2.6,
+        7.7
+       ],
+       [
+        1.0,
+        7.8
+       ],
+       [
+        0.1,
+        7.8
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.0,
+        7.4
+       ],
+       [
+        9.0,
+        5.5
+       ],
+       [
+        16.5,
+        2.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       3.3,
+       7.0
+      ],
+      [
+       2.1,
+       7.3
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A calls the cone before the ball reaches the glass, moves to it and plays cross-court into T1."
+  },
+  {
+   "id": "G2",
+   "title": "Lob on the clock.",
+   "level": "3–5",
+   "players": "4",
+   "time": "14 min",
+   "focus": "Lob under pressure",
+   "summary": "Off a back-glass feed, A lobs deep cross-court while C and D rush the net, beating a two-beat count.",
+   "setup": "A at the back, drive side. F feeds from beside the far net post. C and D start on their service line. Mark a zone in the last 3 m, cross-court from A.",
+   "run": [
+    "F feeds firmly into A's back glass. As the feed leaves F's racket, C and D sprint forward to their volley positions.",
+    "F calls 'one' as the ball strikes the glass and 'two' a beat later. A must lob before 'two', even off an imperfect contact.",
+    "The lob travels cross-court over C, high enough to clear a raised racket and long enough for the zone.",
+    "If C or D reach it, they play a bandeja and the point runs live for three shots. Ten feeds, then rotate."
+   ],
+   "decision": "Lob now or wait for a sweeter contact? Against a closing pair, the half-second you take is the half-second they use to reach the net. Early and high beats late and perfect.",
+   "watch": "Low, flat lobs struck in a hurry. Stay under the ball and finish the racket high, so the lob peaks above the opponents, not at their rackets.",
+   "up": "F shortens the count to a single call at the glass, or C and D start a metre further forward.",
+   "down": "Drop the count and let C and D close at walking pace while A finds the height.",
+   "pass": "Seven lobs out of ten land in the zone without being intercepted.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "C",
+      16.95,
+      3.0
+     ],
+     [
+      "D",
+      16.95,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      11.5,
+      9.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 0.3,
+      "w": 2.8,
+      "h": 4.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        11.5,
+        9.0
+       ],
+       [
+        7.0,
+        8.8
+       ],
+       [
+        2.8,
+        7.8
+       ],
+       [
+        1.0,
+        7.6
+       ],
+       [
+        0.1,
+        7.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.8,
+        7.3
+       ],
+       [
+        9.0,
+        4.0
+       ],
+       [
+        18.5,
+        2.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       16.95,
+       3.0
+      ],
+      [
+       13.2,
+       3.0
+      ]
+     ],
+     [
+      [
+       16.95,
+       7.0
+      ],
+      [
+       13.2,
+       7.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "C and D close as F feeds. A must lob from the glass into T1 before the second beat."
+  },
+  {
+   "id": "G3",
+   "title": "Glass to the feet.",
+   "level": "3–5",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Low exit, touch",
+   "summary": "After a back-glass rebound, A plays a slow chiquita at the feet of C, who walks in from the service line.",
+   "setup": "A at the back, drive side. F feeds from the far centre. C starts on the far service line, cross-court from A. Mark a zone between that service line and the net.",
+   "run": [
+    "F feeds at medium pace into the back glass. As F's racket meets the ball, C starts walking forward.",
+    "A lets the rebound drop below the hip, then plays a soft, slightly sliced ball that crosses low and falls into the zone.",
+    "C must volley it. If C volleys up from below the tape, A scores; if C volleys down, C scores.",
+    "After eight balls, C varies the approach, sometimes rushing right up to the net. A lobs when C is already close."
+   ],
+   "decision": "How close is the volleyer? Near the service line, a ball at the feet forces a lift. Tight to the net, a chiquita sits up for them; lob instead.",
+   "watch": "Hitting the chiquita too hard, so it skids past C's feet into an easy half-volley. Slow the racket, open the face and land it short.",
+   "up": "Add D at the net, so A must also keep the ball away from a second volleyer.",
+   "down": "C stays still on the service line and F feeds slower, so the ball sits up off the glass.",
+   "pass": "A wins at least five of the eight points in each block.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "C",
+      16.95,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      13.0,
+      5.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 10.8,
+      "y": 0.8,
+      "w": 3.0,
+      "h": 3.6
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        13.0,
+        5.5
+       ],
+       [
+        8.0,
+        7.6
+       ],
+       [
+        2.8,
+        7.5
+       ],
+       [
+        1.0,
+        7.4
+       ],
+       [
+        0.1,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.8,
+        7.1
+       ],
+       [
+        8.0,
+        5.5
+       ],
+       [
+        12.2,
+        3.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       16.95,
+       3.0
+      ],
+      [
+       13.0,
+       3.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "C walks in as the feed is struck. A drops the glass ball into T1 so C has to volley up."
+  },
+  {
+   "id": "G4",
+   "title": "Three-door corner.",
+   "level": "4–6",
+   "players": "2",
+   "time": "15 min",
+   "focus": "Exit target choice",
+   "summary": "F feeds into A's corner, then moves; A reads F's new position and picks lob, chiquita or drive.",
+   "setup": "A on the drive side, about 2 m from the back glass. F starts on the far service line holding a few balls. Mark zones T1 deep cross-court, T2 short cross-court, T3 deep middle.",
+   "run": [
+    "F feeds firmly so the ball strikes A's side glass, then the back glass, and runs out towards the middle.",
+    "As the ball reaches the second wall, F moves forward to the net, holds the service line or drops back, in no fixed order.",
+    "A chooses: lob over a net player, chiquita at the feet of a service-line player, firm drive to the deep middle against a back player.",
+    "Twelve feeds into the drive corner, then twelve into the revés corner with B hitting."
+   ],
+   "decision": "Where is the opponent, and what can they do with each answer? Look up after the second wall, not before; the last picture before contact chooses the shot.",
+   "watch": "Never looking at F. Take one quick glance as the ball leaves the second wall, then eyes back on the ball for contact.",
+   "up": "F delays the move until the ball is almost at A's racket, or adds a fake step before settling.",
+   "down": "F moves early, while the feed is still in the air, and uses only two positions: net or back.",
+   "pass": "Nine right choices out of twelve, seven of them in the matching zone.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.2,
+      7.4
+     ]
+    ],
+    "feeders": [
+     [
+      16.95,
+      5.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 0.3,
+      "w": 2.8,
+      "h": 3.5
+     },
+     {
+      "label": "T2",
+      "x": 11.0,
+      "y": 0.3,
+      "w": 2.6,
+      "h": 3.5
+     },
+     {
+      "label": "T3",
+      "x": 17.0,
+      "y": 4.2,
+      "w": 2.8,
+      "h": 2.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.95,
+        5.0
+       ],
+       [
+        8.0,
+        8.8
+       ],
+       [
+        2.4,
+        9.9
+       ],
+       [
+        0.6,
+        9.9
+       ],
+       [
+        0.1,
+        8.9
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.9,
+        7.1
+       ],
+       [
+        9.0,
+        4.0
+       ],
+       [
+        18.0,
+        2.0
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       16.95,
+       5.0
+      ],
+      [
+       12.0,
+       5.0
+      ]
+     ],
+     [
+      [
+       16.95,
+       5.0
+      ],
+      [
+       18.8,
+       5.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "Side glass, back glass, then a glance: F's new position decides lob (T1), chiquita (T2) or drive (T3)."
+  },
+  {
+   "id": "G5",
+   "title": "High rebound, hard choice.",
+   "level": "4–6",
+   "players": "3",
+   "time": "15 min",
+   "focus": "Attack or lob",
+   "summary": "F lobs over A at different heights; A attacks the rebound with a bajada only when it comes out high enough.",
+   "setup": "A starts at net position, drive side. F lobs from the far back court. C stands at the far net position, cross-court, as an opponent who has lobbed and closed.",
+   "run": [
+    "F varies the lobs: some high and deep, others lower and flatter, so they come off the glass at the waist or below.",
+    "A turns, runs back beside the side glass and lets the ball rebound off the back glass, staying side-on with the racket up.",
+    "Well above the waist, ideally at the shoulder: A plays a bajada down, deep cross-court or at C's feet. Lower: A lobs over C.",
+    "C plays the ball and the point runs live for two more shots. Three sets of ten, then B works the revés side."
+   ],
+   "decision": "How high is the ball as it leaves the glass? From the shoulder you can hit down with control. Lower, a hard ball tends to rise into C's volley; a lob keeps you in the point.",
+   "watch": "Attacking every rebound because it feels like the drill. A calls 'hit' or 'lob' aloud as the ball strikes the glass, then sticks to it.",
+   "up": "C may step in to cut off weak bajadas, and F adds lower, faster lobs that look attackable but are not.",
+   "down": "F lobs slower, and A catches the first rebound of each set to judge the height.",
+   "pass": "Eight correct hit-or-lob calls out of ten, and no bajada struck from below the waist.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.2,
+      7.0
+     ],
+     [
+      "C",
+      13.0,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      18.5,
+      4.5
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.5,
+        4.5
+       ],
+       [
+        10.0,
+        8.5
+       ],
+       [
+        2.6,
+        7.9
+       ],
+       [
+        1.0,
+        8.0
+       ],
+       [
+        0.1,
+        8.0
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.9,
+        7.6
+       ],
+       [
+        9.0,
+        5.0
+       ],
+       [
+        18.0,
+        2.2
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.2,
+       7.0
+      ],
+      [
+       2.0,
+       7.7
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A retreats under the lob and reads the rebound: attack deep cross-court if it comes out high, lob over C if not."
+  },
+  {
+   "id": "G6",
+   "title": "Off your own wall.",
+   "level": "4–6",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Emergency escape",
+   "summary": "F feeds balls that beat A into the corner; A hits them into A's own back glass so they rebound over the net.",
+   "setup": "A on the drive side, about 2 m from the back glass. F feeds from the far service line, aiming deep at A's corner.",
+   "run": [
+    "F feeds fast and low so the ball gets past A after the bounce, too quickly to turn and play normally.",
+    "A turns the back to the net, gets the racket behind the ball and hits upwards into the back glass, roughly two metres up.",
+    "The ball rebounds over A's head and drops over the net. Height matters more than pace; a low rebound dies in the net.",
+    "Half the feeds are reachable; A plays those normally. Twelve feeds, then switch to the revés corner."
+   ],
+   "decision": "Is this a real emergency? Use the contra-pared only when the ball has gone past you and no ordinary exit is left. If it will still come off the glass, wait.",
+   "watch": "Hitting the mesh or the very corner. A ball that touches your own mesh loses the point (FIP Rule 13), so pick a spot high on the back glass.",
+   "up": "F feeds off the side glass first, and C waits at the net to volley weak escapes.",
+   "down": "F feeds slower, by hand, so A can set up the upward swing calmly.",
+   "pass": "Eight of twelve contra-pareds land in, with no wrong choice on the reachable feeds.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      16.5,
+      5.5
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.5,
+        5.5
+       ],
+       [
+        8.0,
+        8.5
+       ],
+       [
+        2.6,
+        8.8
+       ],
+       [
+        1.2,
+        9.3
+       ],
+       [
+        0.3,
+        9.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.0,
+        8.8
+       ],
+       [
+        0.4,
+        8.6
+       ],
+       [
+        0.1,
+        8.3
+       ],
+       [
+        4.0,
+        7.5
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.0
+      ],
+      [
+       1.1,
+       8.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "The feed beats A into the corner. A hits up into the back glass and the rebound carries over the net."
+  },
+  {
+   "id": "G7",
+   "title": "Low ball down the middle.",
+   "level": "3–5",
+   "players": "5",
+   "time": "14 min",
+   "focus": "Middle exit",
+   "summary": "Off the back glass, A drives low and firm through the gap between C and D, where neither clearly owns the volley.",
+   "setup": "A and B start deep. C and D wait at the far net position, rackets up. F feeds from behind them. Mark a narrow channel down the middle of their half.",
+   "run": [
+    "F feeds deep so the ball comes off A's back glass at the waist or below. A moves forward with it.",
+    "A plays a flat or lightly sliced drive just over the net through the channel, below their rackets, towards their hips.",
+    "A winner, or a volley played up from below the tape, scores for A; a volley hit down scores for C and D.",
+    "Eight balls to A, eight to B. Then C and D cheat sideways; A and B must find the bigger gap."
+   ],
+   "decision": "Is the middle open? When C and D stand wide, the seam is the safest low ball: the net is lowest there and both may hesitate. When they squeeze together, go wide.",
+   "watch": "Lifting the drive to shoulder height, where either volleyer can punch it. Contact in front of the body, swing level, finish low.",
+   "up": "C and D may close the middle as soon as the ball leaves the glass, so the read comes later.",
+   "down": "Remove D and leave a single volleyer standing to one side of the channel.",
+   "pass": "Ten of sixteen drives either win the point or force an upward volley.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      3.0
+     ],
+     [
+      "C",
+      12.8,
+      3.2
+     ],
+     [
+      "D",
+      12.8,
+      6.8
+     ]
+    ],
+    "feeders": [
+     [
+      17.5,
+      5.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 10.5,
+      "y": 4.3,
+      "w": 5.5,
+      "h": 1.4
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.5,
+        5.0
+       ],
+       [
+        9.0,
+        6.8
+       ],
+       [
+        2.8,
+        7.4
+       ],
+       [
+        1.0,
+        7.4
+       ],
+       [
+        0.1,
+        7.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.2,
+        7.1
+       ],
+       [
+        7.0,
+        6.0
+       ],
+       [
+        12.6,
+        5.0
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "A takes the rebound early and drives low through T1, the seam between the two volleyers."
+  },
+  {
+   "id": "G8",
+   "title": "The ball that dies.",
+   "level": "3–5",
+   "players": "2",
+   "time": "12 min",
+   "focus": "Low rebounds",
+   "summary": "F feeds heavy slice so the ball skids into the back glass and leaves it low; A must get under it and still place it.",
+   "setup": "A on the drive side at the back. F feeds with slice from the far service line. Mark a deep cross-court zone and a short zone just past the net.",
+   "run": [
+    "F's sliced feeds land close to the glass, hit it with little height and drop quickly, often below the knee.",
+    "A bends early, with the knees rather than the back, and gets the racket face under the ball before it falls further.",
+    "Knee height or above: A lifts a deep cross-court lob into T1. Lower: A plays a soft, safe ball into T2.",
+    "F mixes sliced and plain feeds without warning. Ten balls per set; A reports how many sat below the knee."
+   ],
+   "decision": "How much room is there between ball and floor? The lower it sits, the fewer options remain. Pick the shot still possible, not the one you planned.",
+   "watch": "Waiting at the usual spot for a rebound that never arrives. Sliced balls come off shorter and lower; move closer to the wall and stay down.",
+   "up": "F adds sliced feeds into the corner, so the ball loses height across two walls.",
+   "down": "F uses less slice and feeds from closer, so the drop after the glass is gentler.",
+   "pass": "Seven of ten balls back over the net, at least four of them in T1.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.4,
+      7.0
+     ]
+    ],
+    "feeders": [
+     [
+      16.95,
+      5.5
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 0.3,
+      "w": 2.8,
+      "h": 4.0
+     },
+     {
+      "label": "T2",
+      "x": 10.5,
+      "y": 0.5,
+      "w": 2.5,
+      "h": 4.0
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        16.95,
+        5.5
+       ],
+       [
+        8.0,
+        7.8
+       ],
+       [
+        1.6,
+        7.4
+       ],
+       [
+        0.6,
+        7.3
+       ],
+       [
+        0.1,
+        7.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.4,
+        7.1
+       ],
+       [
+        9.0,
+        4.5
+       ],
+       [
+        18.0,
+        2.0
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.4,
+       7.0
+      ],
+      [
+       1.4,
+       7.5
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "The sliced feed stays low off the glass. A closes in, gets under it and lifts deep into T1."
+  },
+  {
+   "id": "G9",
+   "title": "Every ball off a wall.",
+   "level": "3–5",
+   "players": "4",
+   "time": "16 min",
+   "focus": "Patience, depth",
+   "summary": "Two pairs rally cooperatively from the back, every ball reaching the back glass before it is played; after ten, the point goes live.",
+   "setup": "Both pairs start about 2 m from their back glass. One ball, no feeder. Any player starts with an underarm ball deep into the far court.",
+   "run": [
+    "Rally cooperatively. Every ball must bounce and touch the back glass before it is played, so every shot must reach the wall.",
+    "Count aloud together. A ball played before it reaches the glass, or one that dies short of it, sends the count back to zero.",
+    "When the count reaches ten, either pair may attack or move forward. From that moment the point is played under normal rules.",
+    "The pair that wins the live point scores one. A rally that never reaches ten scores nothing. Play to seven, then change partners."
+   ],
+   "decision": "When the rally goes live, who strikes first? Use the cooperative phase to find which opponent handles the glass worst, then aim the first live ball there.",
+   "watch": "Pushing the ball deep with too much pace, so the rebound carries into the middle and the rally becomes a scramble. Use height, not speed, to get your depth.",
+   "up": "After ten, the pair that struck the tenth ball must lob, and the other pair may take the net at once.",
+   "down": "Count to six, and side-glass balls count as well as back-glass balls.",
+   "pass": "Both pairs reach ten in five rallies in a row before scoring starts.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.2,
+        6.6
+       ],
+       [
+        10.0,
+        5.0
+       ],
+       [
+        17.0,
+        3.6
+       ],
+       [
+        19.0,
+        3.3
+       ],
+       [
+        19.9,
+        3.2
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.8,
+        3.5
+       ],
+       [
+        10.0,
+        5.5
+       ],
+       [
+        3.0,
+        6.4
+       ],
+       [
+        1.0,
+        6.6
+       ],
+       [
+        0.1,
+        6.7
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "Every shot must reach the back glass before it is played. At ten the point goes live."
+  },
+  {
+   "id": "G10",
+   "title": "Exit and climb.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Pair transition",
+   "summary": "When A's lob off the glass truly beats the net pair, A and B take the net together; otherwise they hold the back.",
+   "setup": "A and B at the back. C and D at net position on the far side. C starts each point by feeding firmly into the back glass on A's side.",
+   "run": [
+    "C feeds into A's back glass. A plays the exit: a lob over C or D, or a low ball if the lob is not on.",
+    "When A sees the lob will pass the net pair and turn them, A calls 'up' and both advance side by side.",
+    "If the lob is short, or C and D can play an overhead, A calls 'stay', and the pair holds the back of the court and defends.",
+    "Play the point out. A point won at the net after an 'up' call scores two. Swap the feeding role and sides after ten points."
+   ],
+   "decision": "Has the lob bought enough time? You climb only when the opponents are turning their backs to chase. A lob they can smash is not a ticket to the net.",
+   "watch": "Only the hitter going forward while the partner stays back. B moves on A's call, and the two arrive level, like one unit.",
+   "up": "C and D answer good lobs with a counter-lob, so A and B must arrive balanced.",
+   "down": "Remove D, so A and B face a single net player and the read is simpler.",
+   "pass": "A correct 'up' or 'stay' call on eight of ten points, judged by the waiting pair.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      3.0
+     ],
+     [
+      "C",
+      13.0,
+      3.0
+     ],
+     [
+      "D",
+      13.0,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        13.0,
+        3.5
+       ],
+       [
+        7.0,
+        6.5
+       ],
+       [
+        2.6,
+        7.5
+       ],
+       [
+        1.0,
+        7.6
+       ],
+       [
+        0.1,
+        7.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        1.8,
+        7.3
+       ],
+       [
+        9.0,
+        2.5
+       ],
+       [
+        18.5,
+        2.5
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.0
+      ],
+      [
+       6.8,
+       7.0
+      ]
+     ],
+     [
+      [
+       2.0,
+       3.0
+      ],
+      [
+       6.8,
+       3.0
+      ]
+     ],
+     [
+      [
+       13.0,
+       3.0
+      ],
+      [
+       17.5,
+       3.0
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A's lob sends C back to chase. On A's 'up' call, A and B climb to the net together."
+  }
+ ]
+}

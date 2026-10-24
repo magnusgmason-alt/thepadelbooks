@@ -1,0 +1,87 @@
+@page { size: 6in 9in; margin: 0 }
+* { box-sizing: border-box }
+html, body { margin: 0; padding: 0 }
+body { font-family: "Poppins", "Helvetica Neue", Arial, sans-serif; color: #1A1A1A; font-size: 8.6pt; line-height: 1.5; -webkit-print-color-adjust: exact; print-color-adjust: exact }
+.page { width: 6in; height: 9in; position: relative; overflow: hidden; break-before: page; background: #fff }
+.page:first-child { break-before: auto }
+.runhead { position: absolute; top: .42in; left: 0; right: 0; text-align: center; font-size: 5.6pt; letter-spacing: .42em; font-weight: 500 }
+.inner { position: absolute; top: .78in; left: .62in; right: .62in; bottom: .72in; overflow: hidden }
+footer { position: absolute; bottom: .38in; left: .62in; right: .62in; display: flex; justify-content: space-between; font-size: 5.4pt; letter-spacing: .26em; color: #6B7480; text-transform: uppercase }
+.kicker { font-size: 5.8pt; letter-spacing: .32em; font-weight: 500; text-transform: uppercase; margin: 0 0 6pt }
+h1.t { font-weight: 300; font-size: 22pt; line-height: 1.12; margin: 0 0 10pt; letter-spacing: -.01em }
+h1.t .acc, .acc { color: #2F5F8F }
+p { margin: 0 0 7pt; font-weight: 400 }
+.small { font-size: 7.6pt; color: #555 }
+.mono { font-variant-numeric: tabular-nums; white-space: nowrap }
+/* lists */
+ol.nlist, ol.steps, ol.toc { list-style: none; margin: 4pt 0 8pt; padding: 0 }
+ol.nlist li, ol.toc li { display: flex; gap: 12pt; padding: 6pt 0; border-top: .6pt solid #E6E1D9 }
+ol.nlist li:last-child { border-bottom: .6pt solid #E6E1D9 }
+ol.nlist .n, ol.steps .n, ol.toc .n { color: #2F5F8F; font-size: 7.4pt; min-width: 16pt; padding-top: 1pt }
+ol.nlist b, ol.toc b { display: block; font-weight: 500; font-size: 8.8pt }
+ol.nlist span:not(.n), ol.toc div span { display: block; font-size: 7.8pt; color: #333 }
+ol.toc li { align-items: flex-start }
+ol.toc li div { flex: 1 }
+ol.toc .pg { font-size: 7.6pt; color: #333; min-width: 18pt; text-align: right }
+ol.steps li { display: flex; gap: 10pt; padding: 3.6pt 0; border-top: .6pt solid #E6E1D9 }
+ol.steps li:last-child { border-bottom: .6pt solid #E6E1D9 }
+/* boxes */
+aside.box { background: #F5F2EB; border-left: 2.4pt solid #1A1A1A; border-radius: 0 7pt 7pt 0; padding: 7pt 10pt; margin: 8pt 0 }
+aside.box .lbl { font-size: 5.6pt; letter-spacing: .3em; font-weight: 500; margin-bottom: 3pt }
+aside.box p { margin: 0; font-size: 8pt; font-weight: 500; line-height: 1.45 }
+/* drill */
+.dhead { display: flex; justify-content: space-between; align-items: center }
+.dhead .kicker { margin: 0 }
+.pill { border: .9pt solid #1A1A1A; border-radius: 20pt; padding: 3pt 9pt; font-size: 5.6pt; letter-spacing: .24em; font-weight: 500 }
+h1.dt { font-size: 19pt; margin: 6pt 0 6pt }
+.meta { display: grid; grid-template-columns: .7fr .8fr .8fr 1.7fr; border-top: .6pt solid #E6E1D9; border-bottom: .6pt solid #E6E1D9; padding: 4pt 0 5pt; margin-bottom: 6pt; font-size: 8.4pt }
+.meta span { display: block; font-size: 5.2pt; letter-spacing: .26em; color: #6B7480; margin-bottom: 1pt }
+figure.dia { margin: 2pt 0 4pt; text-align: center }
+figure.dia svg { width: 64%; height: auto; display: block; margin: 0 auto }
+figure.dia figcaption { font-style: italic; font-weight: 300; font-size: 7.4pt; color: #444; text-align: left; margin-top: 2pt }
+.lab { font-size: 5.6pt; letter-spacing: .3em; font-weight: 600; display: block; margin: 5pt 0 1pt }
+.acc2 { color: #2F5F8F }
+p.setup { font-size: 8.2pt; margin: 0 0 2pt }
+p.setup .lab { margin-top: 0 }
+ol.steps { margin: 1pt 0 3pt; font-size: 8.1pt; line-height: 1.42 }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 7pt; margin: 4pt 0 }
+.two aside.box { margin: 0; padding: 6pt 8pt }
+.two aside.box p { font-size: 7.5pt; font-weight: 500 }
+.rows > div { display: grid; grid-template-columns: 58pt 1fr; gap: 6pt; padding: 3.2pt 0; border-top: .6pt solid #E6E1D9; font-size: 7.9pt; line-height: 1.4 }
+.rows > div:last-child { border-bottom: .6pt solid #E6E1D9 }
+.rows .lab { margin: 1.5pt 0 0 }
+/* chapter openers */
+.chopen { padding-top: .5in }
+.bignum { font-weight: 200; font-size: 64pt; line-height: 1; color: #2F5F8F; margin: 0 0 6pt }
+h1.ct { font-size: 26pt }
+.ckick { font-size: 5.6pt; letter-spacing: .32em; color: #6B7480; margin-bottom: 26pt }
+.opdia svg { width: 100%; height: auto; display: block }
+.opline { position: absolute; bottom: 0; left: 0; right: 0; font-style: italic; font-weight: 300; font-size: 8pt; color: #333 }
+/* title */
+.page.title { background: #F1F1F1 }
+.titlepage { position: absolute; inset: .5in .5in .45in; text-align: center }
+.series { font-size: 6pt; letter-spacing: .36em; margin-top: .55in; font-weight: 500 }
+h1.tp { font-size: 40pt; line-height: 1.02; margin: 18pt 0 8pt; font-weight: 300 }
+.tpsub { font-size: 8.6pt; letter-spacing: .3em; font-weight: 600; color: #2F5F8F; margin-bottom: 8pt }
+.by { font-style: italic; font-weight: 300; font-size: 11pt; margin-bottom: 12pt }
+.tpline { font-size: 5.8pt; letter-spacing: .3em; line-height: 2; margin-bottom: 40pt }
+.titlepage .opdia { width: 88%; margin: 0 auto }
+.ed { position: absolute; bottom: 0; left: 0; right: 0; font-size: 5.6pt; letter-spacing: .3em; color: #6B7480 }
+.copy { position: absolute; bottom: 0; font-size: 6.8pt; color: #444 }
+.copy p { margin-bottom: 6pt }
+/* tables */
+table.tbl { width: 100%; border-collapse: collapse; margin: 6pt 0 8pt; font-size: 7.8pt }
+table.tbl th { font-size: 5.4pt; letter-spacing: .26em; text-align: left; font-weight: 500; color: #6B7480; padding: 3pt 4pt 3pt 0; border-bottom: .9pt solid #C9BFA8 }
+table.tbl td { padding: 4.5pt 6pt 4.5pt 0; border-bottom: .6pt solid #E6E1D9; vertical-align: top }
+table.log td { height: 30pt }
+ul.check { list-style: none; padding: 0; margin: 4pt 0 8pt }
+ul.check li { padding: 5.5pt 0 5.5pt 18pt; border-top: .6pt solid #E6E1D9; position: relative; font-size: 8.3pt }
+ul.check li:before { content: ""; position: absolute; left: 0; top: 7pt; width: 8pt; height: 8pt; border: .9pt solid #1A1A1A; border-radius: 2pt }
+dl.gloss { margin: 0; display: grid; grid-template-columns: 74pt 1fr; font-size: 7.8pt }
+dl.gloss dt { font-weight: 500; padding: 4pt 6pt 4pt 0; border-top: .6pt solid #E6E1D9 }
+dl.gloss dd { margin: 0; padding: 4pt 0; border-top: .6pt solid #E6E1D9; color: #333 }
+figure.dia.blank { margin: 4pt 0 } figure.dia.blank svg { width: 86% }
+.lines div { height: 17pt; border-bottom: .6pt solid #E6E1D9 }
+
+table.track { font-size: 7.2pt } table.track td { padding: 3.6pt 5pt 3.6pt 0 } table.track th:nth-child(n+3), table.track td:nth-child(n+3) { width: 22pt; border-left: .6pt solid #E6E1D9; padding-left: 4pt }
+table.track td:first-child { white-space: normal; width: 92pt }

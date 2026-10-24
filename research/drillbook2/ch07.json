@@ -1,0 +1,900 @@
+{
+ "chapter": "07",
+ "title": "Pair Patterns",
+ "kicker": "ROLES · THE MIDDLE · LOB TARGETS · SWITCHES · AUSTRALIAN FORMATION · PRE-POINT PLANS",
+ "opener_line": "A pair wins with shared patterns: one player builds, the other finishes, both move together.",
+ "intro_title": "Two players, one plan.",
+ "intro": [
+  "Plenty of club pairs are really two individuals who happen to share a court. Each of them hits good shots, yet nobody has settled who builds the point, who finishes it, who owns the ball through the middle or what happens when a lob sails over one of them. The ten drills in this chapter turn those open questions into shared answers, so your partner's next move stops being a surprise and starts being something you can lean on.",
+  "The order runs from simple roles to full plans. The first drills give each side of the court a job: the drive player builds, the revés player finishes. The middle of the chapter covers the moments pairs most often lose together, such as middle balls, switches and the gap after a line ball. The last drills add a serving formation and a plan you agree between points. Use your regular partner where you can, and talk each drill through before the first ball."
+ ],
+ "pillars": [
+  {
+   "title": "Clear roles",
+   "text": "The right side builds with patience, the left side finishes. Both of you know the job before the ball is struck."
+  },
+  {
+   "title": "One middle rule",
+   "text": "Agree who owns the centre ball and its exceptions, then apply that rule the same way every time."
+  },
+  {
+   "title": "Move together",
+   "text": "Same depth, same time. When one of you goes back or comes forward, the other goes too."
+  },
+  {
+   "title": "Plan, then play",
+   "text": "Agree a short pattern between points and carry it out, even when the score gets tight."
+  }
+ ],
+ "box": {
+  "label": "PAIR PRINCIPLE",
+  "text": "If you and your partner would answer 'whose ball is that?' differently, the opponents already have a target. Settle the answer in training, not in the middle of a rally."
+ },
+ "drills": [
+  {
+   "id": "P1",
+   "title": "Set up the revés finisher.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Building for the finish",
+   "summary": "A builds with deep volleys until the defenders send a short lob to the left half, where B finishes it. B's overhead winners count double.",
+   "setup": "Your pair holds the net, A on the right and B on the left. C and D defend from the back glass. C opens every point with a lob towards A.",
+   "run": [
+    "Play the point out. A builds: volleys deep into the corners and through the middle, never short and never forced.",
+    "B finishes. When a lob on the left half is short enough to attack, B plays the víbora into the corner or the x3; otherwise a deep bandeja.",
+    "Scoring: a point won by B's overhead counts 2, any other point your pair wins counts 1, and every point C and D win counts 1.",
+    "Play to 11. Then C and D take the net and run the same pattern."
+   ],
+   "decision": "A reads which volley buys the short lob: depth into the back glass, or a ball at the weaker lobber's feet. B reads which lob is really there to attack.",
+   "watch": "A tries to win the point alone from a building ball. Fix: A only goes for a winner from a high, easy ball inside the service box.",
+   "up": "C and D may lob anywhere, so B must also cover the middle lob with an overhead on the forehand side.",
+   "down": "C and D play only cross-court lobs to the left half, at medium height.",
+   "pass": "Your pair reaches 11 first, with at least four points finished by B's overhead.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        7.5,
+        7.0
+       ],
+       [
+        18.6,
+        8.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.0,
+        7.0
+       ],
+       [
+        12.0,
+        4.0
+       ],
+       [
+        6.9,
+        2.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       6.4,
+       2.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A volleys deep into D's corner. D's lob lands short on the left, and B steps back to finish."
+  },
+  {
+   "id": "P2",
+   "title": "Drive builder: patience on the right.",
+   "level": "3–5",
+   "players": "4",
+   "time": "12 min",
+   "focus": "Neutral play from the back",
+   "summary": "From the back of the right side, A must play four neutral balls before attacking is allowed, building calmly against a net pair.",
+   "setup": "Your pair starts behind the service line, A on the right. The opponents hold the net. B may only lob; A may play anything but counts each shot aloud.",
+   "run": [
+    "C starts each point with a deep volley to A. Play it out, with A keeping count of every shot.",
+    "Up to and including four, A may only play neutral balls: low at a net player's feet, a deep lob, or a slow ball through the middle.",
+    "From the fifth shot, A may attack: a firm drive at the body, a passing ball, or a chiquita and move up. An earlier attack loses the point.",
+    "Play to 11, then swap: B builds from the left with the same count and A may only lob."
+   ],
+   "decision": "Which neutral ball fits: low when the net player hangs back, a lob when that player crowds the net, the middle when both drift wide.",
+   "watch": "Neutral balls hit too hard, so the pace comes straight back at your feet. Fix: play at about two-thirds pace and let depth do the work.",
+   "up": "Raise the count to seven shots, or allow C and D to smash.",
+   "down": "Lower the count to three, and C and D volley at medium pace.",
+   "pass": "A makes no more than two errors before the fifth shot in a game to 11.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      3.0
+     ],
+     [
+      "C",
+      12.5,
+      3.0
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.0
+       ],
+       [
+        11.8,
+        3.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        2.0,
+        7.0
+       ],
+       [
+        11.0,
+        6.0
+       ],
+       [
+        18.5,
+        2.6
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "A's two most useful neutral balls from the right: low at C's feet, or a lob over C into the deep corner."
+  },
+  {
+   "id": "P3",
+   "title": "Own the middle: the forehand rule.",
+   "level": "3–5",
+   "players": "3",
+   "time": "10 min",
+   "focus": "Middle-ball calls",
+   "summary": "F sends balls through the middle and the pair applies one agreed rule, B's forehand takes it, plus two exceptions, with a call every time.",
+   "setup": "Both partners right-handed, about 2.5 metres from the net. F with a basket at the far back glass, shifting position between feeds. With a left-hander in the pair, agree your own rule first.",
+   "run": [
+    "Say the rule aloud first: for two right-handers, B on the left has the forehand towards the centre, so middle volleys and lobs belong to B.",
+    "Exception one: if A is clearly closer to the net, A takes the middle volley. Exception two: if B has just been pulled wide, A takes it.",
+    "F feeds 20 middle balls in a random mix of volleys, low balls and lobs. Whoever plays it calls 'mine'; the partner answers 'yours'.",
+    "Second set: F feeds in pairs, the first ball wide to pull B out, the second through the middle."
+   ],
+   "decision": "On the first step: standard case, so B's forehand, or does an exception apply? You should both reach the same answer, not follow whoever shouts first.",
+   "watch": "Both players reaching, or neither moving. Fix: B moves first on every middle ball; A goes only when B's first step shows the ball is out of reach.",
+   "up": "F feeds faster, with a two-second gap, and mixes in balls slightly off the centre.",
+   "down": "Only waist-high middle volleys, no lobs, and a four-second gap.",
+   "pass": "17 of 20 middle balls played by the right player, with a clear call.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      18.0,
+      5.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.0,
+        5.0
+       ],
+       [
+        8.2,
+        4.9
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.0,
+        5.0
+       ],
+       [
+        12.0,
+        4.4
+       ],
+       [
+        4.6,
+        4.8
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       7.6,
+       4.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A ball through the middle: B moves first, because for two right-handers B's forehand faces the centre."
+  },
+  {
+   "id": "P4",
+   "title": "Lob the backhand shoulder, then close.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Lob target and closing",
+   "summary": "From the back, your pair lobs over a net player's backhand shoulder into a deep zone, then both move up once the lob is past that player.",
+   "setup": "Your pair defends from the back; the opponents start at the net. Mark T1 behind C: the last three metres before the glass, on the centre side of C's half.",
+   "run": [
+    "C starts with a low ball. Rally until one of you has a ball you can lob with control, then aim for T1.",
+    "If the lob clears C into T1, A and B move forward together and take the net side by side.",
+    "Points your pair wins after a T1 lob and a shared close count 2; all other points count 1.",
+    "Play to 11. Then move T1 behind D, this time on the side-wall side, since a right-hander on the left has the backhand by the side wall."
+   ],
+   "decision": "Before the point: which shoulder? On the right a right-hander's backhand faces the centre, on the left it is by the wall; left-handers are reversed. During it: can you lob from this ball, and is the lob truly past?",
+   "watch": "Moving up behind a lob the net player can still reach. Fix: go forward only when the net player turns to chase it, never on your own contact.",
+   "up": "C and D may smash any lob that lands short of T1.",
+   "down": "T1 covers the whole back half of C's side, and C and D volley at medium pace.",
+   "pass": "At least five lobs into T1 in a game to 11, and a shared close after each.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.0
+     ],
+     [
+      "B",
+      2.0,
+      3.0
+     ],
+     [
+      "C",
+      12.5,
+      3.0
+     ],
+     [
+      "D",
+      12.5,
+      7.0
+     ]
+    ],
+    "zones": [
+     {
+      "label": "T1",
+      "x": 17.0,
+      "y": 2.5,
+      "w": 3.0,
+      "h": 2.5
+     }
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.0
+       ],
+       [
+        11.0,
+        4.0
+       ],
+       [
+        18.5,
+        3.8
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.0
+      ],
+      [
+       7.0,
+       6.8
+      ]
+     ],
+     [
+      [
+       2.0,
+       3.0
+      ],
+      [
+       7.0,
+       3.2
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A lobs over C's backhand shoulder into T1. As C turns to chase, A and B move up to the net together."
+  },
+  {
+   "id": "P5",
+   "title": "The Australian serve pattern.",
+   "level": "5–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Serving formation",
+   "summary": "B starts at the net directly in front of the server, A serves and crosses to the other half, and the pair attacks the forced line return.",
+   "setup": "A serves from the right, one foot behind the service line. B takes the net on A's half, a little towards the side wall so the serve misses B. C receives.",
+   "run": [
+    "Nothing in the rules ties the server's partner to one spot on their own side, so this is legal. A serve that hits B is a fault, so B checks the spot every point.",
+    "A serves towards the centre line to take away the wide angle, then moves diagonally forward to the left half. C's cross-court return now meets B.",
+    "A takes the return down the line and plays it deep cross-court or lobs. Afterwards the pair returns to its usual sides.",
+    "A serves ten points, alternating boxes as in a game: from the left box, B stands on the left and A crosses right. Then B serves ten."
+   ],
+   "decision": "Is the formation worth it against this receiver? Against habitual cross-court returners, yes. A decides how early to cross without leaving the right half open.",
+   "watch": "A crosses too late and the line return passes A. Fix: A's first step after the serve goes diagonally forward to the left.",
+   "up": "Play a full set, with B choosing the formation by signal on no more than half your serves.",
+   "down": "C returns at medium pace, cross-court or down the line only, no lobs.",
+   "pass": "Win at least six of A's ten serving points.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.5
+     ],
+     [
+      "B",
+      8.0,
+      7.5
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      16.5,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.5
+       ],
+       [
+        14.5,
+        4.3
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.0,
+        3.0
+       ],
+       [
+        6.8,
+        2.8
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.5
+      ],
+      [
+       6.0,
+       3.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "B blocks the cross-court return, so C goes down the line, where A has crossed to cover after serving."
+  },
+  {
+   "id": "P6",
+   "title": "Mine, switch or glass.",
+   "level": "4–6",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Lob over the partner",
+   "summary": "F lobs over B at varied heights and depths. B makes one of three calls, and the pair must be level on its new sides for ball two.",
+   "setup": "Your pair starts in net position, about 2.5 metres from the net. F with a basket at the far back glass, on the half diagonal to B, ready to lob.",
+   "run": [
+    "F lobs cross-court over B, changing height and depth each time. B calls before the ball peaks: 'mine', 'switch' or 'glass'.",
+    "'Mine': B backs up and plays a deep bandeja. 'Switch': A crosses behind B and plays it, B takes the right half. 'Glass': both drop back, B plays it off the glass.",
+    "Whatever the call, F feeds a second ball at once, low to whoever is now on the right. The pair must be level on its new halves.",
+    "Ten sequences per set. Then F moves to the other diagonal and lobs over A, so A makes the calls."
+   ],
+   "decision": "B judges in one look whether an overhead going back is possible or whether the lob is too deep. A crosses only on 'switch', never on a guess.",
+   "watch": "A late call, so both chase or both stop. Fix: B calls while the ball is still rising, and A reacts to the word, not the flight.",
+   "up": "Some lobs go over the middle, where either player may own them.",
+   "down": "Only two calls, 'mine' or 'switch', and lobs of medium height.",
+   "pass": "8 of 10 sequences with the right call before the peak and the pair level for ball two.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      18.0,
+      7.5
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        18.0,
+        7.5
+       ],
+       [
+        11.0,
+        4.0
+       ],
+       [
+        3.0,
+        2.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       3.6,
+       3.2
+      ]
+     ],
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       6.5,
+       6.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A deep lob over B: B calls 'switch', A crosses behind B to play it, and B takes the right half."
+  },
+  {
+   "id": "P7",
+   "title": "Shut the middle after the line.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Covering after the line",
+   "summary": "When one of you volleys down the line, the partner slides in to close the middle, leaving only a tight angle or a lob.",
+   "setup": "Your pair volleys from net position; the opponents play from the back. Place a cone on the centre line, level with you, as the slider's reference.",
+   "run": [
+    "C starts with a medium ball to A. A volleys down the line, deep to D. Every rally in this set starts this way.",
+    "As A's volley crosses the net, A holds the line and B slides until about a racket's length from the cone.",
+    "D plays any shot and the point is live. A winning volley by B off a middle ball scores 2; other points count 1.",
+    "Play to 11. Then C starts to B, B volleys down the line to C, and A closes the middle."
+   ],
+   "decision": "Read where your partner's ball went. Line ball: the partner closes the middle. Cross-court ball: both stay central. Read it on your partner's contact.",
+   "watch": "B watches the opponent in front and stays wide, leaving a gap. Fix: B tracks the ball, not the player, and steps in as A's volley crosses.",
+   "up": "C and D may also lob over the player who slid, so the pair must handle a switch.",
+   "down": "D replies only through the middle or down the line, at medium pace.",
+   "pass": "No ball passes between you through the middle in a game to 11.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.5
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      18.0,
+      3.0
+     ],
+     [
+      "D",
+      18.0,
+      7.5
+     ]
+    ],
+    "cones": [
+     [
+      7.5,
+      5.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        7.5,
+        7.5
+       ],
+       [
+        18.5,
+        8.6
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        18.0,
+        7.5
+       ],
+       [
+        8.2,
+        4.9
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       7.5,
+       4.3
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "A volleys down the line to D. B slides towards the cone, so D's middle reply runs into B's racket."
+  },
+  {
+   "id": "P8",
+   "title": "Pick a target.",
+   "level": "4–6",
+   "players": "4",
+   "time": "15 min",
+   "focus": "Pressuring one opponent",
+   "summary": "Your pair sends every ball to one chosen opponent, with one free ball per point to the other player that scores double if it wins.",
+   "setup": "Normal 2 v 2 from a serve. Before each game, A and B quietly choose the target. Cones along the far side's extended centre line mark the halves.",
+   "run": [
+    "Your pair plays every ball into the target's half. A ball into the other half that is not your free ball loses the point.",
+    "Each point you have one free ball into the other half. Save it for when the target's partner drifts across to help.",
+    "Scoring: a point won with the free ball counts 2, a point lost by a target error counts 2 for you, and every other point counts 1.",
+    "C and D play normally. Play four games, changing the target after any game if you want."
+   ],
+   "decision": "How to keep pressure on one player without giving that player a rhythm, and when the free ball is worth spending: only when the target's partner is out of position.",
+   "watch": "Feeding the target the same ball until it is grooved. Fix: change height, pace and depth on every shot, never three alike in a row.",
+   "up": "No free ball: every shot of every point goes to the target.",
+   "down": "Two free balls per point, and C and D may not smash.",
+   "pass": "Win at least three of the four games, with six or more points from target errors.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      17.5,
+      3.0
+     ],
+     [
+      "D",
+      17.5,
+      7.0
+     ]
+    ],
+    "cones": [
+     [
+      13.0,
+      5.0
+     ],
+     [
+      16.0,
+      5.0
+     ],
+     [
+      19.0,
+      5.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        7.5,
+        7.0
+       ],
+       [
+        16.8,
+        3.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        7.5,
+        3.0
+       ],
+       [
+        13.0,
+        1.5
+       ],
+       [
+        19.2,
+        2.0
+       ]
+      ]
+     }
+    ],
+    "half": null
+   },
+   "caption": "C is the target: A plays low at C's feet, B lobs into C's corner. Every ball goes to C's half."
+  },
+  {
+   "id": "P9",
+   "title": "The pre-point plan.",
+   "level": "5–6",
+   "players": "4",
+   "time": "20 min",
+   "focus": "Planning between points",
+   "summary": "Before every point, each pair agrees a short plan within the 20 seconds allowed, and scores for carrying it out as well as for winning.",
+   "setup": "Normal 2 v 2. Serving plans: 'Glass' (serve into the side glass, first volley deep middle) and 'Body' (serve at the receiver, first volley into the receiver's corner). Receiving: 'Over' (lob the net player, close) and 'Low'.",
+   "run": [
+    "Between points, the serving pair names a serving plan and the receivers a receiving plan, quietly. 'Low' means the return goes at the server's feet.",
+    "Each plan has three parts: first shot, second shot and who covers the middle lob. Confirm all three every time.",
+    "Play the point. Afterwards each pair says honestly whether it carried out its first two shots.",
+    "Scoring: won with the plan 3, won without it 1, lost with the plan 1, lost without it 0. Play six games and compare totals."
+   ],
+   "decision": "Which plan fits this score, this server and the opponents' last point. Then the harder part: sticking to it once the ball is moving.",
+   "watch": "Plans that grow every point and run past 20 seconds. Fix: one word names the plan and the partner repeats it back.",
+   "up": "Add an Australian formation plan, and score plans only from 30–30 or deuce.",
+   "down": "Only the serving pair plans; the receiving pair plays freely.",
+   "pass": "Carry out the plan on at least two in every three points over six games.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      2.0,
+      7.5
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ],
+     [
+      "C",
+      17.5,
+      3.0
+     ],
+     [
+      "D",
+      13.0,
+      7.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        2.0,
+        7.5
+       ],
+       [
+        14.8,
+        3.5
+       ]
+      ]
+     },
+     {
+      "pts": [
+       [
+        17.5,
+        3.0
+       ],
+       [
+        7.0,
+        6.6
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       2.0,
+       7.5
+      ],
+      [
+       6.5,
+       6.8
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "Plan 'Body': A serves at C and moves in to play the first volley deep into C's corner."
+  },
+  {
+   "id": "P10",
+   "title": "Same depth, same time.",
+   "level": "3–5",
+   "players": "3",
+   "time": "12 min",
+   "focus": "Moving as a pair",
+   "summary": "F feeds mixed sequences and calls 'freeze' after each of your shots. You score only if you are level and both shifted towards the ball.",
+   "setup": "Your pair starts in net position. F feeds from a basket on the far side, from different spots. A spare player by the side glass can judge.",
+   "run": [
+    "F feeds sequences of six balls: volleys, a deep lob that pushes you back, a short ball that brings you forward and some wide balls.",
+    "After each of your shots, F calls 'freeze'. Both of you stop exactly where you are, without adjusting.",
+    "F checks two things: are you level, neither more than a metre ahead, and have you both shifted towards the ball's side? Two yeses score 1.",
+    "Six sequences per round, then swap so F feeds more balls to the other player, who must now lead the movement."
+   ],
+   "decision": "Every move your partner makes is a move for you: back when your partner goes back, up when they come up, across when the ball goes wide.",
+   "watch": "One player stays at the net while the other is lobbed back, opening a diagonal gap. Fix: when your partner turns to chase a lob, drop back alongside.",
+   "up": "F calls 'freeze' only at random, two or three times per sequence, so you can't prepare for it.",
+   "down": "Four-ball sequences at a slow pace with a three-second gap.",
+   "pass": "At least 30 of 36 freezes with both checks passed.",
+   "diagram": {
+    "players": [
+     [
+      "A",
+      7.5,
+      7.0
+     ],
+     [
+      "B",
+      7.5,
+      3.0
+     ]
+    ],
+    "feeders": [
+     [
+      17.0,
+      5.0
+     ]
+    ],
+    "shots": [
+     {
+      "pts": [
+       [
+        17.0,
+        5.0
+       ],
+       [
+        11.0,
+        7.0
+       ],
+       [
+        3.5,
+        7.4
+       ]
+      ]
+     }
+    ],
+    "moves": [
+     [
+      [
+       7.5,
+       7.0
+      ],
+      [
+       4.0,
+       7.0
+      ]
+     ],
+     [
+      [
+       7.5,
+       3.0
+      ],
+      [
+       4.5,
+       3.4
+      ]
+     ]
+    ],
+    "half": null
+   },
+   "caption": "F lobs over A. A goes back to play it, and B drops back too so the pair stays level."
+  }
+ ]
+}
