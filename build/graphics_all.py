@@ -2,6 +2,7 @@
 and which Mac folder it is exported to."""
 import graphics_court as GC
 import graphics_rules as GR
+import graphics_shots as GS
 from diagrams import figure, legend, brand
 
 GLASS_MESH = legend([("glass", "Glass"), ("mesh", "Mesh (metal fence)")])
@@ -55,6 +56,39 @@ PLACE = {
 
 PLACE2 = {'padel-serve-and-return': [('The serve rules (FIP)', 'R01-the-serve'), ('Faults and lets', 'R03-service-faults'), ('Returning serve', 'R05-return-of-serve')], 'how-to-play-padel': [('Padel how to play: the basic rules', 'R01-the-serve'), ('Padel how to score', 'R23-scoring')], 'padel-rules': [('The serve: underarm, after a bounce', 'R01-the-serve'), ('How the walls work', 'R09-opponents-wall'), ('Volleys, the net and your body', 'R16-ball-hits-player'), ('Playing outside the court', 'R13-out-of-court-play')], 'padel-serve-rules-waist-height': [('What the rules say', 'R02-waist-height-rule')], 'padel-service-faults': [('What the rules say', 'R03-service-faults')], 'padel-let-and-net-serve-rules': [('What the rules say', 'R04-net-serve-and-let')], 'can-you-volley-the-serve-in-padel': [('What the rules say', 'R05-return-of-serve')], 'padel-serving-and-receiving-order': [('What the rules say', 'R06-serving-order'), ('How this works on court', 'R07-tie-break-serving')], 'padel-scoring': [('Points: 15, 30, 40, game', 'R23-scoring'), ('The tie-break, step by step', 'R07-tie-break-serving')], 'can-you-play-the-ball-off-your-own-wall': [('What the rules say', 'R08-own-wall')], 'padel-ball-hits-opponents-wall-directly': [('What the rules say', 'R09-opponents-wall')], 'padel-ball-hits-the-fence': [('What the rules say', 'R10-the-mesh')], 'padel-ball-on-top-of-the-wall': [('What the rules say', 'R11-top-of-wall-hole-corner')], 'padel-ball-hits-ceiling': [('What the rules say', 'R12-ceiling-and-lights')], 'padel-out-of-court-play': [('What the rules say', 'R13-out-of-court-play')], 'can-you-touch-the-net-in-padel': [('Real match situations', 'R14-touching-the-net')], 'can-you-reach-over-the-net-in-padel': [('What the rules say', 'R15-reaching-over-the-net')], 'padel-ball-hits-player': [('What the rules say', 'R16-ball-hits-player')], 'padel-double-hit-rule': [('What the rules say', 'R17-double-hit')], 'padel-racket-strap-rule': [('What the rules say', 'R18-racket-rules')], 'how-to-choose-a-padel-racket': [('What the rules say', 'R18-racket-rules')], 'padel-change-of-ends': [('What the rules say', 'R19-change-of-ends')], 'padel-player-positions-rules': [('The Australian formation', 'R20-player-positions')], 'padel-interference-and-hindrance': [('What the rules say', 'R21-interference')], 'padel-match-times-and-warm-up': [('What the rules say', 'R22-match-times')]}
 for _k, _v in PLACE2.items():
+    PLACE.setdefault(_k, []).extend(_v)
+
+SH = "03 SHOTS"
+G.update({
+ "S01-three-overheads": (SH, GS.s01, "The three overheads by contact point: bandeja around head height with slice, víbora at head height brushing the outside of the ball, smash at full stretch. Hit all three in front of you.", ""),
+ "S02-bandeja-path-and-target": (SH, GS.s02, "The bandeja: when a lob pushes you back, slice it deep towards the back glass and the corners, then move forward to the net again. Avoid a short ball with no pace.", ""),
+ "S03-vibora-side-glass": (SH, GS.s03, "The víbora: side spin and slice into the corner, so the ball skids off the side glass, runs into the back glass and comes out low.", ""),
+ "S04-smash-flat-x3-x4": (SH, GS.s04, "Smash options: flat into the side glass, the por tres (out over the side after the back wall) and the por cuatro (out over the 4 m back).", ""),
+ "S05-lob-trajectory": (SH, GS.s05, "The lob from the side: over the net players' reach, landing just past their service line and before the back glass.", ""),
+ "S06-volley-position-targets": (SH, GS.s06, "Volleying about 2 m from the net: aim deep at the opponents' feet, into the side glass near the corner, or down the middle.", ""),
+ "S07-chiquita": (SH, GS.s07, "The chiquita: a slow, low ball at the net players' feet or down the middle, so they volley upwards. Then move up together.", ""),
+ "S08-bajada": (SH, GS.s08, "The bajada: the lob bounces, hits your back glass and comes out high. Get behind it and attack it downwards while it is at least waist height.", ""),
+ "S09-reading-the-back-glass": (SH, GS.s09, "How four common balls come off the back glass: fast and flat, high and slow, sliced, and topspin.", ""),
+ "S10-continental-grip": (SH, GS.s10, "The continental grip for a right-hander: edge to the floor like a small axe, the V on the top edge of the handle or just to its left. Left-handers mirror it.", ""),
+ "S11-forehand-backhand-footwork": (SH, GS.s11, "Forehand and backhand from above (right-hander): turn side-on early, short backswing, step in and meet the ball in front.", ""),
+ "S12-serve-targets": (SH, GS.s12, "Serve targets: the side glass, the T, or the receiver's body. Mix them, keep the ball low with slice, then take the net.", ""),
+ "S13-return-targets": (SH, GS.s13, "Return targets at club level: the server's feet as they move in, a deep lob over the net player, or through the middle.", ""),
+})
+PLACE3 = {
+ "how-to-hit-a-bandeja": [("Bandeja, víbora or smash?", "S01-three-overheads"), ("Where to aim", "S02-bandeja-path-and-target")],
+ "padel-vibora": [("What makes a víbora different", "S01-three-overheads"), ("Where to aim", "S03-vibora-side-glass")],
+ "padel-smash": [("Smash, bandeja or víbora?", "S01-three-overheads"), ("The por tres (x3)", "S04-smash-flat-x3-x4")],
+ "padel-lob": [("How high and how deep?", "S05-lob-trajectory")],
+ "padel-volley": [("Where to aim", "S06-volley-position-targets")],
+ "padel-chiquita": [("Where to aim", "S07-chiquita")],
+ "padel-bajada": [("When the bajada shot is on", "S08-bajada")],
+ "padel-back-glass": [("Reading the rebound", "S09-reading-the-back-glass")],
+ "padel-grip": [("How to hold a padel racket, step by step", "S10-continental-grip")],
+ "padel-forehand": [("Padel forehand technique, step by step", "S11-forehand-backhand-footwork")],
+ "padel-backhand": [("Padel backhand technique, step by step", "S11-forehand-backhand-footwork")],
+ "padel-serve-and-return": [("Where to aim your serve", "S12-serve-targets"), ("Return targets that work at club level", "S13-return-targets")],
+}
+for _k, _v in PLACE3.items():
     PLACE.setdefault(_k, []).extend(_v)
 
 def figure_html(gid):

@@ -41,18 +41,19 @@ Already done: racket shapes, balance, level guide and spec cards (7 racket artic
 - [x] R23 Scoring ladder: 15, 30, 40, deuce → advantage, golden point or Star Point → padel-scoring, padel-rules
 
 ## Step 3: Shots and technique (03 SHOTS)
-- [ ] S01 The three overheads by contact height: bandeja, víbora, smash (side view) → how-to-hit-a-bandeja, padel-vibora, padel-smash
-- [ ] S02 Bandeja path and target → how-to-hit-a-bandeja
-- [ ] S03 Víbora path into the side glass → padel-vibora
-- [ ] S04 Smash: flat, por tres (out over the side), por cuatro (out over the back) → padel-smash
-- [ ] S05 Lob trajectory, side view: over the net players, landing deep → padel-lob
-- [ ] S06 Volley: net position and targets (feet, side glass, middle) → padel-volley
-- [ ] S07 Chiquita: low ball to the net players' feet → padel-chiquita
-- [ ] S08 Bajada: high rebound off the back glass, attacked → padel-bajada
-- [ ] S09 Reading the back glass: fast, slow, slice and topspin rebounds (side view) → padel-back-glass
-- [ ] S10 Continental grip guide: racket edge and hand position → padel-grip
-- [ ] S11 Forehand and backhand: footwork and contact point from above → padel-forehand, padel-backhand
-- [ ] S12 Serve and return targets → padel-serve-and-return
+- [x] S01 The three overheads by contact height: bandeja, víbora, smash (side view) → how-to-hit-a-bandeja, padel-vibora, padel-smash
+- [x] S02 Bandeja path and target → how-to-hit-a-bandeja
+- [x] S03 Víbora path into the side glass → padel-vibora
+- [x] S04 Smash: flat, por tres (out over the side), por cuatro (out over the back) → padel-smash
+- [x] S05 Lob trajectory, side view: over the net players, landing deep → padel-lob
+- [x] S06 Volley: net position and targets (feet, side glass, middle) → padel-volley
+- [x] S07 Chiquita: low ball to the net players' feet → padel-chiquita
+- [x] S08 Bajada: high rebound off the back glass, attacked → padel-bajada
+- [x] S09 Reading the back glass: fast, slow, slice and topspin rebounds (side view) → padel-back-glass
+- [x] S10 Continental grip guide: racket edge and hand position → padel-grip
+- [x] S11 Forehand and backhand: footwork and contact point from above → padel-forehand, padel-backhand
+- [x] S12 Serve targets → padel-serve-and-return
+- [x] S13 Return targets (added) → padel-serve-and-return
 
 ## Step 4: Tactics (04 TACTICS)
 - [ ] T01 Move as a pair (the "rope") → padel-positioning-doubles, padel-doubles-strategy
