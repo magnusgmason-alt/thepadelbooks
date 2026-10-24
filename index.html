@@ -119,6 +119,10 @@ section.block{padding-block:72px;border-bottom:2px solid var(--line)}
 .cover-link .peek{position:absolute;left:12px;bottom:12px;background:var(--navy);color:var(--lime);font-family:var(--f-mono);font-size:12px;font-weight:600;padding:6px 10px;opacity:0;transform:translateY(4px);transition:opacity .15s,transform .15s}
 .cover-link:hover .peek,.cover-link:focus-visible .peek{opacity:1;transform:none}
 @media (hover:none){.cover-link .peek{opacity:1;transform:none}}
+.cover-link .badge{position:absolute;top:-14px;right:-12px;width:104px;height:104px;border-radius:50%;background:var(--lime);color:#14213D;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg);box-shadow:0 8px 18px -8px rgba(20,33,61,.55);border:3px solid #14213D;text-align:center;line-height:1;pointer-events:none}
+.cover-link .badge small{font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.cover-link .badge b{font-family:var(--f-display);font-weight:800;font-size:13px;letter-spacing:0;text-transform:uppercase;margin-top:5px}
+@media (max-width:520px){.cover-link .badge{width:88px;height:88px;right:-6px;top:-10px}.cover-link .badge b{font-size:11px}}
 .book h3 a{text-decoration:none}.book h3 a:hover{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:3px}
 .cover{aspect-ratio:6/9;max-width:100%;position:relative;overflow:hidden;padding:7% 8%;display:flex;flex-direction:column;color:#14213D;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45)}
 .cover .c-the{font-family:var(--f-display);font-weight:700;letter-spacing:.5em;font-size:11px}
@@ -293,13 +297,13 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
 <script>
 const books=[
  {img:"cover-beginner.jpg",url:"/the-padel-playbook-beginner-intermediate",buy:"https://discover.lemonsqueezy.com/checkout/buy/4a27a76c-dcad-450b-8424-2c8342e34585",full:"The Padel Playbook: Tips, Tricks & Techniques for Beginner and Intermediate Players",tag:"Beginner & Intermediate",p:"€4.99",pages:180},
- {img:"cover-advanced.jpg",url:"/the-padel-playbook-intermediate-advanced",buy:"https://discover.lemonsqueezy.com/checkout/buy/95eccf9e-1d7f-4981-a597-1bccd8924784",full:"The Padel Playbook: Tactics, Tips & Techniques for Intermediate and Advanced Players",tag:"Intermediate & Advanced",p:"€6.99",pages:180},
+ {img:"cover-advanced.jpg",url:"/the-padel-playbook-intermediate-advanced",buy:"https://discover.lemonsqueezy.com/checkout/buy/95eccf9e-1d7f-4981-a597-1bccd8924784",full:"The Padel Playbook: Tactics, Tips & Techniques for Intermediate and Advanced Players",tag:"Intermediate & Advanced",p:"€6.99",pages:180,badge:true},
  {img:"cover-kids.jpg",url:"/the-padel-playbook-kids-edition",buy:"https://discover.lemonsqueezy.com/checkout/buy/9de9b1ae-8714-4cea-b573-f62c1f74c044",full:"The Padel Playbook: Kids Edition, Padel for Ages 10 to 14",tag:"Kids · Ages 10–14",p:"€4.99",pages:120},
  {img:"cover-drill.jpg",url:"/the-padel-drill-book",buy:"https://discover.lemonsqueezy.com/checkout/buy/9c3274ae-37de-4408-8d43-a202bb4253ff",full:"The Padel Drill Book: 100 Drills to Train Smarter",tag:"100 Drills",p:"€6.99",pages:160}
 ];
 document.getElementById("shelf").innerHTML=books.map(b=>`
  <article class="book">
-  <a class="cover-link" href="${b.url}" aria-label="See ${b.full}"><img class="cover-img" src="${b.img}" alt="Cover of ${b.full}" width="700" height="1050" loading="lazy"><span class="peek">Look inside →</span></a>
+  <a class="cover-link" href="${b.url}" aria-label="See ${b.full}"><img class="cover-img" src="${b.img}" alt="Cover of ${b.full}" width="700" height="1050" loading="lazy"><span class="peek">Look inside →</span>${b.badge?'<span class="badge" aria-label="Amazon bestseller"><small>Amazon</small><b>Bestseller</b></span>':""}</a>
   <span class="eyebrow">${b.tag}</span>
   <h3><a href="${b.url}">${b.full}</a></h3>
   <div class="meta"><b>${b.p}</b><span>Ebook · ${b.pages} pages</span></div>
