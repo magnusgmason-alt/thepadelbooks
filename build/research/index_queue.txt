@@ -1,1 +1,42 @@
-# Search Console indexing. 24 Oct 2026: spot-checked 15 URLs across every batch (basics, rackets, rules, batch 5) — all "URL ist auf Google". Google is indexing new pages from the sitemap by itself; no manual requests needed. Re-check new articles after each new batch.
+# Search Console "Request indexing" queue: pages that got new graphics and need a re-crawl. All of them are already indexed; this just refreshes them.
+# Done 25 Oct 2026: padel-drills-for-beginners, padel-drills-for-2-players, padel-drills-for-4-players (quota hit after 3). | Done 25 Oct (2nd run): solo-padel-drills, padel-drills-for-intermediate-players, padel-drills-for-kids, padel-smash, how-to-hit-a-bandeja (Chrome stopped responding). | Done 26 Oct: padel-lob, padel-positioning-doubles, padel-calories, padel-warm-up, padel-levels-explained (stopped by Magnus).
+# NEW 30 Oct (priority):
+padel-court-cost
+how-much-does-padel-cost
+padel-equipment
+padel-balls
+what-to-wear-for-padel
+padel-americano
+padel-tournament-formats
+golden-point-padel
+padel-vs-squash
+paddle-tennis-vs-padel
+padel-racket-price
+round-vs-diamond-padel-racket
+first-time-playing-padel
+padel-lessons
+padel-history
+premier-padel-explained
+padel-terms
+padel-drop-shot
+padel-contra-pared
+padel-injuries
+journal
+# Re-crawl (older pages with new graphics):
+padel-shoes
+padel-exercises
+padel-beginner-mistakes
+padel-vibora
+padel-volley
+padel-chiquita
+padel-bajada
+padel-back-glass
+padel-grip
+padel-forehand
+padel-backhand
+padel-serve-and-return
+padel-tactics-for-beginners
+padel-tactics-intermediate
+padel-doubles-strategy
+padel-left-side-vs-right-side
+padel-singles

@@ -28,6 +28,15 @@ from batch5_b import B5_B
 from batch5_c import B5_C
 from batch5_d import B5_D
 B5 = B5_A + B5_B + B5_C + B5_D
+from batch6_a import B6_A
+from batch6_b import B6_B
+from batch6_c import B6_C
+from batch6_d import B6_D
+B6 = B6_A + B6_B + B6_C + B6_D
+_ONLY = os.environ.get("B6_ONLY")
+if _ONLY: B6 = [a for a in B6 if a["slug"] in _ONLY.split(",")]
+for _a in B6: _a.setdefault("date", "2026-10-30")
+B5 = B5 + B6
 for _a in RULES_Q + RACKET_ARTICLES + B5: _a['faq_schema'] = True
 import graphics_all as _GA
 _GA_N = _GA.place(ARTICLES + ARTICLES2 + ARTICLES3 + RULES_Q + RACKET_ARTICLES + B5)
@@ -108,13 +117,17 @@ def related(a, all_a, n=3):
     scored.sort(key=lambda t: (t[0], t[1]))
     return [x for _, _, x in scored[:n]]
 
+def _fmt(d):
+    import datetime as _d
+    x = _d.date.fromisoformat(d); return f"{x.day} {x.strftime('%b %Y')}"
+
 def article(a, all_a):
     url = f"{SITE}/{a['slug']}"
     w = words(a["lede"] + a["body"])
     mins = max(1, round(w / 220))
     a["mins"] = mins
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["desc"],
-          "image": f"{SITE}/photo-net-ball.jpg", "datePublished": DATE, "dateModified": DATE,
+          "image": f"{SITE}/photo-net-ball.jpg", "datePublished": a.get("date", DATE), "dateModified": a.get("date", DATE),
           "author": {"@type": "Organization", "name": "The Padel Academy", "url": SITE},
           "publisher": {"@type": "Organization", "name": "The Padel Academy", "url": SITE},
           "mainEntityOfPage": url, "wordCount": w}
@@ -139,7 +152,7 @@ def article(a, all_a):
 <header class="art-head"><div class="wrap art-grid">
 <div><nav class="crumbs"><a href="/journal">Journal</a> / <span>{a['cat']}</span></nav>
 <h1>{esc(a['h1'])}</h1>
-<div class="meta"><span>{mins} min read</span><span>By The Padel Academy</span><span>Updated 23 Oct 2026</span></div></div>
+<div class="meta"><span>{mins} min read</span><span>By The Padel Academy</span><span>Updated {_fmt(a.get("date", DATE))}</span></div></div>
 {court_svg(a)}
 </div></header>
 <div class="wrap art-body">
@@ -184,7 +197,8 @@ open(f"{OUT}/shots.html","w").write(hubs.shots_page(head, FOOTER))
 open(f"{OUT}/tactics.html","w").write(hubs.tactics_page(head, FOOTER, ARTICLES))
 open(f"{OUT}/drills.html","w").write(hubs.drills_page(head, FOOTER, book_box, ARTICLES))
 open(f"{OUT}/rules.html","w").write(hubs.rules_page(head, FOOTER, ARTICLES))
+_LM = {a["slug"]: a.get("date", DATE) for a in ARTICLES}
 urls = [""] + ["shots","tactics","drills","rules","journal"] + [__import__("books").BOOKLIST[i]["slug"] for i in range(4)] + [a["slug"] for a in ARTICLES]
-sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{SITE}/{u}</loc><lastmod>{DATE}</lastmod></url>\n" for u in urls) + "</urlset>\n"
+sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{SITE}/{u}</loc><lastmod>{_LM.get(u, DATE)}</lastmod></url>\n" for u in urls) + "</urlset>\n"
 open(f"{OUT}/sitemap.xml", "w").write(sm)
 json.dump({a["slug"]: a["mins"] for a in ARTICLES}, open(f"{OUT}/../mins.json", "w"))
