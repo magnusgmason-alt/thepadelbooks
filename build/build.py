@@ -198,7 +198,7 @@ open(f"{OUT}/tactics.html","w").write(hubs.tactics_page(head, FOOTER, ARTICLES))
 open(f"{OUT}/drills.html","w").write(hubs.drills_page(head, FOOTER, book_box, ARTICLES))
 open(f"{OUT}/rules.html","w").write(hubs.rules_page(head, FOOTER, ARTICLES))
 _LM = {a["slug"]: a.get("date", DATE) for a in ARTICLES}
-urls = [""] + ["shots","tactics","drills","rules","journal"] + [__import__("books").BOOKLIST[i]["slug"] for i in range(4)] + [a["slug"] for a in ARTICLES]
+urls = [""] + ["shots","tactics","drills","rules","journal"] + [_b["slug"] for _b in __import__("books").BOOKLIST] + [a["slug"] for a in ARTICLES]
 sm = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"  <url><loc>{SITE}/{u}</loc><lastmod>{_LM.get(u, DATE)}</lastmod></url>\n" for u in urls) + "</urlset>\n"
 open(f"{OUT}/sitemap.xml", "w").write(sm)
 json.dump({a["slug"]: a["mins"] for a in ARTICLES}, open(f"{OUT}/../mins.json", "w"))
