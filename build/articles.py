@@ -8,6 +8,8 @@ BOOKS = {
               "pitch": "Bandeja, víbora, net control and the match tactics that win close games, for players at level 3 to 6."},
  "drill":    {"img": "/cover-drill.jpg", "title": "The Padel Drill Book",
               "pitch": "100 drills to train smarter, solo, with a partner or as a four. Pick three, play better by the end of the hour."},
+ "drill2":   {"img": "/cover-drill2.jpg", "title": "The Padel Drill Book: Intermediate & Advanced",
+              "pitch": "80 drills for levels 3 to 6 that train the decisions: glass, net, overheads, transitions, defence and pressure games."},
  "kids":     {"img": "/cover-kids.jpg", "title": "The Padel Playbook: Kids Edition",
               "pitch": "Simple, fun coaching for players aged 10 to 14 and the parents who play with them."},
 }

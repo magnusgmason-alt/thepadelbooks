@@ -37,6 +37,14 @@ _ONLY = os.environ.get("B6_ONLY")
 if _ONLY: B6 = [a for a in B6 if a["slug"] in _ONLY.split(",")]
 for _a in B6: _a.setdefault("date", "2026-10-30")
 B5 = B5 + B6
+import importlib as _il, webdrill as _WD
+B7 = []
+for _m, _v in (("batch7_a", "B7_A"), ("batch7_b", "B7_B"), ("batch7_c", "B7_C"), ("batch7_d", "B7_D")):
+    try: B7 += getattr(_il.import_module(_m), _v)
+    except ModuleNotFoundError: pass
+for _a in B7:
+    _a.setdefault("date", "2026-10-31"); _a["body"] = _WD.expand(_a["body"]); _a["svg_free_count"] = True; _a["faq_schema"] = True
+B5 = B5 + B7
 for _a in RULES_Q + RACKET_ARTICLES + B5: _a['faq_schema'] = True
 import graphics_all as _GA
 _GA_N = _GA.place(ARTICLES + ARTICLES2 + ARTICLES3 + RULES_Q + RACKET_ARTICLES + B5)
@@ -123,7 +131,7 @@ def _fmt(d):
 
 def article(a, all_a):
     url = f"{SITE}/{a['slug']}"
-    w = words(a["lede"] + a["body"])
+    w = words(a["lede"] + (re.sub(r"<svg.*?</svg>", "", a["body"], flags=re.S) if a.get("svg_free_count") else a["body"]))
     mins = max(1, round(w / 220))
     a["mins"] = mins
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": a["title"], "description": a["desc"],
