@@ -68,7 +68,10 @@ def render(spec, label=""):
     for m in spec.get("moves", []):
         p.append(_path(m, BLUE, dash="8 6", width=2.8))
     for s in spec.get("shots", []):
-        p.append(_path(s["pts"], BLUE))
+        p.append(_path(s["pts"], GREY if s.get("grey") else BLUE, dash=s.get("dash"), width=s.get("w", 3.2)))
+    for m in spec.get("marks", []):
+        cx, cy = X(m[0]), Y(m[1])
+        p.append(f'<path d="M{cx-7:.1f} {cy-7:.1f} L{cx+7:.1f} {cy+7:.1f} M{cx+7:.1f} {cy-7:.1f} L{cx-7:.1f} {cy+7:.1f}" stroke="{INK}" stroke-width="2.6" stroke-linecap="round"/>')
     for c in spec.get("cones", []):
         cx, cy = X(c[0]), Y(c[1])
         p.append(f'<polygon points="{cx:.1f},{cy-10:.1f} {cx+10:.1f},{cy+8:.1f} {cx-10:.1f},{cy+8:.1f}" fill="{BLUE}"/>')
@@ -81,6 +84,9 @@ def render(spec, label=""):
             p.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="18" fill="{INK}"/><text x="{cx:.1f}" y="{cy+6.5:.1f}" text-anchor="middle" font-family="{FONT}" font-size="18" font-weight="600" fill="#fff">{n}</text>')
         else:
             p.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="17" fill="#fff" stroke="{INK}" stroke-width="2.6"/><text x="{cx:.1f}" y="{cy+6.5:.1f}" text-anchor="middle" font-family="{FONT}" font-size="18" font-weight="600" fill="{INK}">{esc(n)}</text>')
+    for lb in spec.get("labels", []):
+        col = {"blue": BLUE, "grey": GREY}.get(lb.get("c"), INK)
+        p.append(f'<text x="{X(lb["x"]):.1f}" y="{Y(lb["y"]):.1f}" text-anchor="{lb.get("a","middle")}" font-family="{FONT}" font-size="{lb.get("s",15)}" font-weight="600" letter-spacing="1.2" fill="{col}">{esc(lb["t"])}</text>')
     W, H = (20 + 2 * PAD) * S, (10 + 2 * PAD) * S
     aria = f'role="img" aria-label="{esc(label)}"' if label else 'aria-hidden="true"'
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.0f} {H:.0f}" width="{W:.0f}" height="{H:.0f}" {aria}>' + "".join(p) + "</svg>"

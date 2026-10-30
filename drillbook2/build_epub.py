@@ -72,6 +72,18 @@ def build(cover_jpg):
                 "<ol class=\"steps\">" + "".join(f"<li><b>{E(p['title'])}</b>. {E(p['text'])}</li>" for p in ch.get("pillars", [])) + "</ol>"]
         if ch.get("box"):
             body.append(f'<aside class="box"><p class="lab">{E(ch["box"]["label"])}</p><p>{E(ch["box"]["text"])}</p></aside>')
+        import refs as RF
+        rn = 0
+        for rt, keys in RF.PAGES.get(ch["chapter"], []):
+            body.append(f'<div class="drill"><p class="kicker">{E(ch["title"].rstrip("."))} · Shot &amp; tactic reference</p><h2>{T(rt)}</h2>')
+            for k in keys:
+                svg, t, cap, kind = RF.fig_svg(k)
+                rn += 1
+                img = f"ref{ch['chapter']}_{rn}.png"
+                cairosvg.svg2png(bytestring=svg.encode(), write_to=f"{tmp}/EPUB/media/{img}", output_width=1200, background_color="white")
+                media.append(img)
+                body.append(f'<p class="lab blue">{E(t)}</p><figure><img src="../media/{img}" alt="{E(t)}"/><figcaption>{E(cap)}</figcaption></figure>')
+            body.append("</div>")
         for d in ch["drills"]:
             n += 1
             img = f"dia{n:03d}.png"

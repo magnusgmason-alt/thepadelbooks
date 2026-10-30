@@ -107,6 +107,14 @@ def chapter_open(ch):
 {htitle(ch["title"] + ("." if not ch["title"].endswith(".") else ""), "t ct")}<div class="ckick">{E(ch.get("kicker",""))}</div>
 <div class="opdia">{BD.render(ch["drills"][0]["diagram"])}</div><p class="opline">{E(ch.get("opener_line",""))}</p></div>'''
 
+import refs as RF
+def ref_page(ch, title, keys):
+    out = [f'<div class="kicker">{E(ch["title"].upper().rstrip("."))} · SHOT &amp; TACTIC REFERENCE</div>', htitle(title)]
+    for k in keys:
+        svg, t, cap, kind = RF.fig_svg(k)
+        out.append(f'<figure class="ref {kind}"><div class="rt">{E(t)}</div>{svg}<figcaption>{E(cap)}</figcaption></figure>')
+    return "".join(out)
+
 def chapter_intro(ch):
     pil = "".join(f'<li><span class="n">{i+1:02d}</span><div><b>{E(p["title"])}</b><span>{E(p["text"])}</span></div></li>' for i, p in enumerate(ch.get("pillars", [])))
     paras = "".join(f"<p>{E(x)}</p>" for x in ch.get("intro", []))
@@ -145,6 +153,8 @@ def assemble():
         bk.toc.append((ch["chapter"], ch["title"].rstrip("."), f"Drills {first}–{last} · " + ch.get("kicker", "").lower().replace(" · ", ", ")[:60], "ch" + ch["chapter"]))
         bk.add(chapter_open(ch), sec, "part", "anchor:ch" + ch["chapter"])
         bk.add(chapter_intro(ch), sec)
+        for rt, keys in RF.PAGES.get(ch["chapter"], []):
+            bk.add(ref_page(ch, rt, keys), sec, "ref")
         for d in ch["drills"]:
             PASS[d["id"]] = (d["title"].rstrip("."), d["pass"])
         for d in ch["drills"]:

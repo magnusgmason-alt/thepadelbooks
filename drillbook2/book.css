@@ -85,3 +85,10 @@ figure.dia.blank { margin: 4pt 0 } figure.dia.blank svg { width: 86% }
 
 table.track { font-size: 7.2pt } table.track td { padding: 3.6pt 5pt 3.6pt 0 } table.track th:nth-child(n+3), table.track td:nth-child(n+3) { width: 22pt; border-left: .6pt solid #E6E1D9; padding-left: 4pt }
 table.track td:first-child { white-space: normal; width: 92pt }
+
+/* reference figures */
+figure.ref { margin: 4pt 0 10pt }
+figure.ref .rt { font-size: 6pt; letter-spacing: .26em; font-weight: 600; text-transform: uppercase; margin: 0 0 3pt; color: #2F5F8F }
+figure.ref svg { display: block; width: 92%; height: auto; max-height: 2.45in; margin: 0 auto }
+figure.ref.side svg { width: 100%; max-height: 2.65in }
+figure.ref figcaption { font-size: 7.6pt; line-height: 1.45; color: #333; margin-top: 3pt }
