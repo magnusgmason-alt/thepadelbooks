@@ -233,3 +233,14 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 .dg-fig figcaption{font-size:13px;color:var(--ink-soft);margin-top:4px;padding:0 16px;text-align:center}
 .dg-legend{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:center;margin-top:10px;font-size:13px;font-weight:600}
 .dg-legend span{display:inline-flex;align-items:center;gap:7px}
+
+/* book pages: buy buttons (Apple Pay, Amazon), coming soon, 4-up list */
+.book-buy .btn .apay{display:block;height:23px;width:auto;margin:-4px 0}
+.btn.buy{gap:8px;align-items:center}
+.btn.amazon{justify-content:center;background:var(--navy);color:var(--on-navy);border:2px solid var(--navy);font-size:14px;padding:14px 18px}
+.btn.amazon:hover{background:var(--ink)}
+.btn.soon{opacity:.55;cursor:default;pointer-events:none}
+.amz-more{margin:-4px 0 0;text-align:center;font-family:var(--f-mono);font-size:12px}
+.amz-more a{color:var(--ink-soft)}
+.bk-list.three.four{grid-template-columns:repeat(2,1fr)}
+@media (max-width:900px){.bk-list.three.four{grid-template-columns:1fr}}

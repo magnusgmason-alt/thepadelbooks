@@ -19,3 +19,22 @@
 .hi-steps a b::after{content:" →";color:var(--coral)}
 .hub-head .quick b{font-size:24px;white-space:nowrap}
 @media (max-width:900px){.hub-head .art-grid,.hi-grid{grid-template-columns:1fr;gap:28px}.hub-head .art-fig{max-width:320px}}
+
+/* drills hub: the two drill books */
+.drill-books{padding-block:48px;border-bottom:2px solid var(--line)}
+.drill-books h2{font-weight:700;text-transform:uppercase;font-size:clamp(28px,3.4vw,40px);line-height:1;margin:12px 0 12px}
+.db-lede{margin:0 0 26px;color:var(--ink-soft);max-width:62ch}
+.db-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.db-card{display:grid;grid-template-columns:180px 1fr;gap:22px;align-items:start;text-decoration:none;color:var(--ink);background:var(--card);border:2px solid var(--line);padding:20px;transition:transform .15s,box-shadow .15s}
+.db-card:hover{transform:translateY(-3px);box-shadow:0 14px 24px -18px #14213D}
+.db-cover{position:relative;display:block}
+.db-cover img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;box-shadow:0 16px 26px -18px #14213D}
+.db-new{position:absolute;top:-10px;right:-10px;background:var(--lime);color:var(--lime-ink);border:2px solid var(--navy);font-family:var(--f-mono);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;transform:rotate(6deg)}
+.db-body{display:flex;flex-direction:column;gap:8px}
+.db-level{align-self:flex-start;background:var(--lime);color:var(--lime-ink);font-family:var(--f-mono);font-size:12px;font-weight:600;padding:3px 8px}
+.db-body b{font-family:var(--f-display);font-weight:700;font-size:22px;line-height:1.15}
+.db-desc{color:var(--ink-soft);font-size:15px;line-height:1.5}
+.db-meta{font-family:var(--f-mono);font-size:13px;color:var(--ink-soft)}
+.db-body i{font-style:normal;font-family:var(--f-mono);font-size:13px;font-weight:600;color:var(--coral);margin-top:4px}
+@media (max-width:900px){.db-grid{grid-template-columns:1fr}}
+@media (max-width:520px){.db-card{grid-template-columns:110px 1fr;gap:14px;padding:14px}.db-body b{font-size:18px}}
