@@ -29,6 +29,15 @@ def _side(fn_name, fixes, drop=(), scale=1.45, droprect=None):
     for a, b in MAP.items():
         s = re.sub(a, b, s, flags=re.I)
     s = s.replace('class="dg" ', '')
+    # drop white text halos (stroked text is embedded as Type 3 in PDFs; the fill copy stays)
+    s = re.sub(r'<text stroke="#(?:FFFFFF|fff)"[^>]*>[^<]*</text>', '', s, flags=re.I)
+    # flatten transparency to solid colours on white (no rgba/opacity in print PDFs)
+    def _blend(hexc, a):
+        h = hexc.lstrip('#'); h = ''.join(c*2 for c in h) if len(h) == 3 else h
+        rgb = [int(h[i:i+2], 16) for i in (0, 2, 4)]
+        return '#%02X%02X%02X' % tuple(round(c*a + 255*(1-a)) for c in rgb)
+    s = re.sub(r'fill="(#[0-9A-Fa-f]{3,6})" fill-opacity="([\d.]+)"', lambda m: f'fill="{_blend(m.group(1), float(m.group(2)))}"', s)
+    s = re.sub(r'stroke="(#[0-9A-Fa-f]{3,6})"([^>]*?) opacity="([\d.]+)"', lambda m: f'stroke="{_blend(m.group(1), float(m.group(3)))}"{m.group(2)}', s)
     s = re.sub(r'font-size="([\d.]+)"', lambda m: f'font-size="{float(m.group(1))*scale:.1f}"', s)
     s = re.sub(r'font-family="[^"]*"', 'font-family="Poppins, Helvetica Neue, Arial, sans-serif"', s)
     s = re.sub(r'(<svg[^>]*>)', r'\1<rect width="100%" height="100%" fill="#fff"/>', s, count=1)
@@ -37,7 +46,7 @@ def _side(fn_name, fixes, drop=(), scale=1.45, droprect=None):
 def s01(): return _side("s01", [], drop=["HEAD", "Slice, controlled pace", "Keep the net, push them back", "Side spin + slice, faster",
     "Low, awkward ball off the side glass", "Flat or topspin, full power", "Win the point or force a weak reply",
     "Contact point in front of the body for all three, never behind the head"], droprect="470").replace('viewBox="0 0 860 540"', 'viewBox="100 30 680 470"')
-def s05(): return _side("s05", [], drop=["High enough to clear their overhead, deep enough to make them turn and run"], scale=1.2)
+def s05(): return _side("s05", [("NET PLAYER&#x27;S REACH", "NET PLAYER’S REACH")], drop=["High enough to clear their overhead, deep enough to make them turn and run"], scale=1.2)
 def s09(): return _side("s09", [("CORAL = OFF THE BOUNCE", "SOLID = OFF THE BOUNCE")], drop=["Comes off hard and travels further out.", "Give it plenty of room.",
     "Drops close to the glass, comes out slowly.", "Be patient and move in late.", "Stays low and dies off the glass.", "Bend your knees early.",
     "Kicks up higher off the bounce and the glass.", "Often a chance to attack."])
@@ -89,7 +98,7 @@ FIGS = {
               {"pts": [[19.85, 1.3], [18.4, 3.0]], "w": 2.6}],
     "marks": [[13.8, 0.9]],
     "labels": [L("1 BOUNCE", 12.9, 2.0, "ink", s=12), L("2 SIDE GLASS", 15.4, -0.35, "ink", s=12), L("3 BACK GLASS", 15.9, 2.4, "ink", s=12), L("4 OUT LOW", 18.4, 4.2, "blue", s=12)]},
-    title="The víbora off the side glass", cap="Brush round the outside of the ball. Side spin makes it skid off the side glass and stay low in the corner. The aim is a ball they can't attack, not a winner."),
+    title="The víbora off the side glass", cap="Brush round the outside of the ball. Side spin makes it skid off the side glass and stay low in the corner. The aim is a ball they can’t attack, not a winner."),
 "smash": dict(spec={
     "players": [["A", 8.6, 6.0], ["B", 8.5, 2.2], ["C", 17.8, 2.9], ["D", 17.8, 7.4]],
     "shots": [{"pts": [[8.8, 5.6], [11.5, 4.0], [13.6, 2.6]]},
@@ -106,9 +115,9 @@ FIGS = {
     "zones": [{"x": 0.9, "y": 0.2, "w": 2.0, "h": 9.6, "label": ""}, {"x": 7.0, "y": 0.2, "w": 1.1, "h": 9.6, "label": ""}],
     "shots": [{"pts": [[15.6, 7.0], [10.5, 7.9], [5.0, 7.6]], "grey": True, "dash": "7 6", "w": 2.4}],
     "marks": [[5.0, 7.6]],
-    "labels": [L("BACK", 1.9, -0.35, s=12), L("NO MAN'S LAND", 4.95, -0.35, "grey", s=12), L("NET", 7.55, -0.35, s=12),
+    "labels": [L("BACK", 1.9, -0.35, s=12), L("NO-MAN’S LAND", 4.95, -0.35, "grey", s=12), L("NET", 7.55, -0.35, s=12),
                L("BALL AT THE FEET", 5.0, 8.9, "grey", s=12)]},
-    title="Back, middle, net", cap="Be at the net (about two to three metres from it) or at the back (about a step behind the service line). Pass through the middle, but don't stay there: A, stuck around the service line, gets a low ball at the feet that is almost impossible to attack."),
+    title="Back, middle, net", cap="Be at the net (about two to three metres from it) or at the back (about a step behind the service line). Pass through the middle, but don’t stay there: A, stuck around the service line, gets a low ball at the feet that is almost impossible to attack."),
 "netback": dict(spec={
     "players": [["A", 1.9, 7.4], ["B", 1.9, 2.9], ["C", 14.3, 3.0], ["D", 14.4, 7.6]],
     "shots": [{"pts": [[2.1, 3.4], [10.0, 0.6], [18.6, 5.4]]}],
@@ -134,7 +143,7 @@ FIGS = {
     "moves": [[[2.4, 8.5], [5.4, 8.5]]],
     "marks": [[16.2, 0.35], [16.6, 4.6], [16.0, 2.8]],
     "labels": [L("1", 15.3, 1.4, "blue"), L("2", 15.6, 4.35, "blue"), L("3", 15.0, 3.0, "blue"), L("SERVE, THEN TAKE THE NET", 4.4, 9.5, "ink", s=12)]},
-    title="Serve targets", cap="Serve diagonally into their box (shaded). 1 The side glass buys time. 2 The T cuts the angle. 3 At the body or feet. Mix the targets: slice keeps it low, and a second serve should be safe and central."),
+    title="Serve targets", cap="Serve diagonally into their box (shaded). 1 The side glass buys time. 2 The T cuts the angle. 3 At the body or feet. Mix the targets: slice keeps it low, and a second serve should still be safe and deep: into the side glass or at the body, never soft into the middle."),
 "return": dict(spec={
     "players": [["A", 1.4, 7.3], ["B", 2.2, 2.5], ["C", 15.4, 3.0], ["D", 12.2, 7.0]],
     "shots": [{"pts": [[1.7, 6.9], [8.0, 5.0], [13.6, 3.9]]},
@@ -143,7 +152,7 @@ FIGS = {
     "moves": [[[18.6, 2.6], [16.0, 2.8]]],
     "marks": [[13.6, 3.9], [18.5, 8.0], [12.2, 5.1]],
     "labels": [L("1", 10.4, 3.9, "blue"), L("2 (LOB)", 15.8, 9.2, "blue", s=12), L("3", 9.6, 6.1, "blue"), L("SERVER MOVING IN", 16.6, 1.6, "grey", s=12)]},
-    title="Return targets", cap="Let the serve bounce, then make them volley up or chase back. 1 At the server's feet as they move in. 2 A deep lob over the net player. 3 Through the middle."),
+    title="Return targets", cap="Let the serve bounce, then make them volley up or chase back. 1 At the server’s feet as they move in. 2 A deep lob over the net player. 3 Through the middle."),
 "sides": dict(spec={
     "players": [["A", 7.2, 7.0], ["B", 7.2, 3.0]],
     "labels": [L("LEFT SIDE (REVÉS)", 0.4, 1.0, "ink", "start", 12), L("RIGHT SIDE (DRIVE)", 0.4, 9.5, "ink", "start", 12),

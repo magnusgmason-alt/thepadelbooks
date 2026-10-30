@@ -39,7 +39,7 @@
    "time": "15 min",
    "focus": "Managing risk",
    "summary": "Each pair starts a round with three lives. A lost point costs one, two straight wins earn one back, and the first pair with none left loses.",
-   "setup": "Normal 2 v 2 from a serve, alternating servers as you would between games. Call the lives out loud before each serve, like a score: 'three–two'.",
+   "setup": "Normal 2 v 2 from a serve, alternating servers as you would between games. Call the lives out loud before each serve, like a score: ‘three–two’.",
    "run": [
     "Both pairs begin the round with three lives. Each point you lose costs one life.",
     "Win two points in a row and you earn a life back, up to a maximum of three.",
@@ -48,7 +48,7 @@
    ],
    "decision": "With three lives you can take the ball early and attack. On your last life every choice moves to the percentage option: a deep lob, a middle volley, an overhead kept in the court.",
    "watch": "Playing a last-life point the same way as a three-life point, or freezing and pushing the ball. Fix: before each serve, say your lives aloud and name the first shot you intend to play.",
-   "up": "Only outright winners, not the opponents' errors, count towards earning a life back.",
+   "up": "Only outright winners, not the opponents’ errors, count towards earning a life back.",
    "down": "Each pair starts with four lives, and one won point earns a life.",
    "pass": "Win four rounds out of seven, including at least one won from your last life.",
    "diagram": {
@@ -116,16 +116,16 @@
    "time": "15 min",
    "focus": "Overhead patience",
    "summary": "The net pair may smash only after it has played three bandejas in the same rally. Any smash before the count reaches three loses the point.",
-   "setup": "Your pair starts at the net, C and D behind their service line. C opens each point with a lob. Your pair counts its bandejas aloud during the rally: 'one', 'two', 'three'.",
+   "setup": "Your pair starts at the net, C and D behind their service line. C opens each point with a lob. Your pair counts its bandejas aloud during the rally: ‘one’, ‘two’, ‘three’.",
    "run": [
     "C lobs to either of you, mixing height and depth. Play the point out with normal rules.",
     "Count every bandeja your pair plays, whoever plays it. After the third, the smash is earned: any overhead, including the x3 and x4, is allowed for the rest of the rally.",
     "A smash played before the count reaches three loses the point at once, even if it would have won it.",
     "Play to 11, then swap ends and roles so C and D hold the net."
    ],
-   "decision": "Once the smash is earned, is this lob really a smash ball? The right to smash doesn't make every lob attackable. Before three, decide where each bandeja goes to make the next lob shorter.",
-   "watch": "Soft, floating bandejas played only to reach three, which hands the defenders time. Fix: every bandeja must land deep and push the defenders into their glass, or it doesn't count.",
-   "up": "Four bandejas earn the smash, and bandejas landing short of the service line don't count.",
+   "decision": "Once the smash is earned, is this lob really a smash ball? The right to smash doesn’t make every lob attackable. Before three, decide where each bandeja goes to make the next lob shorter.",
+   "watch": "Soft, floating bandejas played only to reach three, which hands the defenders time. Fix: every bandeja must land deep and push the defenders into their glass, or it doesn’t count.",
+   "up": "Four bandejas earn the smash, and bandejas landing short of the service line don’t count.",
    "down": "Two bandejas earn the smash, and C and D lob at medium height.",
    "pass": "Win a game to 11 without a single early smash.",
    "diagram": {
@@ -195,7 +195,7 @@
     ],
     "half": null
    },
-   "caption": "Bandeja number two: B sends it deep into D's corner, then moves back up to the net."
+   "caption": "Bandeja number two: B sends it deep into D’s corner, then moves back up to the net."
   },
   {
    "id": "M3",
@@ -207,7 +207,7 @@
    "summary": "The pair at the back may attack only from a ball that has come off its own glass. Any ball taken before the glass must be lobbed.",
    "setup": "Your pair starts at the back, C and D at net position. C opens each point with a deep volley to A or B. An attacking shot means anything that is not a lob.",
    "run": [
-    "Play the point. Whenever A or B take a ball before it touches their glass, the only legal shot is a lob.",
+    "Play the point. Whenever A or B takes a ball before it touches their glass, the only legal shot is a lob.",
     "Once a ball has come off the back or side glass, A and B may play any shot: lob, chiquita, low drive or passing ball.",
     "An attacking shot from a ball that did not touch the glass loses the point. C and D play normally.",
     "Play to 11, then swap roles so C and D defend under the same rule."
@@ -280,7 +280,7 @@
     ],
     "half": null
    },
-   "caption": "C's volley bounces and comes off A's back glass. Now A may attack, and plays the chiquita at D's feet."
+   "caption": "C’s volley bounces and comes off A’s back glass. Now A may attack, and plays the chiquita at D’s feet."
   },
   {
    "id": "M4",
@@ -298,7 +298,7 @@
     "Play a set to 6 games with a tie-break at 6–6, or stop after 20 minutes and count games."
    ],
    "decision": "The server picks a serve that is safe under pressure yet still awkward to return: depth and direction over pace. The receivers decide whether to attack it or play their usual reliable return.",
-   "watch": "Serves so soft and central that the receiver attacks every one. Fix: keep a full, smooth swing, take a little pace off, and aim deep into the side glass or at the receiver's body.",
+   "watch": "Serves so soft and central that the receiver attacks every one. Fix: keep a full, smooth swing, take a little pace off, and aim deep into the side glass or at the receiver’s body.",
    "up": "The serve must land in the deep half of the box, behind a marked line, or it counts as a fault.",
    "down": "Allow a normal second serve on the first point of each game.",
    "pass": "Serve no more than one fault in any of your service games across the set.",
@@ -362,7 +362,7 @@
     ],
     "half": null
    },
-   "caption": "A's only serve goes deep into T1, the back half of C's box, then A moves up to join B."
+   "caption": "A’s only serve goes deep into T1, the back half of C’s box, then A moves up to join B."
   },
   {
    "id": "M5",
@@ -372,17 +372,17 @@
    "time": "15 min",
    "focus": "Depth over angles",
    "summary": "Cones close a 2.5-metre lane along one side wall on both halves. The narrow court rewards depth and height; the closed side moves every two games.",
-   "setup": "Lay cones 2.5 metres in from the top side wall, from back glass to back glass on both halves. A first bounce in the lane is out. The walls stay in play after a bounce inside.",
+   "setup": "Lay cones 2.5 m in from the top side wall, from back glass to back glass on both halves. A first bounce in the lane is out. The walls stay in play after a bounce inside.",
    "run": [
     "Play normal points from a serve. A first bounce in the lane, on either side of the net and on serves too, is out.",
     "B and C now play on a half with an open cone line instead of a side wall. They have to cover the centre and keep their balls well away from the lane.",
     "After two games, move the cones to the bottom side wall, so A and D play the narrow half.",
     "Play a set to 6 games and note which layout each game was won on."
    ],
-   "decision": "On the narrow court the wide angle has gone. The choice is depth and height: which ball pushes the opponents back when the side glass can't help, and which gap you aim at instead.",
+   "decision": "On the narrow court the wide angle has gone. The choice is depth and height: which ball pushes the opponents back when the side glass can’t help, and which gap you aim at instead.",
    "watch": "Aiming at the cone line to use every centimetre, and missing into the lane. Fix: aim a metre inside the cones. A narrow court needs the same margin.",
    "up": "Close a lane along both side walls, leaving a court five metres wide.",
-   "down": "Make the lane 1.5 metres wide, so the narrow half feels less cramped.",
+   "down": "Make the lane 1.5 m wide, so the narrow half feels less cramped.",
    "pass": "Win at least three of the six games, including at least one on each layout.",
    "diagram": {
     "players": [
@@ -459,11 +459,11 @@
    "run": [
     "Serve and play the point with normal rules, with no restrictions on any shot or position.",
     "When it ends, look at the winning pair. Are both players inside their service boxes, in front of the service line? Then the point counts. If not, nobody scores.",
-    "This applies to errors as well: an opponent's mistake while you are both at the back scores nothing for you.",
+    "This applies to errors as well: an opponent’s mistake while you are both at the back scores nothing for you.",
     "First pair to 7 counted points wins the game. Play three games, changing ends after each."
    ],
    "decision": "From the back, the question is how to get forward: which lob or low ball earns the net. At the net, it is whether to finish now or hold the position until a clearer ball comes.",
-   "watch": "One player comes in while the other stays back, so the points won don't count. Fix: move as a pair. If your partner is still behind the service line, wait or drop back together.",
+   "watch": "One player comes in while the other stays back, so the points won don’t count. Fix: move as a pair. If your partner is still behind the service line, wait or drop back together.",
    "up": "Only outright winners count for either pair; errors by the opponents score nothing.",
    "down": "One player in front of the service line is enough for the point to count.",
    "pass": "Reach 7 counted points first in two of the three games.",
@@ -532,7 +532,7 @@
     ],
     "half": null
    },
-   "caption": "B's lob goes over C, and both move up together. Only points won from in front of the service line count."
+   "caption": "B’s lob goes over C, and both move up together. Only points won from in front of the service line count."
   },
   {
    "id": "M7",
@@ -609,7 +609,7 @@
     ],
     "half": null
    },
-   "caption": "A ladder match in play: A meets D's lob with a bandeja deep into C's corner."
+   "caption": "A ladder match in play: A meets D’s lob with a bandeja deep into C’s corner."
   },
   {
    "id": "M8",
@@ -618,16 +618,16 @@
    "players": "4",
    "time": "20 min",
    "focus": "Adapting the game plan",
-   "summary": "Before each game both pairs draw a hidden condition card that changes how they must play, and each pair tries to work out the other's card.",
+   "summary": "Before each game both pairs draw a hidden condition card that changes how they must play, and each pair tries to work out the other’s card.",
    "setup": "Normal 2 v 2. Prepare about twelve cards. Examples: every return is a lob; first volley through the middle; serve into the side glass; no overhead except the bandeja; B plays every middle ball.",
    "run": [
     "Before each game, each pair draws one card and keeps it hidden from the other pair.",
     "Play the game with normal scoring. Every time a pair breaks its own condition, the point goes to the opponents.",
-    "At the end of the game, each pair guesses the other's card. A correct guess earns one bonus.",
+    "At the end of the game, each pair guesses the other’s card. A correct guess earns one bonus point.",
     "Play six games, drawing new cards each time. Your total is games won plus correct guesses."
    ],
-   "decision": "Two reads at once: how to win inside a limit you didn't choose while hiding it, and what the opponents' card is forcing them to do, so you can exploit it.",
-   "watch": "Forgetting the condition at 30–30 and breaking it on the point that matters. Fix: say your card's key word to each other before every serve.",
+   "decision": "Two reads at once: how to win inside a limit you didn’t choose while hiding it, and what the opponents’ card is forcing them to do, so you can exploit it.",
+   "watch": "Forgetting the condition at 30–30 and breaking it on the point that matters. Fix: say your card’s key word to each other before every serve.",
    "up": "Each pair draws two cards per game and must keep both conditions all game.",
    "down": "Cards are shown openly before each game, with no guessing.",
    "pass": "Win at least three games without losing a single point for breaking your condition.",
@@ -686,7 +686,7 @@
     ],
     "half": null
    },
-   "caption": "Card: 'every return is a lob'. A lobs C's serve deep over D at the net."
+   "caption": "Card: ‘every return is a lob’. A lobs C’s serve deep over D at the net."
   },
   {
    "id": "M9",
@@ -759,7 +759,7 @@
     ],
     "half": null
    },
-   "caption": "A volleys D's drive through the middle for a winner. The recorder marks it as a net point."
+   "caption": "A volleys D’s drive through the middle for a winner. The recorder marks it as a net point."
   },
   {
    "id": "M10",
@@ -773,7 +773,7 @@
    "run": [
     "Before each game, A and the new partner have 20 seconds to agree two things: who takes the middle, and their first pattern on serve.",
     "Play one game with golden point at deuce. A scores one for every game won.",
-    "After each game, A's partner and the opponents go off, and the next players come on.",
+    "After each game, A’s partner and the opponents go off, and the next players come on.",
     "After six games, a new player takes the hot seat. Compare totals at the end."
    ],
    "decision": "A has one game to read a new partner: best shot, weakness, how much A must cover. Then set the pattern that suits that partner, not the one A would play with a regular partner.",
@@ -842,7 +842,7 @@
    "time": "20 min",
    "focus": "Playing ahead and behind",
    "summary": "The pair that wins a game starts the next one a point further behind, up to 0–40, so the score keeps pushing whoever is on top.",
-   "setup": "Normal 2 v 2 with advantage at deuce. Before the first game, decide whether a clearly stronger pair starts at 15–30 or 0–30 down. A handicapped pair's score is called as zero for them.",
+   "setup": "Normal 2 v 2 with advantage at deuce. Before the first game, decide whether a clearly stronger pair starts at 0–15 or 0–30 down. A handicapped pair’s score is called as zero for them.",
    "run": [
     "The first game starts level, unless you agreed a handicap. Play normal games, alternating serve as usual.",
     "The pair that wins a game takes a handicap into the next one: 0–15 against them. Win again and it becomes 0–30, then 0–40, which is the limit.",
@@ -937,7 +937,7 @@
     "Record games and points won in each round, and how each receiving choice worked out."
    ],
    "decision": "Receivers: which of you returns this server better tonight, and from which side? Servers: which serve and first volley give you the best chance on one point rather than a long game?",
-   "watch": "Receivers choosing the same player out of habit, even when the partner has returned this server better. Fix: decide from tonight's results on the sheet, not from who usually receives.",
+   "watch": "Receivers choosing the same player out of habit, even when the partner has returned this server better. Fix: decide from tonight’s results on the sheet, not from who usually receives.",
    "up": "Servers get one serve only on the golden points, so the receivers can attack.",
    "down": "Play five of each format instead of ten, with a rest between.",
    "pass": "Win at least five of the ten golden points and five of the ten advantage games.",
@@ -992,7 +992,7 @@
     ],
     "half": null
    },
-   "caption": "Golden point: A and B chose A to receive on the right. A keeps the return low at D's feet."
+   "caption": "Golden point: A and B chose A to receive on the right. A keeps the return low at D’s feet."
   }
  ]
 }

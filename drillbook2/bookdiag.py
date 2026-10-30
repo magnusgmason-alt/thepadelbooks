@@ -61,7 +61,7 @@ def render(spec, label=""):
     p = court_fill(spec.get("half"))
     for z in spec.get("zones", []):
         x, y, w, h = z["x"], z["y"], z["w"], z["h"]
-        p.append(f'<rect x="{X(x):.1f}" y="{Y(y):.1f}" width="{w*S:.1f}" height="{h*S:.1f}" rx="5" fill="{ZONE}" fill-opacity=".85"/>')
+        p.append(f'<rect x="{X(x):.1f}" y="{Y(y):.1f}" width="{w*S:.1f}" height="{h*S:.1f}" rx="5" fill="#CEDCEA"/>')
         if z.get("label"):
             p.append(f'<text x="{X(x + w/2):.1f}" y="{Y(y + h/2) + 5:.1f}" text-anchor="middle" font-family="{FONT}" font-size="17" font-weight="500" fill="{BLUE}">{esc(z["label"])}</text>')
     p += court_lines()

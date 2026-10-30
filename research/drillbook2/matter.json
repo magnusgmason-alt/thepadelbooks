@@ -21,49 +21,49 @@
    ],
    "list": [
     {
-     "t": "01 · Patience",
+     "t": "Patience",
      "d": "When a lob passes you, you let it reach the glass and return it calmly."
     },
     {
-     "t": "02 · Bandeja",
+     "t": "Bandeja",
      "d": "Your bandeja lands deep and you are in net position before the reply."
     },
     {
-     "t": "03 · The middle",
+     "t": "The middle",
      "d": "Your pair has agreed who takes middle balls, and you rarely clash."
     },
     {
-     "t": "04 · Double wall",
+     "t": "Double wall",
      "d": "Out of a double wall you play a lob or low ball, not a hopeful swing."
     },
     {
-     "t": "05 · Víbora",
+     "t": "Víbora",
      "d": "You send a víbora into the side glass on purpose, not by accident."
     },
     {
-     "t": "06 · Pace",
+     "t": "Pace",
      "d": "You slow the rally when in trouble and raise the pace only once a ball sits up."
     },
     {
-     "t": "07 · Bajada",
+     "t": "Bajada",
      "d": "You attack a high rebound off your own back glass and leave the low ones alone."
     },
     {
-     "t": "08 · Smash choice",
+     "t": "Smash choice",
      "d": "You finish a short lob with an x3 when close enough, and play a bandeja when not."
     },
     {
-     "t": "09 · Patterns",
+     "t": "Patterns",
      "d": "Your pair runs agreed patterns and changes them mid-match when they stop working."
     },
     {
-     "t": "10 · Competition",
+     "t": "Competition",
      "d": "You go deep in regional events, and opponents must earn nearly every point they win."
     }
    ],
    "box": {
     "label": "READING YOUR RESULT",
-    "text": "Go down the list and stop at your first no. First no at 1–3: level 3, use the 3 → 4 plan. At 4–6: level 4, use 4 → 5. At 7–9: level 5, use 5 → 6. All yes: level 6; use 5 → 6 to stay sharp."
+    "text": "Go down the list and stop at your first no. First no at 1–3: level 3, use the 3 to 4 plan. At 4–6: level 4, use 4 to 5. At 7–9: level 5, use 5 to 6. All yes: level 6, use 5 to 6 to stay sharp."
    }
   },
   {
@@ -74,35 +74,35 @@
    ],
    "list": [
     {
-     "t": "01 · Glass Mastery (G)",
+     "t": "Glass Mastery (G)",
      "d": "Reading rebounds off the back and side glass, then choosing the exit: lob, chiquita, drive, bajada or contra-pared."
     },
     {
-     "t": "02 · Owning the Net (N)",
+     "t": "Owning the Net (N)",
      "d": "Volley choice by ball height, finishing angles, body balls, and moving as one wall with your partner."
     },
     {
-     "t": "03 · The Overhead Arsenal (O)",
+     "t": "The Overhead Arsenal (O)",
      "d": "Bandeja, víbora, rulo, gancho, x3 and x4, plus the recovery and cover that follow each of them."
     },
     {
-     "t": "04 · Transitions (T)",
+     "t": "Transitions (T)",
      "d": "When to move forward, when to give up the net, and how to do both at the same time as your partner."
     },
     {
-     "t": "05 · Defence Under Fire (D)",
+     "t": "Defence Under Fire (D)",
      "d": "Surviving smashes, víboras and body balls, and turning defence into a ball that wins you time."
     },
     {
-     "t": "06 · Serve, Return & the First Four Shots (S)",
+     "t": "Serve, Return & the First Four Shots (S)",
      "d": "Targets, first volleys, returns and deciding-point plans for the opening of every point."
     },
     {
-     "t": "07 · Pair Patterns (P)",
+     "t": "Pair Patterns (P)",
      "d": "Agreed sequences that set up the finisher, own the middle and put one opponent under pressure."
     },
     {
-     "t": "08 · Pressure Games (M)",
+     "t": "Pressure Games (M)",
      "d": "Scoring games with conditions, handicaps and stats that test everything when the score matters."
     }
    ],
@@ -261,7 +261,7 @@
     }
    ],
    "box": {
-    "label": "THE FEEDER'S JOB",
+    "label": "THE FEEDER’S JOB",
     "text": "Keep the score, keep the basket close and change the feed as soon as the hitter wins easily. Comfort is the signal to make it harder."
    }
   },
@@ -286,7 +286,7 @@
     },
     {
      "t": "6–8 · Lob and bandeja",
-     "d": "A and B take the net while C and D drop back. C and D lob; A and B answer with bandejas at about 70 percent. Change roles after a minute."
+     "d": "A and B take the net while C and D drop back. C and D lob; A and B answer with bandejas at about 70 per cent. Change roles after a minute."
     },
     {
      "t": "8–10 · Glass reads",
@@ -376,7 +376,7 @@
  "chapter_extras": {
   "01": [
    {
-    "kicker": "GLASS MASTERY · SESSION",
+    "kicker": "GLASS MASTERY · READY TO RUN",
     "title": "A 60-minute |glass session.",
     "intro": "For level 3 and 4 pairs who want calmer exits. The session starts with reading the rebound, adds the low ball that dies after the glass, then asks for a deep lob against a pair closing the net. It finishes with a cooperative four-wall rally that turns into live points.",
     "blocks": [
@@ -420,7 +420,7 @@
     }
    },
    {
-    "kicker": "GLASS MASTERY · SESSION",
+    "kicker": "GLASS MASTERY · READY TO RUN",
     "title": "A 90-minute |glass-to-attack session.",
     "intro": "For level 4 to 6 pairs. The ninety minutes move from choosing the exit to attacking with it: target choice out of the corner, the bajada read, the contra-pared escape, and finally the pair moving forward after an exit that wins time. Keep the feeds firm throughout.",
     "blocks": [
@@ -438,7 +438,7 @@
      },
      {
       "min": "24–38",
-      "what": "Corner exit from the feeder's position: ten feeds per corner",
+      "what": "Corner exit from the feeder’s position: ten feeds per corner",
       "drills": [
        "G4"
       ]
@@ -486,9 +486,9 @@
     "items": [
      "You call where a back-glass rebound will come down before you hit it, and you are right 9 times in 12.",
      "You let every deep lob the feeder sends reach the glass instead of volleying it in a hurry.",
-     "From the back glass you land 7 of 10 cross-court lobs beyond the opponents' service line.",
+     "From the back glass you land 7 of 10 cross-court lobs beyond the opponents’ service line.",
      "Off the glass, your chiquita makes the incoming volleyer hit upwards often enough to win 5 of 8 points.",
-     "After a side-and-back double wall, you choose lob, chiquita or drive from the feeder's position and pick correctly 9 times in 12.",
+     "After a side-and-back double wall, you choose lob, chiquita or drive from the feeder’s position and pick correctly 9 times in 12.",
      "You attack only rebounds that come out at waist height or higher, and you lob the rest.",
      "When a ball has passed you in the corner, you get it back over the net with a contra-pared 8 times in 12.",
      "You stay down to a sliced ball that dies after the glass and still clear the net 7 times in 10.",
@@ -502,7 +502,7 @@
   ],
   "02": [
    {
-    "kicker": "OWNING THE NET · SESSION",
+    "kicker": "OWNING THE NET · READY TO RUN",
     "title": "A 50-minute |net session.",
     "intro": "A short net session for level 3 and 4 players. It opens with the volley choice that matters most at this level, deep or to the feet, then works on the low ball at your own feet and the volley through the middle, and ends with patience before the put-away.",
     "blocks": [
@@ -546,7 +546,7 @@
     }
    },
    {
-    "kicker": "OWNING THE NET · SESSION",
+    "kicker": "OWNING THE NET · READY TO RUN",
     "title": "An 80-minute |net session.",
     "intro": "For level 4 to 6. A fast session that needs two feeders for one block. It sharpens reactions, then the finishing angle, then the body ball, and ends with the pair moving as one unit: sliding with the ball and covering a poach.",
     "blocks": [
@@ -630,7 +630,7 @@
   ],
   "03": [
    {
-    "kicker": "THE OVERHEAD ARSENAL · SESSION",
+    "kicker": "THE OVERHEAD ARSENAL · READY TO RUN",
     "title": "A 55-minute |overhead session.",
     "intro": "For level 3 to 5. Overheads that keep you at the net: the bandeja to a lane called in the air, the footwork under a deep lob, the recovery after a smash and the counter-lob your pair has to cover. Keep the pace controlled and count overheads for each player.",
     "blocks": [
@@ -674,7 +674,7 @@
     }
    },
    {
-    "kicker": "THE OVERHEAD ARSENAL · SESSION",
+    "kicker": "THE OVERHEAD ARSENAL · READY TO RUN",
     "title": "An 85-minute |advanced overhead session.",
     "intro": "For level 5 and 6 players with a reliable bandeja. Every block adds a shot or a choice: the víbora to the corner, the rulo, the gancho, the x3 decision, the x4 and what follows it, and finally a late call that forces a change of overhead while the ball is in the air.",
     "blocks": [
@@ -751,14 +751,14 @@
      "After any overhead, you and your partner cover the counter-lob without leaving the middle open."
     ],
     "box": {
-     "label": "COUNT, DON'T GUESS",
+     "label": "COUNT, DON’T GUESS",
      "text": "Keep a tally of overheads per player in every session. Late contact is the first sign of a tired shoulder, and late contact is how a bandeja lands short."
     }
    }
   ],
   "04": [
    {
-    "kicker": "TRANSITIONS · SESSION",
+    "kicker": "TRANSITIONS · READY TO RUN",
     "title": "A 60-minute |transition session.",
     "intro": "For level 3 to 5 pairs. The session builds the basic transition: a controlled ball from each zone, moving forward only after a lob that really passes the opponents, giving up the net together, then a scoring game that pays double for points won at the net.",
     "blocks": [
@@ -798,11 +798,11 @@
     ],
     "box": {
      "label": "SAY IT",
-     "text": "During the first two drills, the worker calls 'up' or 'stay' after every lob. Hearing the decision makes it easy for the observer to check it."
+     "text": "During the first two drills, the worker calls ‘up’ or ‘stay’ after every lob. Hearing the decision makes it easy for the observer to check it."
     }
    },
    {
-    "kicker": "TRANSITIONS · SESSION",
+    "kicker": "TRANSITIONS · READY TO RUN",
     "title": "A 75-minute |transition session.",
     "intro": "For level 4 to 6. Faster transitions under pressure: from defence to attack in three balls, holding the net against a chiquita, punishing the weak reply and following a drive only when it has earned it. The closing game rewards every successful climb to the net.",
     "blocks": [
@@ -874,9 +874,9 @@
   ],
   "05": [
    {
-    "kicker": "DEFENCE UNDER FIRE · SESSION",
+    "kicker": "DEFENCE UNDER FIRE · READY TO RUN",
     "title": "A 50-minute |defence session.",
-    "intro": "For level 3 to 5. Defence that buys time instead of gambling: the slow lob through the middle, the counter-lob off the glass, the low blocked reply and moving on your partner's voice. Feed firmly enough that the defenders feel real pressure.",
+    "intro": "For level 3 to 5. Defence that buys time instead of gambling: the slow lob through the middle, the counter-lob off the glass, the low blocked reply and moving on your partner’s voice. Feed firmly enough that the defenders feel real pressure.",
     "blocks": [
      {
       "min": "0–12",
@@ -899,14 +899,14 @@
      },
      {
       "min": "32–42",
-      "what": "Blocked low replies at the net player's feet: eight points",
+      "what": "Blocked low replies at the net player’s feet: eight points",
       "drills": [
        "D5"
       ]
      },
      {
       "min": "42–50",
-      "what": "Defend on your partner's calls: eight feeds each, no live points",
+      "what": "Defend on your partner’s calls: eight feeds each, no live points",
       "drills": [
        "D8"
       ]
@@ -918,7 +918,7 @@
     }
    },
    {
-    "kicker": "DEFENCE UNDER FIRE · SESSION",
+    "kicker": "DEFENCE UNDER FIRE · READY TO RUN",
     "title": "A 90-minute |defence session.",
     "intro": "For level 4 to 6. A demanding session against heavy attack: smash defence off the glass, the víbora into the corner, body balls at the back, one against two and the ten-ball survival test. Pairs on courts that allow out-of-court play add the x3 chase.",
     "blocks": [
@@ -993,10 +993,10 @@
      "From the back glass, you counter-lob over the net pair so that they have to turn, 6 times in 10.",
      "You keep a víbora into your corner in play with a lob or a low ball 7 times in 10.",
      "On a ball at your hips at the back, you step aside to make room and still return it.",
-     "From defence, you block the ball low to the net player's feet 6 times in 10.",
+     "From defence, you block the ball low to the net player’s feet 6 times in 10.",
      "Alone against two net players, you win 3 of 8 points with lobs or send them back to their glass 4 times.",
      "Under heavy pressure, you choose the slow, high lob through the middle without being told.",
-     "You move on your partner's calls of glass, out and yours with no hesitation and no collisions.",
+     "You move on your partner’s calls of glass, out and yours with no hesitation and no collisions.",
      "You complete the ten-ball survival drill in three of five attempts.",
      "Where out-of-court play is allowed, you leave the court safely and return four of eight x3 smashes."
     ],
@@ -1008,7 +1008,7 @@
   ],
   "06": [
    {
-    "kicker": "SERVE, RETURN & THE FIRST FOUR SHOTS · SESSION",
+    "kicker": "SERVE, RETURN & THE FIRST FOUR SHOTS · READY TO RUN",
     "title": "A 45-minute |serve and return session.",
     "intro": "A short session for level 3 to 5. Second-serve targets come first, then the serve followed by a deep first volley. The last block plays only the first four shots of each point, so every rally starts with a plan on both sides of the net.",
     "blocks": [
@@ -1045,7 +1045,7 @@
     }
    },
    {
-    "kicker": "SERVE, RETURN & THE FIRST FOUR SHOTS · SESSION",
+    "kicker": "SERVE, RETURN & THE FIRST FOUR SHOTS · READY TO RUN",
     "title": "An 80-minute |first-four-shots session.",
     "intro": "For level 4 to 6. Both pairs attack the start of the point: the first volley to the feet, the low return at the incoming server, the return lob, the poach on the return and a deciding-point plan. The first-four-shots game closes the session.",
     "blocks": [
@@ -1063,14 +1063,14 @@
      },
      {
       "min": "24–36",
-      "what": "Return low at the incoming server's feet",
+      "what": "Return low at the incoming server’s feet",
       "drills": [
        "S5"
       ]
      },
      {
       "min": "36–48",
-      "what": "Return lob over the server's partner, then join",
+      "what": "Return lob over the server’s partner, then join",
       "drills": [
        "S4"
       ]
@@ -1082,7 +1082,7 @@
      },
      {
       "min": "53–63",
-      "what": "Server's partner poaches the return: eight points",
+      "what": "Server’s partner poaches the return: eight points",
       "drills": [
        "S6"
       ]
@@ -1115,9 +1115,9 @@
      "Every serve follows the same routine: ball bounced first, contact no higher than the waist, one foot grounded.",
      "After serving, you move in and play the first volley deep into the far court 7 times in 10.",
      "You can play the first volley to the feet of an incoming receiver 6 times in 10.",
-     "You lob the return over the server's partner and then move forward with your partner.",
+     "You lob the return over the server’s partner and then move forward with your partner.",
      "Against a server who follows the serve in, your return lands low at their feet 7 times in 10.",
-     "As the server's partner, you poach a return that comes through the middle at a playable height and stay home when it does not.",
+     "As the server’s partner, you poach a return that comes through the middle at a playable height and stay home when it does not.",
      "Before each match, your pair agrees a deciding-point plan for both ends of the court.",
      "You know your first-serve percentage for your last three matches."
     ],
@@ -1129,7 +1129,7 @@
   ],
   "07": [
    {
-    "kicker": "PAIR PATTERNS · SESSION",
+    "kicker": "PAIR PATTERNS · READY TO RUN",
     "title": "A 60-minute |pair session.",
     "intro": "For level 3 and 4 pairs who want to look like one unit on court. Movement first, then roles: mirror your partner, agree who takes the middle, build patiently from the drive side, and finish with a step up that closes the middle after a down-the-line ball.",
     "blocks": [
@@ -1173,7 +1173,7 @@
     }
    },
    {
-    "kicker": "PAIR PATTERNS · SESSION",
+    "kicker": "PAIR PATTERNS · READY TO RUN",
     "title": "A 90-minute |patterns session.",
     "intro": "For level 5 and 6 pairs. Planned play from start to finish: set up the revés finisher, lob into the backhand corner and close, switch on the cross-court lob, serve from the Australian formation, pressure one opponent and plan the pattern between points.",
     "blocks": [
@@ -1248,7 +1248,7 @@
      "After a down-the-line ball, your pair shifts so the middle is closed before the next shot.",
      "Within the first few games you can tell which opponent is weaker, and you aim at them on the big points.",
      "Between points, you agree a pattern within the 20 seconds allowed and then play it.",
-     "Your movement mirrors your partner's: forward, back and sideways at the same time."
+     "Your movement mirrors your partner’s: forward, back and sideways at the same time."
     ],
     "box": {
      "label": "NAME IT",
@@ -1258,7 +1258,7 @@
   ],
   "08": [
    {
-    "kicker": "PRESSURE GAMES · SESSION",
+    "kicker": "PRESSURE GAMES · READY TO RUN",
     "title": "A 60-minute |games session.",
     "intro": "A games session for any level from 3 to 6. Three formats, each with a condition: use the glass before you attack, count only the points won at the net, and a stats match that leaves you with numbers to write in the log.",
     "blocks": [
@@ -1295,7 +1295,7 @@
     }
    },
    {
-    "kicker": "PRESSURE GAMES · SESSION",
+    "kicker": "PRESSURE GAMES · READY TO RUN",
     "title": "A 90-minute |pressure session.",
     "intro": "For level 4 to 6. Every game starts from pressure: handicap scores, a smash that has to be earned with bandejas, narrow lanes, condition cards and five deciding points in each format. Play it as close to a real match as you can, including the time between points.",
     "blocks": [
@@ -1357,7 +1357,7 @@
      "In a pressure game, your unforced errors stay close to your count in cooperative drills.",
      "You can play a full game under a condition card without breaking the condition once.",
      "Starting 0–30 down, your pair wins at least half of its handicap games against players at your level.",
-     "You have played ten deciding points in each format and know your pair's record in both.",
+     "You have played ten deciding points in each format and know your pair’s record in both.",
      "In a stats match, you can track unforced errors and net points won for both players.",
      "In Earn the smash, you hold back the smash until three bandejas have been played.",
      "In a second-serve match, you serve no more than one fault in any service game.",
@@ -1382,7 +1382,7 @@
    "list": [
     {
      "t": "Two sessions a week",
-     "d": "One 75-minute session using two of the week's drills and its game, laid out in the five blocks from the front of the book. A second, shorter session covers the third drill, the weakest drill and the game."
+     "d": "One 75-minute session using two of the week’s drills and its game, laid out in the five blocks from the front of the book. A second, shorter session covers the third drill, the weakest drill and the game."
     },
     {
      "t": "The game",
@@ -1390,7 +1390,7 @@
     },
     {
      "t": "Your matches",
-     "d": "Keep playing your normal matches. Use them to test the week's focus, not to fix it."
+     "d": "Keep playing your normal matches. Use them to test the week’s focus, not to fix it."
     },
     {
      "t": "Week 8",
@@ -1403,14 +1403,14 @@
    ],
    "box": {
     "label": "WHICH PLAN",
-    "text": "Use the self-test result. A level 3 player starts with Level 3 → 4, even if a few level 4 drills already feel easy."
+    "text": "Use the self-test result. A level 3 player starts with Level 3 to 4, even if a few level 4 drills already feel easy."
    }
   },
   {
-   "kicker": "TRAINING PLANS · LEVEL 3 → 4",
-   "title": "Level 3 → 4: |the strong club player.",
+   "kicker": "TRAINING PLANS · 8 WEEKS",
+   "title": "Level 3 to 4: |the strong club player.",
    "paras": [
-    "This plan builds the habits that move a club regular into the strong club group: calm glass reads, the right volley for the height of the ball, a deep bandeja and movement that matches your partner's. Weeks 1 to 7 each add one area of the game, and week 8 repeats the opening drills so you can compare the scores side by side. The week 7 game, M7, needs four pairs; with fewer players, play M10 instead."
+    "This plan builds the habits that move a club regular into the strong club group: calm glass reads, the right volley for the height of the ball, a deep bandeja and movement that matches your partner’s. Weeks 1 to 7 each add one area of the game, and week 8 repeats the opening drills so you can compare the scores side by side. The week 7 game, M7, needs four pairs; with fewer players, play M10 instead."
    ],
    "table": [
     {
@@ -1468,8 +1468,8 @@
    }
   },
   {
-   "kicker": "TRAINING PLANS · LEVEL 4 → 5",
-   "title": "Level 4 → 5: |competing as a pair.",
+   "kicker": "TRAINING PLANS · 8 WEEKS",
+   "title": "Level 4 to 5: |competing as a pair.",
    "paras": [
     "Level 5 asks for attack from the glass, a real choice of overheads and patterns your pair can repeat under pressure, together with defence that holds when the opponents attack well. Each week combines a skill drill, a decision drill and a game, and week 8 retests three of the hardest decisions from earlier in the block, so you can see which choices have really become habits."
    ],
@@ -1525,14 +1525,14 @@
    ],
    "box": {
     "label": "SCORES UP, RESULTS FLAT?",
-    "text": "If the pass marks come easily but your match results are not moving, play the week's game in both sessions and drop one drill instead. At this level the gap between training and matches is usually about pressure, not technique."
+    "text": "If the pass marks come easily but your match results are not moving, play the week’s game in both sessions and drop one drill instead. At this level the gap between training and matches is usually about pressure, not technique."
    }
   },
   {
-   "kicker": "TRAINING PLANS · LEVEL 5 → 6",
-   "title": "Level 5 → 6: |fewer gifts, more plans.",
+   "kicker": "TRAINING PLANS · 8 WEEKS",
+   "title": "Level 5 to 6: |fewer gifts, more plans.",
    "paras": [
-    "The step to level 6 is mostly about consistency and planning: the advanced overheads become reliable shots rather than occasional ones, defence holds against strong attackers and your pair plays agreed patterns at the important moments. The plan assumes you already meet most of the chapter checklists at level 4 and 5; if you do not, start with the 4 → 5 plan instead and come back to this one later."
+    "The step to level 6 is mostly about consistency and planning: the advanced overheads become reliable shots rather than occasional ones, defence holds against strong attackers and your pair plays agreed patterns at the important moments. The plan assumes you already meet most of the chapter checklists at level 4 and 5; if you do not, start with the 4 to 5 plan instead and come back to this one later."
    ],
    "table": [
     {
@@ -1598,7 +1598,7 @@
    "list": [
     {
      "t": "Name the moment",
-     "d": "Write the problem as a match situation, such as 'we lose the net straight after our own lob', not as a single shot."
+     "d": "Write the problem as a match situation, such as ‘we lose the net straight after our own lob’, not as a single shot."
     },
     {
      "t": "Pick the chapter",
@@ -1647,7 +1647,7 @@
     },
     {
      "t": "Deep lobs",
-     "d": "How many of your lobs land beyond the opponents' service line, counted over one set."
+     "d": "How many of your lobs land beyond the opponents’ service line, counted over one set."
     },
     {
      "t": "Deciding points",
@@ -1701,7 +1701,7 @@
    "title": "From the drill |to the scoreboard.",
    "paras": [
     "A drill score that never shows up in your matches has not finished its job. The step between the two needs to be deliberate: before each match, choose one decision from the chapter you are training and look for it.",
-    "Keep the match goal to a single sentence, such as 'when both of them are at the net and the ball comes off our back glass, lob cross-court'. At each change of ends, ask whether you played it when the ball allowed it. Give yourself a mark from one to five on the match sheet.",
+    "Keep the match goal to a single sentence, such as ‘when both of them are at the net and the ball comes off our back glass, lob cross-court’. At each change of ends, ask whether you played it when the ball allowed it. Give yourself a mark from one to five on the match sheet.",
     "Expect the new choice to appear late. Under match pressure, players often fall back on old habits for a few weeks. Then the new decision starts to appear on easy balls, and later on harder ones. That is normal, and it is one reason the plans run for eight weeks rather than two."
    ],
    "box": {
@@ -1737,7 +1737,7 @@
     },
     {
      "t": "Australian formation",
-     "d": "Serve set-up where the net player lines up on the server's side; the server crosses over after serving."
+     "d": "Serve set-up where the net player lines up on the server’s side; the server crosses over after serving."
     },
     {
      "t": "Back glass",
@@ -1757,11 +1757,11 @@
     },
     {
      "t": "Body ball",
-     "d": "A ball aimed at a player's chest or hips, leaving little room to swing."
+     "d": "A ball aimed at a player’s chest or hips, leaving little room to swing."
     },
     {
      "t": "Chiquita",
-     "d": "Slow, low ball to the net players' feet that forces them to volley upwards."
+     "d": "Slow, low ball to the net players’ feet that forces them to volley upwards."
     },
     {
      "t": "Closing",
@@ -1773,7 +1773,7 @@
     },
     {
      "t": "Counter-lob",
-     "d": "A lob played in reply to the opponents' lob, often after the ball has come off the glass."
+     "d": "A lob played in reply to the opponents’ lob, often after the ball has come off the glass."
     },
     {
      "t": "Double wall",
@@ -1781,7 +1781,7 @@
     },
     {
      "t": "Drive side",
-     "d": "Your half's right side as you face the net, where A plays in the diagrams."
+     "d": "Your half’s right side as you face the net, where A plays in the diagrams."
     }
    ]
   },
@@ -1826,7 +1826,7 @@
      "d": "Roughly 2–3 m from the net: the spot your pair volleys from and plays most overheads from."
     },
     {
-     "t": "No-man's land",
+     "t": "No-man’s land",
      "d": "The zone near the service line, neither back nor at the net, where balls at your feet hurt most."
     },
     {
@@ -1845,7 +1845,7 @@
     },
     {
      "t": "Poach",
-     "d": "Crossing to your partner's side at the net to intercept a ball meant for them."
+     "d": "Crossing to your partner’s side at the net to intercept a ball meant for them."
     },
     {
      "t": "Por cuatro (x4)",
@@ -1861,7 +1861,7 @@
     },
     {
      "t": "Revés side",
-     "d": "Your half's left side as you face the net, where B plays in the diagrams."
+     "d": "Your half’s left side as you face the net, where B plays in the diagrams."
     },
     {
      "t": "Rulo",
@@ -1877,11 +1877,11 @@
     },
     {
      "t": "Split-step",
-     "d": "A small hop timed with the opponent's contact, so you can push off in any direction."
+     "d": "A small hop timed with the opponent’s contact, so you can push off in any direction."
     },
     {
      "t": "Star Point",
-     "d": "A deuce scoring option in the FIP rules used by some competitions. Check the event's rules before you play."
+     "d": "A deuce scoring option in the FIP rules used by some competitions. Check the event’s rules before you play."
     },
     {
      "t": "Transition",

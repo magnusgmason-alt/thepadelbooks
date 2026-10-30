@@ -27,7 +27,7 @@
   }
  ],
  "box": {
-  "label": "RENT, DON'T OWN",
+  "label": "RENT, DON’T OWN",
   "text": "The net is never yours to keep. Every deep, low volley pays another round of rent. One rushed finish, and the opponents move straight back in."
  },
  "drills": [
@@ -48,7 +48,7 @@
    ],
    "decision": "Can you hold your racket shape until the last moment? The call trains a quiet, early preparation that leaves the choice of target to the final instant before contact.",
    "watch": "Swinging bigger for the deep targets, which makes the volley late and loose. Keep one compact shape; change only the face angle and grip firmness.",
-   "up": "F adds pace and a fifth call, 'middle', for the space between the four targets.",
+   "up": "F adds pace and a fifth call, ‘middle’, for the space between the four targets.",
    "down": "F calls before feeding and uses only two targets, one deep and one short.",
    "pass": "Fourteen of twenty volleys reach the called target in the third set.",
    "diagram": {
@@ -128,19 +128,19 @@
    "players": "3",
    "time": "12 min",
    "focus": "Pace by height",
-   "summary": "F drives at two heights; A blocks low balls deep and punches high balls down at C's feet.",
+   "summary": "F drives at two heights; A blocks low balls deep and punches high balls down at C’s feet.",
    "setup": "A at net position, drive side. F feeds from the far back court, so balls arrive with pace. C stands on the far service line, cross-court. Mark a deep zone behind C.",
    "run": [
     "F drives at A at two heights: below the net tape, and between the waist and the shoulder. F mixes them in no fixed order.",
     "Low ball: A opens the face slightly and blocks it deep into the zone, borrowing the incoming pace, with almost no swing.",
-    "High ball: A steps in and punches down and short at C's feet, so C, standing on the service line, can only lift it.",
+    "High ball: A steps in and punches down and short at C’s feet, so C, standing on the service line, can only lift it.",
     "C returns punched balls if possible and A plays one more volley. Fifteen feeds, then rotate. Count the volleys whose speed matched the height."
    ],
    "decision": "Is the ball above or below the tape at contact? Above, hit down. Below, you can only lift, so lift it long and make them start again from their glass.",
    "watch": "Trying to punch a low ball, which either sits up for C or ends in the net. If contact is below the tape, take the pace off and send it deep.",
    "up": "F adds a third height: fast balls at the chest, which A must also block deep.",
-   "down": "F feeds by hand from the net, slower, and calls 'high' or 'low' early.",
-   "pass": "Twelve of fifteen volleys at the right speed, in the zone or at C's feet.",
+   "down": "F feeds by hand from the net, slower, and calls ‘high’ or ‘low’ early.",
+   "pass": "Twelve of fifteen volleys at the right speed, in the zone or at C’s feet.",
    "diagram": {
     "players": [
      [
@@ -221,7 +221,7 @@
     ],
     "half": null
    },
-   "caption": "Low feeds are blocked deep into T1. High feeds are punched down short at C's feet."
+   "caption": "Low feeds are blocked deep into T1. High feeds are punched down short at C’s feet."
   },
   {
    "id": "N3",
@@ -233,7 +233,7 @@
    "summary": "A starts just inside the service line and digs a low ball deep, then moves forward to finish the second ball from net position.",
    "setup": "A on the drive side, just inside the service line. F at the far net position, feeding two balls in quick succession. Mark a deep zone by the far back glass.",
    "run": [
-    "F feeds a slow, dipping ball at A's feet. A sinks at the knees, racket face slightly open, and lifts the ball deep into the zone.",
+    "F feeds a slow, dipping ball at A’s feet. A sinks at the knees, racket face slightly open, and lifts the ball deep into the zone.",
     "While the dig is travelling, A takes two or three quick steps forward and split-steps as F prepares to hit again.",
     "F feeds the second ball higher, around chest height. A, now closer to the net, volleys down and through into the open court to finish.",
     "Ten pairs of balls per set, three sets. In the third set F sometimes sends the second ball low again, so A must dig twice."
@@ -450,7 +450,7 @@
    "run": [
     "C feeds a drive to A or B. The net pair volleys; C and D defend from the back with drives, lobs and low balls. Overheads are allowed.",
     "A and B aim as many volleys as possible into the channel, especially deep ones that reach the back glass between C and D.",
-    "Every middle ball needs a call from C or D, 'mine' or 'yours'. A middle volley that they leave, or both chase, scores two.",
+    "Every middle ball needs a call from C or D, ‘mine’ or ‘yours’. A middle volley that they leave, or both chase, scores two.",
     "Every other point scores one. Play to eleven, then switch roles. Keep a running count of volleys that found the channel."
    ],
    "decision": "Is the middle still open? The seam works best when both opponents hold their own side. If one cheats across, hit the space they left.",
@@ -526,7 +526,7 @@
     ],
     "half": null
    },
-   "caption": "A sends C's drive deep through T1, the channel between the two defenders."
+   "caption": "A sends C’s drive deep through T1, the channel between the two defenders."
   },
   {
    "id": "N6",
@@ -538,7 +538,7 @@
    "summary": "F and C feed alternately from different angles at speed; A, alone at the net, must reset between every ball and volley each one into a deep zone.",
    "setup": "A at net position, slightly right of centre. F stands at the far net position on the cross-court side; C stands on the far service line on the down-the-line side. Both have balls. Mark a deep zone between them.",
    "run": [
-    "F feeds, A volleys, then C feeds at once. The second ball leaves as A's first volley crosses the net, so there is no time to admire the shot.",
+    "F feeds, A volleys, then C feeds at once. The second ball leaves as A’s first volley crosses the net, so there is no time to admire the shot.",
     "A volleys every ball deep into the zone, away from both feeders. Feeds stay below the shoulder, and nobody feeds while A is turned away.",
     "Twenty balls per set, alternating. Rest thirty seconds between sets. Three sets, then rotate roles so everyone volleys.",
     "In the third set the feeders break the pattern: one may feed twice in a row, so A must watch both rackets instead of guessing the rhythm."
@@ -637,17 +637,17 @@
    "players": "2",
    "time": "10 min",
    "focus": "Volley at the body",
-   "summary": "F drives straight at A's chest and hips; A defends with a compact block in front of the body, low or deep.",
-   "setup": "A at net position, 2–3 m from the net. F on the far service line, feeding firm drives aimed at A's body. Every feed stays below shoulder height. Mark a deep zone.",
+   "summary": "F drives straight at A’s chest and hips; A defends with a compact block in front of the body, low or deep.",
+   "setup": "A at net position, 2–3 m from the net. F on the far service line, feeding firm drives aimed at A’s body. Every feed stays below shoulder height. Mark a deep zone.",
    "run": [
-    "F drives at A's right hip, left hip and chest in a random order. Start at moderate pace and build up over the set.",
+    "F drives at A’s right hip, left hip and chest in a random order. Start at moderate pace and build up over the set.",
     "For chest and left hip, A uses the backhand, racket head in front, elbow sliding out of the way. A clear right-hip ball may be a forehand.",
-    "A blocks with no swing. The aim is a ball that goes down at F's feet or deep into the zone, never up into the air.",
+    "A blocks with no swing. The aim is a ball that goes down at F’s feet or deep into the zone, never up into the air.",
     "Fifteen balls per set. In the second set F follows up any loose block with a second drive, and the exchange runs live."
    ],
    "decision": "Forehand or backhand? At the body there is no time to try both. Backhand by default, elbow cleared; only obvious right-hip balls go to the forehand.",
    "watch": "Leaning back, which pops the ball up. Keep your weight forward and take the ball in front, even if that means stepping across.",
-   "up": "F moves a metre closer and adds pace, or mixes in a sudden lob over A's head.",
+   "up": "F moves a metre closer and adds pace, or mixes in a sudden lob over A’s head.",
    "down": "F feeds from the far baseline, so the drive has further to travel.",
    "pass": "Eleven of fifteen body balls blocked low or deep in the second set.",
    "diagram": {
@@ -709,7 +709,7 @@
     ],
     "half": null
    },
-   "caption": "F drives at A's body. A blocks in front, backhand by default, down or deep into T1."
+   "caption": "F drives at A’s body. A blocks in front, backhand by default, down or deep into T1."
   },
   {
    "id": "N8",
@@ -813,10 +813,10 @@
    "run": [
     "F moves to a spot and shows the ball. A and B slide so the player facing the ball guards the line and the partner shades the middle.",
     "F feeds a drive at the pair. Whoever is responsible volleys it deep. Then F moves to a new spot and the pair slides again.",
-    "With F wide on A's side, A covers the line and B drifts to the centre. With F wide on B's side, the reverse.",
+    "With F wide on A’s side, A covers the line and B drifts to the centre. With F wide on B’s side, the reverse.",
     "Twenty feeds. A waiting player checks before each feed that the gap between A and B has not changed."
    ],
-   "decision": "Where can this ball go from here? Every shift answers one question: which line is open from the hitter's spot. Keep your spacing fixed and move the pair, not one player.",
+   "decision": "Where can this ball go from here? Every shift answers one question: which line is open from the hitter’s spot. Keep your spacing fixed and move the pair, not one player.",
    "watch": "One player sliding while the partner stays fixed, which opens the middle. Move as if you were carrying a bench between you: when A goes a metre, so does B.",
    "up": "F feeds without showing the ball first and may lob, so the pair must also judge when to drop back.",
    "down": "Walk it through without balls: F points to a spot, the pair slides, F checks.",
@@ -900,7 +900,7 @@
     ],
     "half": null
    },
-   "caption": "F feeds from the wide spot on A's side. A slides to the line; B closes the middle."
+   "caption": "F feeds from the wide spot on A’s side. A slides to the line; B closes the middle."
   },
   {
    "id": "N10",
@@ -913,12 +913,12 @@
    "setup": "A and B at net position. C and D at the back of the far court. C starts each rally with a cross-court drive towards A, and B decides whether to poach.",
    "run": [
     "C drives firmly cross-court towards A. If it crosses the net through the middle third, B moves diagonally forward and intercepts.",
-    "As B goes, B calls 'mine'. A crosses behind B straight away to the left side of the court, covering the line B has left open.",
-    "B aims the poach at D's feet or the seam. The point plays out live, and C and D attack the side B vacated.",
+    "As B goes, B calls ‘mine’. A crosses behind B straight away to the left side of the court, covering the line B has left open.",
+    "B aims the poach at D’s feet or the seam. The point plays out live, and C and D attack the side B vacated.",
     "If B does not poach, A volleys as normal. After ten points, swap so A poaches from the drive side and B covers."
    ],
    "decision": "Can you reach this ball in front of you and hit it down? Poach only a ball you can volley downwards, early and decisively. A half-hearted poach leaves two players on one side.",
-   "watch": "A watching B's volley instead of moving. The cover starts on B's call; by the time the poach lands, A should already be on the other side.",
+   "watch": "A watching B’s volley instead of moving. The cover starts on B’s call; by the time the poach lands, A should already be on the other side.",
    "up": "C may disguise the drive and go down the line instead, punishing B for moving early.",
    "down": "F feeds the cross-court ball slowly from the far net position, and the point stops after the poach.",
    "pass": "Win six of ten points that include a poach, losing none through the vacated side.",
@@ -1003,7 +1003,7 @@
     ],
     "half": null
    },
-   "caption": "B cuts across to poach C's cross-court drive while A crosses behind to cover B's side."
+   "caption": "B cuts across to poach C’s cross-court drive while A crosses behind to cover B’s side."
   }
  ]
 }

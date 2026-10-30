@@ -27,7 +27,7 @@
   }
  ],
  "box": {
-  "label": "THE DEFENDER'S QUESTION",
+  "label": "THE DEFENDER’S QUESTION",
   "text": "Before each defensive ball, ask which reply forces their next shot to be hit lower, deeper or from further back. Play that one, not the shot that feels brave."
  },
  "drills": [
@@ -39,7 +39,7 @@
    "time": "12 min",
    "focus": "Smash defence",
    "summary": "F smashes at controlled pace into your half; A lets each ball reach the back glass, then lobs deep off the rebound.",
-   "setup": "A and B start side by side about 1.5 metres in front of their back glass. F stands 3 metres from the net on the far side with a basket, tossing each ball up and smashing it.",
+   "setup": "A and B start side by side about 1.5 m in front of their back glass. F stands 3 m from the net on the far side with a basket, tossing each ball up and smashing it.",
    "run": [
     "F smashes at three-quarter pace towards A. As F swings, A turns side-on and steps forward, away from the glass, so the rebound has room.",
     "A allows the rebound off the back glass, waits for it to drop to a comfortable height, then lobs high and deep cross-court.",
@@ -50,7 +50,7 @@
    "watch": "Defenders stand pressed against the glass and get jammed by the rebound. Start a metre and a half off the wall and move forward as F swings.",
    "up": "F mixes flat smashes into the side glass with the odd soft drop, so A cannot commit early.",
    "down": "F smashes at half pace, always to A, so the rebound arrives in the same place.",
-   "pass": "Seven of ten lobs bounce behind F's service line without giving F a second smash.",
+   "pass": "Seven of ten lobs bounce behind F’s service line without giving F a second smash.",
    "diagram": {
     "players": [
      [
@@ -135,7 +135,7 @@
     ],
     "half": null
    },
-   "caption": "F smashes, the ball comes off A's back glass, and A answers with a high cross-court lob that lands deep."
+   "caption": "F smashes, the ball comes off A’s back glass, and A answers with a high cross-court lob that lands deep."
   },
   {
    "id": "D2",
@@ -145,7 +145,7 @@
    "time": "12 min",
    "focus": "Counter-lob",
    "summary": "F lobs over A at the net; A chases back, plays it after the back-glass rebound and lobs over C, who has rushed forward.",
-   "setup": "A and B stand at net position, about 2.5 metres from the net. F stands near the far back glass with a basket. C waits on F's service line.",
+   "setup": "A and B stand at net position, about 2.5 m from the net. F stands near the far back glass with a basket. C waits on F’s service line.",
    "run": [
     "F lobs over A towards the back corner. A turns and runs back facing the side wall while B shifts across to cover the middle.",
     "As F feeds, C runs forward to the net. A lets the lob come off the back glass and reads the height of the rebound.",
@@ -248,10 +248,10 @@
    "players": "2–4",
    "time": "12 min",
    "focus": "Víbora defence",
-   "summary": "F plays víbora-style sliced balls into A's back corner; A decides whether to strike before the side glass or after it.",
-   "setup": "A starts on the right half, about 2 metres from the back glass. F stands at the net on the far side, left of centre, with a basket. B waits on the left half.",
+   "summary": "F plays víbora-style sliced balls into A’s back corner; A decides whether to strike before the side glass or after it.",
+   "setup": "A starts on the right half, about 2 m from the back glass. F stands at the net on the far side, left of centre, with a basket. B waits on the left half.",
    "run": [
-    "F hits sliced, side-spinning balls that land near A's side wall and run into the corner, all at three-quarter pace.",
+    "F hits sliced, side-spinning balls that land near A’s side wall and run into the corner, all at three-quarter pace.",
     "If the ball will hit the side glass low and die, A moves in and plays it before the wall with an open stance.",
     "If it bounces high enough to come off the side glass at hip height, A lets it come out and lobs cross-court.",
     "After eight feeds, F adds balls that also reach the back glass, so A must read two walls at once."
@@ -260,7 +260,7 @@
    "watch": "A backs into the corner and gets trapped there with the ball. Stay a step inside the court so you move forward to the ball, not backwards with it.",
    "up": "F alternates víboras with soft drops short of the service line, so A cannot camp deep.",
    "down": "F feeds with less spin from the middle of the net, so the ball sits up.",
-   "pass": "Seven of ten replies land deep or at F's feet, with no ball left in the corner.",
+   "pass": "Seven of ten replies land deep or at F’s feet, with no ball left in the corner.",
    "diagram": {
     "players": [
      [
@@ -334,7 +334,7 @@
     "moves": [],
     "half": null
    },
-   "caption": "F's víbora skids towards the side wall and into the pocket; A plays it off the side glass and lobs cross-court."
+   "caption": "F’s víbora skids towards the side wall and into the pocket; A plays it off the side glass and lobs cross-court."
   },
   {
    "id": "D4",
@@ -343,12 +343,12 @@
    "players": "2–3",
    "time": "10 min",
    "focus": "Body-ball defence",
-   "summary": "F drives firm balls at A's hips and chest from the net; A clears space with the feet and returns each one under control.",
-   "setup": "A stands about 2 metres from the back glass on the right half. F stands 2 metres from the net on the far side with a basket. B collects balls and calls targets.",
+   "summary": "F drives firm balls at A’s hips and chest from the net; A clears space with the feet and returns each one under control.",
+   "setup": "A stands about 2 m from the back glass on the right half. F stands 2 m from the net on the far side with a basket. B collects balls and calls targets.",
    "run": [
-    "F drives flat balls straight at A's body in a fixed order: right hip, left hip, chest, repeated four times.",
+    "F drives flat balls straight at A’s body in a fixed order: right hip, left hip, chest, repeated four times.",
     "On every ball A side-steps out of the line, so the racket meets the ball in front rather than beside the stomach.",
-    "Hip balls go back low and slow to F's feet. Chest balls taken on the backhand go back as a high, deep lob.",
+    "Hip balls go back low and slow to F’s feet. Chest balls taken on the backhand go back as a high, deep lob.",
     "In round two F mixes the order freely, and B shouts which corner A must send the ball to."
    ],
    "decision": "Choose the side early. Right hip usually means a small step left and a forehand; chest and left hip usually mean the backhand, racket head up in front.",
@@ -433,7 +433,7 @@
     ],
     "half": null
    },
-   "caption": "F drives at A's body; A side-steps off the line of the ball and blocks it low back towards F."
+   "caption": "F drives at A’s body; A side-steps off the line of the ball and blocks it low back towards F."
   },
   {
    "id": "D5",
@@ -442,11 +442,11 @@
    "players": "4–5",
    "time": "12 min",
    "focus": "Low defence",
-   "summary": "C and D volley from the net while A and B may only reply with soft, low balls that drop at the volleyers' feet.",
-   "setup": "A and B stand 1.5–2 metres from their back glass. C and D are at net position on the far side. F, a fifth player, feeds the first ball of each point to C from the side; with four, C starts from the hand.",
+   "summary": "C and D volley from the net while A and B may only reply with soft, low balls that drop at the volleyers’ feet.",
+   "setup": "A and B stand 1.5–2 m from their back glass. C and D are at net position on the far side. F, a fifth player, feeds the first ball of each point to C from the side; with four, C starts from the hand.",
    "run": [
-    "F feeds C, who volleys deep into A's or B's half. The defenders may use the glass if they need time.",
-    "Every defensive reply must be a soft block or chiquita that dips over the net and lands at the volleyers' feet.",
+    "F feeds C, who volleys deep into A’s or B’s half. The defenders may use the glass if they need time.",
+    "Every defensive reply must be a soft block or chiquita that dips over the net and lands at the volleyers’ feet.",
     "C and D try to volley through the gap or deep to the corners. Play each point out, but no lobs.",
     "After six points, the defenders may use one lob per point. They choose when to play it."
    ],
@@ -530,7 +530,7 @@
     "moves": [],
     "half": null
    },
-   "caption": "C volleys deep to A; A answers with a soft ball that dips into the zone at D's feet."
+   "caption": "C volleys deep to A; A answers with a soft ball that dips into the zone at D’s feet."
   },
   {
    "id": "D6",
@@ -540,7 +540,7 @@
    "time": "15 min",
    "focus": "One v two",
    "summary": "A defends the full back court alone against C and D at the net, using only lobs, until the point is decided.",
-   "setup": "A starts in the middle, about 2 metres from the back glass. C and D are at net position on the far side. A starts each point by lobbing over them.",
+   "setup": "A starts in the middle, about 2 m from the back glass. C and D are at net position on the far side. A starts each point by lobbing over them.",
    "run": [
     "C and D answer with volleys, bandejas or víboras, but no flat kill smashes, so A has a fair chance.",
     "A may only lob. A short lob is allowed, but C and D will punish it.",
@@ -627,7 +627,7 @@
     ],
     "half": null
    },
-   "caption": "Alone at the back, A runs to D's bandeja and answers with another deep lob over the net pair."
+   "caption": "Alone at the back, A runs to D’s bandeja and answers with another deep lob over the net pair."
   },
   {
    "id": "D7",
@@ -637,12 +637,12 @@
    "time": "10 min",
    "focus": "Reset lob",
    "summary": "F pulls A wide; when A is stretched, the reply is a slow, high lob through the middle that gives the pair time.",
-   "setup": "A and B start in defensive position near their back glass. F stands at the net on the far side with a basket. Place a cone 1 metre from the far back glass, in the middle of the court.",
+   "setup": "A and B start in defensive position near their back glass. F stands at the net on the far side with a basket. Place a cone 1 m from the far back glass, in the middle of the court.",
    "run": [
-    "F feeds alternately to A's side-glass corner and to the middle. Some balls stretch A wide, others arrive straight to A.",
+    "F feeds alternately to A’s side-glass corner and to the middle. Some balls stretch A wide, others arrive straight to A.",
     "When A is pulled wide or reaches late, A lobs high and slow through the middle, aiming at the cone.",
     "During the flight of the lob, A and B return to their defensive spots and split-step before F hits again.",
-    "When A is balanced and on time, A may lob to a corner. B calls \"reset\" or \"go\" to confirm the choice."
+    "When A is balanced and on time, A may lob to a corner. B calls ‘reset’ or ‘go’ to confirm the choice."
    ],
    "decision": "Judge your own balance, not the ball. If your weight is moving away from the court, you have no angle, so the high middle lob is the honest choice.",
    "watch": "The reset lob is hit too flat and lands in front of F. Open the racket face, slow the swing and aim higher than feels necessary.",
@@ -736,7 +736,7 @@
   },
   {
    "id": "D8",
-   "title": "Your partner's voice.",
+   "title": "Your partner’s voice.",
    "level": "3–5",
    "players": "3–4",
    "time": "12 min",
@@ -744,9 +744,9 @@
    "summary": "F mixes deep and over-hit balls; B calls each one before the bounce, and A plays the ball by the call alone.",
    "setup": "A and B defend near their back glass. F stands at the net on the far side with a basket, mixing deep balls with some that will strike the glass on the full.",
    "run": [
-    "F feeds. Before the bounce, B gives one call: \"glass\" (let it come off the wall), \"out\" (it will hit the wall on the full, so leave it) or \"yours\".",
-    "A acts on the call only. On \"glass\" A plays the rebound, on \"yours\" A takes it before the wall, on \"out\" A lets it go.",
-    "A ball that hits your wall or mesh without bouncing first is your point, so a correct \"out\" wins it without a swing.",
+    "F feeds. Before the bounce, B gives one call: ‘glass’ (let it come off the wall), ‘out’ (it will hit the wall on the full, so leave it) or ‘yours’.",
+    "A acts on the call only. On ‘glass’ A plays the rebound, on ‘yours’ A takes it before the wall, on ‘out’ A lets it go.",
+    "A ball that hits your wall or mesh without bouncing first is your point, so a correct ‘out’ wins it without a swing.",
     "After ten feeds, swap roles, then use the calls in live points against C and D."
    ],
    "decision": "B reads the flight. A ball still rising as it passes your service line will usually strike the glass on the full; one already falling will bounce first.",
@@ -818,7 +818,7 @@
     "moves": [],
     "half": null
    },
-   "caption": "Two feeds from F: one strikes the glass on the full (\"out\"), one bounces first and comes off (\"glass\")."
+   "caption": "Two feeds from F: one strikes the glass on the full (‘out’), one bounces first and comes off (‘glass’)."
   },
   {
    "id": "D9",
@@ -934,15 +934,15 @@
    "summary": "Only where court and competition allow play outside: F hits controlled x3 smashes, and A runs out through the exit to return them.",
    "setup": "Run this only on a court whose exits and safety area meet the specifications, and only if your competitions allow play outside. Clear bags and benches. F smashes from the far net.",
    "run": [
-    "F tosses a ball up and hits an x3 into A's half: it bounces, rises off the back glass and heads over A's side wall.",
+    "F tosses a ball up and hits an x3 into A’s half: it bounces, rises off the back glass and heads over A’s side wall.",
     "As soon as A reads the steep bounce and the angle, A runs for the exit on that side, not towards the back glass.",
     "Outside, A tracks the ball and hits it before it touches the ground, which would be its second bounce, sending it high back over the net.",
     "A runs back in through the same exit while B covers the court. Walk the route first until it is familiar."
    ],
    "decision": "Decide at the bounce: is this an x3 or a ball you can play off the back glass? A steep bounce that is already carrying towards the side means run out now.",
-   "watch": "A watches the ball clear the wall before starting to run. Turn and go at the bounce, because that half second decides the chase.",
+   "watch": "A watches the ball clear the wall before starting to run. Turn and go at the bounce, because that half-second decides the chase.",
    "up": "F alternates x3 smashes with bandejas, so A must read each ball before committing to the exit.",
-   "down": "F throws or hits a high ball by hand over A's side wall, so A practises only the route and timing.",
+   "down": "F throws or hits a high ball by hand over A’s side wall, so A practises only the route and timing.",
    "pass": "A returns four of eight x3 smashes from outside the court.",
    "diagram": {
     "players": [
@@ -1013,7 +1013,7 @@
     ],
     "half": null
    },
-   "caption": "F's x3 bounces, comes off the back glass and leaves over the side; A heads for the exit to chase it."
+   "caption": "F’s x3 bounces, comes off the back glass and leaves over the side; A heads for the exit to chase it."
   }
  ]
 }

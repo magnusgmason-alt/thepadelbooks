@@ -171,7 +171,7 @@ def assemble():
     # session log pages
     for i in range(6):
         rows = "".join('<tr><td></td><td></td><td></td><td></td><td></td></tr>' for _ in range(11))
-        bk.add(f'''<div class="kicker">PART 2 · SESSION LOG</div>{htitle("Session |log.")}<p class="small">Date, the drills you ran, your pass marks and one note for next time.</p>
+        bk.add(f'''<div class="kicker">PART 2 · TRACK YOUR TRAINING</div>{htitle("Session |log.")}<p class="small">Date, the drills you ran, your pass marks and one note for next time.</p>
 <table class="tbl log"><thead><tr><th>DATE</th><th>DRILLS</th><th>PASS MARKS</th><th>WHAT WORKED</th><th>NEXT TIME</th></tr></thead><tbody>{rows}</tbody></table>''', "PART 2 · PLANS & TOOLS", "log")
     for i in range(4):
         blank = BD.render({})
