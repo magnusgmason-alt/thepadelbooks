@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&text=BESTLR&display=swap">
 <meta name="description" content="The Padel Playbook series by The Padel Academy: visual padel coaching books for beginners, advanced players and juniors, plus 100 drills to train smarter.">
 <meta property="og:title" content="The Padel Books · The Padel Academy">
 <meta property="og:description" content="Play smarter padel. Tactics, drills and court positioning for every level.">
@@ -120,9 +121,9 @@ section.block{padding-block:72px;border-bottom:2px solid var(--line)}
 .cover-link:hover .peek,.cover-link:focus-visible .peek{opacity:1;transform:none}
 @media (hover:none){.cover-link .peek{opacity:1;transform:none}}
 .cover-link .badge{position:absolute;top:-14px;right:-12px;width:104px;height:104px;border-radius:50%;background:var(--lime);color:#14213D;display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg);box-shadow:0 8px 18px -8px rgba(20,33,61,.55);border:3px solid #14213D;text-align:center;line-height:1;pointer-events:none}
-.cover-link .badge small{font-family:var(--f-mono);font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
-.cover-link .badge b{font-family:var(--f-display);font-weight:800;font-size:13px;letter-spacing:0;text-transform:uppercase;margin-top:5px}
-@media (max-width:520px){.cover-link .badge{width:88px;height:88px;right:-6px;top:-10px}.cover-link .badge b{font-size:11px}}
+.cover-link .badge small{font-family:"Instrument Sans",var(--f-display),sans-serif;font-size:15px;font-weight:600;letter-spacing:-.01em;text-transform:none}
+.cover-link .badge b{font-family:"Bebas Neue",var(--f-display),sans-serif;font-weight:400;font-size:21px;letter-spacing:.03em;text-transform:uppercase;margin-top:-1px}
+@media (max-width:520px){.cover-link .badge{width:88px;height:88px;right:-6px;top:-10px}.cover-link .badge small{font-size:13px}.cover-link .badge b{font-size:18px}}
 .book h3 a{text-decoration:none}.book h3 a:hover{text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:3px}
 .cover{aspect-ratio:6/9;max-width:100%;position:relative;overflow:hidden;padding:7% 8%;display:flex;flex-direction:column;color:#14213D;box-shadow:0 1px 0 rgba(0,0,0,.08),0 18px 30px -18px rgba(20,33,61,.45)}
 .cover .c-the{font-family:var(--f-display);font-weight:700;letter-spacing:.5em;font-size:11px}
@@ -305,7 +306,7 @@ const books=[
 ];
 document.getElementById("shelf").innerHTML=books.map(b=>`
  <article class="book">
-  <a class="cover-link" href="${b.url}" aria-label="See ${b.full}"><img class="cover-img" src="${b.img}" alt="Cover of ${b.full}" width="700" height="1050" loading="lazy"><span class="peek">Look inside →</span>${b.badge?'<span class="badge" aria-label="Amazon bestseller"><small>Amazon</small><b>Bestseller</b></span>':""}</a>
+  <a class="cover-link" href="${b.url}" aria-label="See ${b.full}"><img class="cover-img" src="${b.img}" alt="Cover of ${b.full}" width="700" height="1050" loading="lazy"><span class="peek">Look inside →</span>${b.badge?'<span class="badge" aria-label="Amazon bestseller"><small>amazon</small><b>Bestseller</b></span>':""}</a>
   <span class="eyebrow">${b.tag}</span>
   <h3><a href="${b.url}">${b.full}</a></h3>
   <div class="meta"><b>${b.p}</b><span>Ebook · ${b.pages} pages</span></div>
