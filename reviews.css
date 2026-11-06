@@ -9,6 +9,8 @@
 .stars{display:inline-flex;gap:2px;color:var(--lime)}
 .stars svg{width:18px;height:18px;display:block}
 .rv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.rv-grid.n2{grid-template-columns:repeat(2,minmax(0,1fr));max-width:760px}
+.rv-grid.n1{grid-template-columns:minmax(0,1fr);max-width:380px}
 .rv-card{min-width:0}
 .rv-card{background:var(--card);color:var(--ink);border:2px solid var(--card);padding:22px 22px 18px;display:flex;flex-direction:column;gap:12px}
 .rv-card .stars{color:#E0A400}
@@ -30,5 +32,5 @@
 .rv-foot{margin-top:22px;font-family:var(--f-mono);font-size:12px;color:var(--on-navy-soft)}
 .rv-foot a{color:var(--lime)}
 .rv-score .stars{font-size:20px;letter-spacing:2px}
-@media (max-width:900px){.rv-grid{grid-template-columns:minmax(0,1fr)}}
+@media (max-width:900px){.rv-grid,.rv-grid.n2,.rv-grid.n1{grid-template-columns:minmax(0,1fr);max-width:none}}
 @media (max-width:420px){.rv-card{padding:18px 14px 16px}.rv-top .stars{font-size:15px}.rv-top .vp{font-size:11.5px}}
