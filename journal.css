@@ -244,3 +244,25 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 .amz-more a{color:var(--ink-soft)}
 .bk-list.three.four{grid-template-columns:repeat(2,1fr)}
 @media (max-width:900px){.bk-list.three.four{grid-template-columns:1fr}}
+
+/* buy card + sticky mobile bar (articles) */
+.buycard{display:grid;grid-template-columns:78px 1fr;gap:16px;align-items:center;margin:28px 0 8px;padding:16px;border:2px solid var(--ink);background:var(--card)}
+.buycard img{width:78px;height:auto;display:block;box-shadow:0 4px 12px rgba(20,33,61,.18)}
+.buycard .eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)}
+.buycard b{display:block;font-size:16px;line-height:1.3;margin:4px 0 4px}
+.buycard p{margin:0 0 10px;font-size:14px;line-height:1.5;color:var(--ink-soft)}
+.buycard .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.buycard .row a.look{font-size:13px;color:var(--ink);font-weight:600}
+.stickybuy{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;align-items:center;gap:12px;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:var(--ink);color:var(--paper);transform:translateY(110%);transition:transform .25s ease}
+.stickybuy.on{transform:none}
+.stickybuy img{width:34px;height:auto;display:block}
+.stickybuy span{flex:1;min-width:0;font-size:13px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stickybuy span i{font-style:normal;color:var(--on-navy-soft)}
+.stickybuy .btn{display:inline-flex!important;padding:9px 12px}
+@media (max-width:760px){.stickybuy{display:flex}body.has-sticky footer{padding-bottom:72px}}
+@media (max-width:420px){.buycard{grid-template-columns:62px 1fr;gap:12px;padding:14px}.buycard img{width:62px}}
+.art-body .buycard a:not(.btn){background:none;border:0;padding:0;box-shadow:none;text-decoration:none;min-height:0;display:inline}
+.art-body .buycard>a{display:block;line-height:0}
+.art-body .buycard .row a.look{border-bottom:2px solid var(--lime);padding-bottom:1px;line-height:1.4}
+.art-body .buycard .btn{text-decoration:none;border-bottom:2px solid var(--lime)}
+.buycard{align-items:start}
