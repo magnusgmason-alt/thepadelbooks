@@ -266,3 +266,9 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 .art-body .buycard .row a.look{border-bottom:2px solid var(--lime);padding-bottom:1px;line-height:1.4}
 .art-body .buycard .btn{text-decoration:none;border-bottom:2px solid var(--lime)}
 .buycard{align-items:start}
+
+/* bundle add-on line (book pages) */
+.addon{display:block;margin:4px 0 2px;padding:12px 14px;border:2px dashed var(--ink);text-decoration:none;color:var(--ink);background:var(--card);line-height:1.35}
+.addon b{display:block;font-size:14.5px}
+.addon span{display:block;font-size:12.5px;color:var(--ink-soft);margin-top:3px}
+.addon:hover{border-style:solid;background:#fff}
