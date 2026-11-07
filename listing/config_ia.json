@@ -1,0 +1,204 @@
+{
+ "book_dir": "/home/claude/build/listing/books/ia/src",
+ "pdf": "The_Padel_Playbook_Intermediate_Advanced_2027_interior_6x9.pdf",
+ "front": "The_Padel_Playbook_Intermediate_Advanced_cover_2027.jpg",
+ "out_dir": "/home/claude/build/listing/out_ia/Listing Images - The Padel Playbook Intermediate & Advanced",
+ "diagrams_dir": "/home/claude/build/listing/books/ia/epub/EPUB/media",
+ "bleed_in": 0,
+ "pages": 180,
+ "spine": [
+  "THE PADEL ",
+  "PLAYBOOK"
+ ],
+ "year": "2027",
+ "edition": "2027 EDITION",
+ "levels": {
+  "eyebrow": "Who it's for",
+  "title": "Built for\nlevel 3 to 6.",
+  "sub": [
+   "Confident in rallies, comfortable",
+   "with the walls and ready to think",
+   "in patterns, not single shots."
+  ],
+  "range": [
+   3,
+   6
+  ],
+  "max": 7,
+  "range_label": "This book · levels 3–6"
+ },
+ "hero": {
+  "eyebrow": "The Padel Playbook series",
+  "headline": [
+   "You already",
+   "play. Now",
+   "play it",
+   "right."
+  ],
+  "sub": [
+   "Deeper shot technique, patterns",
+   "and counters, and drills with",
+   "measurable targets."
+  ]
+ },
+ "stats": [
+  [
+   "180",
+   "pages"
+  ],
+  [
+   "19",
+   "chapters"
+  ],
+  [
+   "14",
+   "drills"
+  ],
+  [
+   "3",
+   "training plans"
+  ]
+ ],
+ "chapters": {
+  "eyebrow": "Chapter by chapter",
+  "title": "The advanced\ngame, explained.",
+  "lead": "The full overhead family and the patterns good pairs repeat, such as",
+  "highlights": [
+   "Bandeja",
+   "Víbora",
+   "Rulo",
+   "x3 & x4",
+   "Gancho"
+  ],
+  "items": [
+   [
+    "file6.png",
+    "04",
+    "Drive or Revés"
+   ],
+   [
+    "file13.png",
+    "05",
+    "Positioning & Movement"
+   ],
+   [
+    "file19.png",
+    "06",
+    "The Wall Game"
+   ],
+   [
+    "file27.png",
+    "07",
+    "The Overheads"
+   ],
+   [
+    "file37.png",
+    "09",
+    "Patterns & Tactics"
+   ],
+   [
+    "file49.png",
+    "12",
+    "The Drills"
+   ]
+  ]
+ },
+ "anatomy": {
+  "eyebrow": "Inside the book",
+  "title": "Technique.\nPatterns.\nTargets.",
+  "items": [
+   [
+    57,
+    "Every shot, step by step",
+    "Grip, turn, contact, swing\nand body, one at a time"
+   ],
+   [
+    84,
+    "Patterns and counters",
+    "Points built over two to\nfour shots, drawn on court"
+   ],
+   [
+    114,
+    "Drills with targets",
+    "Numbers like 8 of 10 into the\nzone, so you know when to move on"
+   ]
+  ]
+ },
+ "diagram_hero": {
+  "diagram": "file27.png",
+  "diagram2": "file37.png",
+  "eyebrow": "Court diagrams",
+  "headline": [
+   "See the play",
+   "before you",
+   "play it."
+  ],
+  "sub": [
+   "Redrawn to scale, with one",
+   "set of symbols throughout",
+   "the whole book."
+  ]
+ },
+ "spread7": {
+  "pages": [
+   58,
+   59
+  ],
+  "eyebrow": "Chapter 07",
+  "title": "The bandeja,\nin detail.",
+  "zoom_pdf": [
+   58,
+   0.26,
+   0.22,
+   0.68,
+   0.42
+  ],
+  "pill": "Drawn to scale"
+ },
+ "spread8": {
+  "pages": [
+   50,
+   51
+  ],
+  "slug": "wall-game",
+  "eyebrow": "Chapter 06",
+  "title": "Make the walls\nwork for you."
+ },
+ "spread9": {
+  "pages": [
+   82,
+   83
+  ],
+  "slug": "patterns-counters",
+  "eyebrow": "Chapter 09",
+  "title": "Patterns and\ntheir counters."
+ },
+ "spread10": {
+  "pages": [
+   146,
+   147
+  ],
+  "slug": "eight-week-plans",
+  "eyebrow": "Three 8-week plans",
+  "title": "A plan for\nevery week."
+ },
+ "wall10": {
+  "eyebrow": "Court diagrams",
+  "title": [
+   "Read the court",
+   "like a coach."
+  ],
+  "sub": [
+   "Positions, patterns and target zones,",
+   "drawn out chapter by chapter."
+  ],
+  "pages": [
+   36,
+   61,
+   88,
+   97,
+   119
+  ],
+  "slug": "court-diagrams"
+ }
+}

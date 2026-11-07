@@ -1,0 +1,204 @@
+{
+ "book_dir": "/home/claude/build/listing/books/bi/src",
+ "pdf": "The_Padel_Playbook_Beginner_Intermediate_2027.pdf",
+ "front": "The_Padel_Playbook_Beginner_Intermediate_FRONT_cover_2027.jpg",
+ "out_dir": "/home/claude/build/listing/out_bi/Listing Images - The Padel Playbook Beginner & Intermediate",
+ "diagrams_dir": "/home/claude/build/listing/books/bi/epub/EPUB/media",
+ "bleed_in": 0,
+ "pages": 219,
+ "spine": [
+  "THE PADEL ",
+  "PLAYBOOK"
+ ],
+ "year": "2027",
+ "edition": "2027 EDITION",
+ "levels": {
+  "eyebrow": "Who it's for",
+  "title": "Built for\nlevel 1 to 3.",
+  "sub": [
+   "From your first few sessions",
+   "to club players who want",
+   "to move up."
+  ],
+  "range": [
+   1,
+   3
+  ],
+  "max": 7,
+  "range_label": "This book · levels 1–3"
+ },
+ "hero": {
+  "eyebrow": "The Padel Playbook series",
+  "headline": [
+   "From your",
+   "first rally",
+   "to your",
+   "first league."
+  ],
+  "sub": [
+   "Rules, walls, overheads, tactics,",
+   "drills and training plans,",
+   "explained step by step."
+  ]
+ },
+ "stats": [
+  [
+   "219",
+   "pages"
+  ],
+  [
+   "19",
+   "chapters"
+  ],
+  [
+   "12",
+   "drills"
+  ],
+  [
+   "100+",
+   "diagrams"
+  ]
+ ],
+ "chapters": {
+  "eyebrow": "Chapter by chapter",
+  "title": "The whole game,\nexplained.",
+  "lead": "From the rules and the walls to the shots that win club points, such as",
+  "highlights": [
+   "Bandeja",
+   "Víbora",
+   "Chiquita",
+   "Double wall",
+   "Star Point"
+  ],
+  "items": [
+   [
+    "plate13.jpg",
+    "02",
+    "Rules That Decide Matches"
+   ],
+   [
+    "plate29.jpg",
+    "05",
+    "Positioning & Movement"
+   ],
+   [
+    "plate32.jpg",
+    "06",
+    "The Wall Game"
+   ],
+   [
+    "plate34.jpg",
+    "07",
+    "The Overheads"
+   ],
+   [
+    "plate38.jpg",
+    "08",
+    "Net & Touch"
+   ],
+   [
+    "plate41.jpg",
+    "09",
+    "Patterns & Tactics"
+   ]
+  ]
+ },
+ "anatomy": {
+  "eyebrow": "Inside the book",
+  "title": "Clear steps.\nReal diagrams.\nNext match.",
+  "items": [
+   [
+    90,
+    "Every shot, step by step",
+    "Preparation, contact, swing\nand footwork, one at a time"
+   ],
+   [
+    117,
+    "Patterns that win points",
+    "Serve, approach and finish,\ndrawn on court"
+   ],
+   [
+    151,
+    "Drills with a score",
+    "Set-up, target and a score\nso you know you've improved"
+   ]
+  ]
+ },
+ "diagram_hero": {
+  "diagram": "plate35.jpg",
+  "diagram2": "plate40.jpg",
+  "eyebrow": "Diagrams & court plates",
+  "headline": [
+   "See the play",
+   "before you",
+   "play it."
+  ],
+  "sub": [
+   "Positions, ball paths and",
+   "target zones, drawn out",
+   "chapter by chapter."
+  ]
+ },
+ "spread7": {
+  "pages": [
+   92,
+   93
+  ],
+  "eyebrow": "Chapter 07",
+  "title": "The bandeja,\nexplained.",
+  "zoom": "plate34.jpg",
+  "pill": "Path · target · footwork",
+  "zoom_box": [
+   300,
+   150,
+   1300,
+   950
+  ]
+ },
+ "spread8": {
+  "pages": [
+   64,
+   65
+  ],
+  "slug": "move-as-a-pair",
+  "eyebrow": "Chapter 05",
+  "title": "Move as\na pair."
+ },
+ "spread9": {
+  "pages": [
+   120,
+   121
+  ],
+  "slug": "patterns-tactics",
+  "eyebrow": "Chapter 09",
+  "title": "How club points\nare won."
+ },
+ "spread10": {
+  "pages": [
+   146,
+   147
+  ],
+  "slug": "eight-week-plans",
+  "eyebrow": "Three 8-week plans",
+  "title": "A plan for\nevery week."
+ },
+ "wall10": {
+  "eyebrow": "Diagrams & court plates",
+  "title": [
+   "Read the court",
+   "like a coach."
+  ],
+  "sub": [
+   "Serves, walls and target zones,",
+   "drawn out chapter by chapter."
+  ],
+  "pages": [
+   28,
+   33,
+   94,
+   62,
+   135
+  ],
+  "slug": "court-plates"
+ }
+}

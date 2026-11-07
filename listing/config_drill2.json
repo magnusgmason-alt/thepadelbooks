@@ -1,0 +1,204 @@
+{
+ "book_dir": "/mnt/user-data/outputs",
+ "pdf": "The_Padel_Drill_Book_Intermediate_Advanced_2027.pdf",
+ "front": "The_Padel_Drill_Book_Intermediate_Advanced_cover_2027.jpg",
+ "out_dir": "/home/claude/build/listing/out_drill2/Listing Images - The Padel Drill Book Intermediate & Advanced",
+ "diagrams_dir": "/home/claude/build/drillbook2/out/epub/EPUB/media",
+ "bleed_in": 0,
+ "pages": 165,
+ "spine": [
+  "THE PADEL ",
+  "DRILL BOOK"
+ ],
+ "year": "2027",
+ "edition": "2027 EDITION",
+ "levels": {
+  "eyebrow": "Who it's for",
+  "title": "Built for\nlevel 3 to 6.",
+  "sub": [
+   "You already rally, serve and volley.",
+   "This book trains the reads and",
+   "decisions that win the match."
+  ],
+  "range": [
+   3,
+   6
+  ],
+  "max": 7,
+  "range_label": "This book · levels 3–6"
+ },
+ "hero": {
+  "eyebrow": "The Padel Playbook series",
+  "headline": [
+   "You know",
+   "the shots.",
+   "Train the",
+   "decisions."
+  ],
+  "sub": [
+   "80 new drills with court diagrams,",
+   "a pass mark for every drill and",
+   "three 8-week plans."
+  ]
+ },
+ "stats": [
+  [
+   "80",
+   "drills"
+  ],
+  [
+   "165",
+   "pages"
+  ],
+  [
+   "8",
+   "chapters"
+  ],
+  [
+   "16",
+   "tactic diagrams"
+  ]
+ ],
+ "chapters": {
+  "eyebrow": "Chapter by chapter",
+  "title": "Every moment\nof the point.",
+  "lead": "Covers the shots and plays that separate levels, such as",
+  "highlights": [
+   "Bandeja",
+   "Víbora",
+   "Rulo",
+   "Contra-pared",
+   "Australian formation"
+  ],
+  "items": [
+   [
+    "dia001.png",
+    "01",
+    "Glass Mastery"
+   ],
+   [
+    "dia011.png",
+    "02",
+    "Owning the Net"
+   ],
+   [
+    "dia021.png",
+    "03",
+    "The Overhead Arsenal"
+   ],
+   [
+    "dia041.png",
+    "05",
+    "Defence Under Fire"
+   ],
+   [
+    "dia059.png",
+    "07",
+    "Pair Patterns"
+   ],
+   [
+    "dia069.png",
+    "08",
+    "Pressure Games"
+   ]
+  ]
+ },
+ "anatomy": {
+  "eyebrow": "Inside every drill",
+  "title": "One page.\nOne read.\nOne pass mark.",
+  "items": [
+   [
+    17,
+    "Set-up & four steps",
+    "Who stands where, the feed\nand exactly how to run it"
+   ],
+   [
+    19,
+    "The decision",
+    "The read this drill trains,\nnot just the stroke"
+   ],
+   [
+    18,
+    "Pass mark",
+    "A clear score that tells you\nwhen to move on"
+   ]
+  ]
+ },
+ "diagram_hero": {
+  "diagram": "ref07_1.png",
+  "diagram2": "ref04_1.png",
+  "eyebrow": "80 court diagrams inside",
+  "headline": [
+   "See the play",
+   "before you",
+   "play it."
+  ],
+  "sub": [
+   "Positions, feeds, shot paths",
+   "and target zones on every",
+   "drill, plus 16 tactic boards."
+  ]
+ },
+ "spread7": {
+  "pages": [
+   18,
+   19
+  ],
+  "eyebrow": "Court diagrams",
+  "title": "Every drill,\ndrawn out.",
+  "zoom": "dia001.png",
+  "pill": "80 diagrams · one per drill",
+  "zoom_box": [
+   40,
+   120,
+   600,
+   620
+  ]
+ },
+ "spread8": {
+  "pages": [
+   48,
+   49
+  ],
+  "slug": "overhead-arsenal",
+  "eyebrow": "Chapter 03",
+  "title": "The overhead\narsenal."
+ },
+ "spread9": {
+  "pages": [
+   110,
+   111
+  ],
+  "slug": "pair-patterns",
+  "eyebrow": "Chapter 07",
+  "title": "Two players,\none plan."
+ },
+ "spread10": {
+  "pages": [
+   146,
+   147
+  ],
+  "slug": "eight-week-plans",
+  "eyebrow": "Three 8-week plans",
+  "title": "A plan for\nevery week."
+ },
+ "wall10": {
+  "eyebrow": "Tactic boards & drill diagrams",
+  "title": [
+   "Read the court",
+   "like a coach."
+  ],
+  "sub": [
+   "Positions, movement and target zones,",
+   "drawn out chapter by chapter."
+  ],
+  "pages": [
+   34,
+   50,
+   66,
+   98,
+   113
+  ],
+  "slug": "tactic-boards"
+ }
+}

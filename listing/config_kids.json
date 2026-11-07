@@ -1,0 +1,212 @@
+{
+ "book_dir": "/home/claude/build/listing/books/kids/src",
+ "pdf": "The_Padel_Playbook_Kids_Edition_2027.pdf",
+ "front": "The_Padel_Playbook_Kids_Edition_cover_2027.jpg",
+ "out_dir": "/home/claude/build/listing/out_kids/Listing Images - The Padel Playbook Kids Edition",
+ "diagrams_dir": "/home/claude/build/listing/books/kids/epub/EPUB/media",
+ "bleed_in": 0,
+ "pages": 144,
+ "spine": [
+  "THE PADEL ",
+  "PLAYBOOK"
+ ],
+ "year": "2027",
+ "edition": "2027 EDITION",
+ "levels": {
+  "eyebrow": "Who it's for",
+  "title": "Built for\nages 10 to 14.",
+  "sub": [
+   "From your very first hit",
+   "to your first real match.",
+   "No experience needed."
+  ],
+  "range": [
+   10,
+   14
+  ],
+  "values": [
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "scale_label": "AGE",
+  "range_label": "This book · ages 10–14"
+ },
+ "hero": {
+  "eyebrow": "The Padel Playbook series",
+  "headline": [
+   "Read it.",
+   "Play it.",
+   "Tick it off."
+  ],
+  "sub": [
+   "Court pictures, games to play",
+   "with friends, quizzes and skill",
+   "boxes to track your progress."
+  ]
+ },
+ "stats": [
+  [
+   "144",
+   "pages"
+  ],
+  [
+   "15",
+   "chapters"
+  ],
+  [
+   "11",
+   "games"
+  ],
+  [
+   "1",
+   "certificate"
+  ]
+ ],
+ "chapters": {
+  "eyebrow": "Chapter by chapter",
+  "title": "One chapter\nat a time.",
+  "lead": "Everything a young player needs to know, from",
+  "highlights": [
+   "The court",
+   "Scoring",
+   "The walls",
+   "Bandeja",
+   "Smash"
+  ],
+  "items": [
+   [
+    "plate01.jpg",
+    "01",
+    "What Is Padel?"
+   ],
+   [
+    "plate08.jpg",
+    "03",
+    "Rules Made Simple"
+   ],
+   [
+    "plate14.jpg",
+    "06",
+    "Your First Shots"
+   ],
+   [
+    "plate16.jpg",
+    "07",
+    "The Magic Walls"
+   ],
+   [
+    "plate18.jpg",
+    "08",
+    "Where to Stand"
+   ],
+   [
+    "plate22.jpg",
+    "10",
+    "Simple Tactics"
+   ]
+  ]
+ },
+ "anatomy": {
+  "eyebrow": "How this book works",
+  "title": "Read it.\nPlay it.\nTick it off.",
+  "items": [
+   [
+    51,
+    "Skill boxes",
+    "Tick: tried it, can do it,\ncan do it in a match"
+   ],
+   [
+    38,
+    "Quizzes",
+    "Test what you know.\nAnswers at the back."
+   ],
+   [
+    110,
+    "Games",
+    "Eleven games to play with\na friend, parent or group"
+   ]
+  ]
+ },
+ "diagram_hero": {
+  "diagram": "plate19.jpg",
+  "diagram2": "plate21.jpg",
+  "eyebrow": "Court pictures",
+  "headline": [
+   "See where",
+   "to stand",
+   "and hit."
+  ],
+  "sub": [
+   "Simple court pictures show",
+   "where to stand and where",
+   "the ball goes."
+  ]
+ },
+ "spread7": {
+  "pages": [
+   86,
+   87
+  ],
+  "eyebrow": "Chapter 09",
+  "title": "The tray shot,\nmade easy.",
+  "zoom_pdf": [
+   87,
+   0.22,
+   0.4,
+   0.62,
+   0.66
+  ],
+  "pill": "Path · target"
+ },
+ "spread8": {
+  "pages": [
+   66,
+   67
+  ],
+  "slug": "magic-walls",
+  "eyebrow": "Chapter 07",
+  "title": "The magic\nwalls."
+ },
+ "spread9": {
+  "pages": [
+   112,
+   113
+  ],
+  "slug": "games-challenges",
+  "eyebrow": "Chapter 13",
+  "title": "Games to play\nwith friends."
+ },
+ "spread10": {
+  "pages": [
+   146,
+   147
+  ],
+  "slug": "eight-week-plans",
+  "eyebrow": "Three 8-week plans",
+  "title": "A plan for\nevery week."
+ },
+ "wall10": {
+  "eyebrow": "Court pictures",
+  "title": [
+   "Every page,",
+   "easy to follow."
+  ],
+  "sub": [
+   "Big court pictures show where",
+   "to stand and where the ball goes."
+  ],
+  "pages": [
+   12,
+   29,
+   62,
+   76,
+   121
+  ],
+  "slug": "court-pictures"
+ }
+}

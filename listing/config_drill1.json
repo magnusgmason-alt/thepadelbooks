@@ -1,0 +1,210 @@
+{
+ "book_dir": "/home/claude/build/listing/books/drill1/src",
+ "pdf": "The_Padel_Drill_Book_2027.pdf",
+ "front": "The_Padel_Drill_Book_cover_2027.jpg",
+ "out_dir": "/home/claude/build/listing/out_drill1/Listing Images - The Padel Drill Book",
+ "diagrams_dir": "/home/claude/build/listing/books/drill1/epub/EPUB/media",
+ "bleed_in": 0,
+ "pages": 160,
+ "spine": [
+  "THE PADEL ",
+  "DRILL BOOK"
+ ],
+ "year": "2027",
+ "edition": "2027 EDITION",
+ "levels": {
+  "eyebrow": "Who it's for",
+  "title": "Built for\nlevel 1 to 6.",
+  "sub": [
+   "From your first club sessions",
+   "to competitive play. Every drill",
+   "shows its level range."
+  ],
+  "range": [
+   1,
+   6
+  ],
+  "max": 7,
+  "range_label": "This book · levels 1–6"
+ },
+ "hero": {
+  "eyebrow": "The Padel Playbook series",
+  "headline": [
+   "Matches test",
+   "your game.",
+   "Drills",
+   "build it."
+  ],
+  "sub": [
+   "100 drills with court diagrams,",
+   "coach's cues and a score for",
+   "every drill, plus four training plans."
+  ]
+ },
+ "stats": [
+  [
+   "100",
+   "drills"
+  ],
+  [
+   "160",
+   "pages"
+  ],
+  [
+   "8",
+   "chapters"
+  ],
+  [
+   "4",
+   "training plans"
+  ]
+ ],
+ "chapters": {
+  "eyebrow": "Chapter by chapter",
+  "title": "Every part\nof your game.",
+  "lead": "Covers the shots and plays that win points, such as",
+  "highlights": [
+   "Bandeja",
+   "Víbora",
+   "Bajada",
+   "Chiquita",
+   "Contra-pared"
+  ],
+  "items": [
+   [
+    "dia009.png",
+    "01",
+    "Solo & Wall Drills"
+   ],
+   [
+    "dia021.png",
+    "02",
+    "Groundstrokes & the Glass"
+   ],
+   [
+    "dia035.png",
+    "03",
+    "Volleys & the Net"
+   ],
+   [
+    "dia052.png",
+    "04",
+    "Lobs & Overheads"
+   ],
+   [
+    "dia066.png",
+    "05",
+    "Serve & Return"
+   ],
+   [
+    "dia093.png",
+    "07",
+    "Two vs Two Games"
+   ]
+  ]
+ },
+ "anatomy": {
+  "eyebrow": "Inside every drill",
+  "title": "One drill.\nOne page.\nOne score.",
+  "items": [
+   [
+    17,
+    "Level, players, time",
+    "Who it's for and how long\nit takes, at a glance"
+   ],
+   [
+    41,
+    "Coach's cue",
+    "Plus the common mistake\nand how to fix it"
+   ],
+   [
+    67,
+    "Score it",
+    "Make it harder, make it\neasier, and a score to beat"
+   ]
+  ]
+ },
+ "diagram_hero": {
+  "diagram": "dia052.png",
+  "diagram2": "dia061.png",
+  "eyebrow": "100 court diagrams inside",
+  "headline": [
+   "See the drill",
+   "before you",
+   "run it."
+  ],
+  "sub": [
+   "Positions, feeds, shot paths",
+   "and target zones on every",
+   "one of the 100 drills."
+  ]
+ },
+ "spread7": {
+  "pages": [
+   66,
+   67
+  ],
+  "eyebrow": "Court diagrams",
+  "title": "Every drill,\ndrawn out.",
+  "zoom": "dia049.png",
+  "pill": "100 diagrams · one per drill",
+  "zoom_box": [
+   160,
+   10,
+   560,
+   395
+  ]
+ },
+ "spread8": {
+  "pages": [
+   68,
+   69
+  ],
+  "slug": "lobs-overheads",
+  "eyebrow": "Chapter 04",
+  "title": "Bandeja, víbora,\nsmash."
+ },
+ "spread9": {
+  "pages": [
+   110,
+   111
+  ],
+  "slug": "two-vs-two-games",
+  "eyebrow": "Chapter 07",
+  "title": "Games that\nbuild habits."
+ },
+ "spread10": {
+  "pages": [
+   146,
+   147
+  ],
+  "slug": "eight-week-plans",
+  "eyebrow": "Three 8-week plans",
+  "title": "A plan for\nevery week."
+ },
+ "wall10": {
+  "eyebrow": "100 drills · 100 diagrams",
+  "title": [
+   "Open any page.",
+   "Run the drill."
+  ],
+  "sub": [
+   "Every drill drawn on court,",
+   "with a clear score to beat."
+  ],
+  "pages": [
+   20,
+   37,
+   54,
+   86,
+   120
+  ],
+  "slug": "drill-pages"
+ },
+ "dia_crop": [
+  270,
+  50,
+  1028,
+  445
+ ]
+}

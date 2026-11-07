@@ -1,3 +1,4 @@
+from gallery import gallery_section, GAL_CSS
 import reviews as RV
 # Book pages: cover + checkout + ~2 min read + 20-page look-inside viewer.
 # Content taken from each book's own contents pages. Checkout = Lemon Squeezy "Discover Store".
@@ -105,7 +106,7 @@ def book_page(b, head, FOOTER):
   </div>
 </div></section>
 {RV.section(b["key"], 3, css=True)}
-<section class="look" id="look-inside"><div class="wrap">
+{gallery_section(b["key"], b["title"])}<section class="look" id="look-inside"><div class="wrap">
   <div class="look-head"><div><div class="eyebrow">Look inside</div><h2>Flip through the first {PREVIEW_N} pages</h2></div>
   <p class="counter" aria-live="polite">Page <b id="pg">1</b> of {b["pages"]}</p></div>
   <div class="viewer" data-key="{b["key"]}" data-n="{PREVIEW_N}" data-total="{b["pages"]}">
@@ -183,3 +184,5 @@ ul.inside{columns:2;column-gap:28px;margin:0;padding-left:1.1em}ul.inside li{mar
 @media (max-width:900px){.book-grid{grid-template-columns:1fr}.book-buy{position:static;max-width:320px}.bk-list.three{grid-template-columns:1fr}ul.inside{columns:1}}
 @media (max-width:520px){.viewer{grid-template-columns:40px minmax(0,1fr) 40px;gap:8px}.nav-btn{width:40px;height:40px;font-size:18px}}
 """
+BOOK_CSS += GAL_CSS
+
