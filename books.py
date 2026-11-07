@@ -105,8 +105,8 @@ def book_page(b, head, FOOTER):
     <div class="callout"><b>Inside this book</b><ul class="inside">{inside}</ul></div>
   </div>
 </div></section>
-{RV.section(b["key"], 3, css=True)}
-{gallery_section(b["key"], b["title"])}<section class="look" id="look-inside"><div class="wrap">
+{gallery_section(b["key"], b["title"])}{RV.section(b["key"], 3, css=True)}
+<section class="look" id="look-inside"><div class="wrap">
   <div class="look-head"><div><div class="eyebrow">Look inside</div><h2>Flip through the first {PREVIEW_N} pages</h2></div>
   <p class="counter" aria-live="polite">Page <b id="pg">1</b> of {b["pages"]}</p></div>
   <div class="viewer" data-key="{b["key"]}" data-n="{PREVIEW_N}" data-total="{b["pages"]}">
