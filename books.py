@@ -7,8 +7,8 @@ LS = "https://discover.lemonsqueezy.com/checkout/buy/"
 BOOKLIST = [
 {"key": "beginner", "slug": "the-padel-playbook-beginner-intermediate", "short": "Beginner & Intermediate",
  "title": "The Padel Playbook: Beginner & Intermediate", "sub": "Tactics, tips & techniques for beginner and intermediate players (2027)",
- "cover": "/cover-beginner.jpg", "price": "€4.99", "pages": 180, "checkout": LS + "a44e1d09-6ff9-475b-901d-65291fad3bf1",
- "level": "New to padel → level 3",
+ "cover": "/cover-beginner.jpg", "price": "€4.99", "pages": 219, "checkout": LS + "a44e1d09-6ff9-475b-901d-65291fad3bf1",
+ "level": "Level 1 → 4",
  "about": """<p><strong>From your first rally to your first league.</strong> Padel is easy to start and hard to master. This book takes you from "I can rally" to winning matches, using court diagrams instead of long theory.</p>
 <p>Part one teaches the game: how to find your level, the rules that decide matches (scoring, the serve, the walls and the new Star Point), the right gear, and how to choose between the drive and revés side.</p>
 <p>Part two is where points are won: positioning and moving as a pair, the wall game off the back, side and double walls, overheads (bandeja, smash, víbora and when to let the ball bounce), volleys, lobs and the chiquita, the patterns that win points at club level, and what to learn from Premier Padel.</p>
@@ -25,7 +25,7 @@ BOOKLIST = [
  "inside": ["19 chapters in three parts", "Bandeja, víbora, rulo, x3, x4, gancho", "Bajadas, chiquitas, lobs and drops", "Club patterns and Premier Padel patterns", "12 drills and weekly training plans", "Shot tables, checklists and glossary"]},
 {"key": "kids", "slug": "the-padel-playbook-kids-edition", "short": "Kids Edition",
  "title": "The Padel Playbook: Kids Edition", "sub": "Padel for ages 10 to 14 (2027)",
- "cover": "/cover-kids.jpg", "price": "€4.99", "pages": 120, "checkout": LS + "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a",
+ "cover": "/cover-kids.jpg", "price": "€4.99", "pages": 144, "checkout": LS + "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a",
  "level": "Ages 10–14",
  "about": """<p><strong>Learn the basics. Build your skills. Have fun on court.</strong> A padel book written for young players aged 10 to 14, and for the parents and coaches who play with them.</p>
 <p>Part one gets them started: what padel is, the gear they need, the rules made simple (scoring, serving and the bounce rule), how to warm up safely, the grip and ready position, their first shots (forehand, backhand, volleys, lob and serve), "the magic walls" and how the glass helps you, and where to stand as a team.</p>

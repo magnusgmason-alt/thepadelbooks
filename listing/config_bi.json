@@ -1,5 +1,5 @@
 {
- "book_dir": "/home/claude/build/listing/books/bi/src",
+ "book_dir": "/home/claude/build/listing/books/bi/fixed",
  "pdf": "The_Padel_Playbook_Beginner_Intermediate_2027.pdf",
  "front": "The_Padel_Playbook_Beginner_Intermediate_FRONT_cover_2027.jpg",
  "out_dir": "/home/claude/build/listing/out_bi/Listing Images - The Padel Playbook Beginner & Intermediate",
@@ -14,18 +14,18 @@
  "edition": "2027 EDITION",
  "levels": {
   "eyebrow": "Who it's for",
-  "title": "Built for\nlevel 1 to 3.",
+  "title": "Built for\nlevel 1 to 4.",
   "sub": [
    "From your first few sessions",
-   "to club players who want",
-   "to move up."
+   "to club players who win their",
+   "share and want to move up."
   ],
   "range": [
    1,
-   3
+   4
   ],
   "max": 7,
-  "range_label": "This book · levels 1–3"
+  "range_label": "This book · levels 1–4"
  },
  "hero": {
   "eyebrow": "The Padel Playbook series",
