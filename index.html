@@ -196,6 +196,17 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
 @media (max-width:420px){.hp-covers img{width:36px;height:54px}.hp-covers img+img{margin-left:-12px}.hp-text{font-size:12.5px}}
 .usd{font-weight:400;font-size:.78em;color:var(--ink-soft)}
 .hero h1 em{display:inline-block;line-height:.8;padding:.06em .08em .04em;margin:.1em 0}
+.story-photo img[src="photo-pro-match.jpg"]{aspect-ratio:2/1;object-position:50% 50%}
+.why-ball{display:block;margin:0 0 14px}
+.pro-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.pro-grid figure{margin:0;position:relative}
+.pro-grid img{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:cover;border:2px solid var(--line)}
+.pro-tag{position:absolute;left:12px;bottom:58px;display:flex;flex-direction:column;gap:2px;background:var(--navy);color:#fff;padding:7px 10px 6px;font-family:var(--f-display);line-height:1}
+.pro-tag b{font-size:12px;letter-spacing:.08em}
+.pro-tag i{font-style:normal;font-family:var(--f-mono);font-size:10px;color:var(--lime);letter-spacing:.06em}
+.pro-grid figcaption{font-family:var(--f-mono);font-size:12px;color:var(--ink-soft);margin-top:10px;min-height:2.8em}
+.pro-cta{margin:30px 0 0}
+@media (max-width:760px){.pro-grid{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:78%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px}.pro-grid figure{scroll-snap-align:start}}
 </style>
 <link rel="stylesheet" href="/reviews.css?v=2">
 </head>
@@ -235,19 +246,14 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
   <section class="block" id="about">
     <div class="wrap">
       <div class="story">
-        <div class="eyebrow">Why padel</div>
+        <div class="why-head"><svg class="why-ball" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#2F62A6"/><path d="M8.5 8.8C15.8 15.6 15.8 32.4 8.5 39.2M39.5 8.8C32.2 15.6 32.2 32.4 39.5 39.2" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/></svg><div class="eyebrow">Why padel</div></div>
         <p><strong>Padel is easy to start and hard to master.</strong> Anyone can rally in their first hour. Winning matches is different: the walls change every angle, the lob decides who owns the net, and most club players never learn where to stand.</p>
         <p>The Padel Academy writes short, visual playbooks that fix exactly that. Every book uses court diagrams, step-by-step drills and match situations you'll recognise from your Tuesday-night game, so you can take one idea to the court and use it the same day.</p>
       </div>
       <figure class="story-photo">
-        <img src="photo-net-ball.jpg" alt="Padel ball resting on a blue court beside the net" width="1600" height="2400">
+        <img src="photo-pro-match.jpg" alt="Professional padel match on a blue indoor court, with players at the net and a full crowd behind the glass" width="1200" height="600" loading="lazy">
         <figcaption><span>Court 20 m × 10 m</span><span>Net 88 cm in the middle, 92 cm at the posts</span></figcaption>
       </figure>
-      <div class="facts">
-        <div class="fact"><b>4</b><span>players, 2 per side, always doubles at club level</span></div>
-        <div class="fact"><b>3 m</b><span>of glass behind you, the wall that changes every rally</span></div>
-        <div class="fact"><b>100</b><span>drills in The Padel Drill Book, solo, pairs or as a four</span></div>
-      </div>
     </div>
   </section>
 
@@ -270,6 +276,18 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
   </section>
 
   <section class="rv" id="reviews"><div class="wrap"><div class="rv-head"><div><div class="eyebrow">Reader reviews</div><h2>What players say</h2></div></div><div class="rv-grid n3"><article class="rv-card"><span class="rv-book">The Padel Drill Book</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Excellent Padel Resource</h3><blockquote>As a beginner, this book felt like an excellent resource full of contextualised experiences, examples and descriptions of technique. I think the book also offers something to the more advanced player, but I can&#x27;t really comment on that. Great book!</blockquote></div><div class="rv-who"><strong>Tanguy Aerts</strong><span class="rv-meta">Reviewed in Belgium on September 15, 2026</span></div></article><article class="rv-card"><span class="rv-book">The Padel Drill Book</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Highly recommended!</h3><blockquote>Great book - very well written and easy to understand. I’m a high level intermediate player and I found the strategy tips very helpful. …</blockquote></div><div class="rv-who"><strong>Amazon Customer</strong><span class="rv-meta">Reviewed in the United Kingdom on August 26, 2026</span></div></article><article class="rv-card"><span class="rv-book">The Padel Playbook: Intermediate &amp; Advanced</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Very effective and practical!</h3><blockquote>This is a book that really helps to improve your skills and your play! It’s like a manual, which you can read, learn and go to the court to try and improve. Starting from the first time, after reading about 20%, I went to the court and played a great match, due to a really improved position during the match and the rallies. I can say if you read it, you’ll always do a good thing! I started to play almost 2 years ago, I’m an “advanced beginner” I guess 😄 I found it really easy to understand, clear and effective! …</blockquote></div><div class="rv-who"><strong>MaxM83</strong><span class="rv-meta">Reviewed in Italy on September 28, 2024</span></div></article></div><p class="rv-foot">Reviews quoted from Amazon customer reviews of our books.</p></div></section>
+
+  <section class="block pro" id="pro">
+    <div class="wrap">
+      <div class="sec-head"><div class="eyebrow">At the top level</div><h2>Watch what the pros do</h2></div>
+      <div class="pro-grid">
+        <figure><img src="pro-overhead.jpg" alt="Overhead view of a player jumping for a smash at the net on a blue court" width="800" height="1200" loading="lazy"><span class="pro-tag"><b>THE PADEL ACADEMY</b><i>thepadelbooks.com</i></span><figcaption>The overhead: early, high and over the front foot.</figcaption></figure>
+        <figure><img src="pro-glass.jpg" alt="Player lunging low beside the side glass on a blue court" width="800" height="1200" loading="lazy"><span class="pro-tag"><b>THE PADEL ACADEMY</b><i>thepadelbooks.com</i></span><figcaption>Low and patient: let the glass give you time.</figcaption></figure>
+        <figure><img src="pro-pair.jpg" alt="Two players talking tactics between points" width="800" height="1200" loading="lazy"><span class="pro-tag"><b>THE PADEL ACADEMY</b><i>thepadelbooks.com</i></span><figcaption>Talk between every point: padel is a pair game.</figcaption></figure>
+      </div>
+      <p class="pro-cta"><a class="btn primary" href="#books">Shop the books</a></p>
+    </div>
+  </section>
 
   <section class="free" id="free">
     <div class="wrap free-grid">
