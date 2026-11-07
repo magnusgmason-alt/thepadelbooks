@@ -42,7 +42,7 @@ BOOKLIST = [
  "inside": ["100 drills in 8 sections", "A court diagram for every drill", "Solo, partner and four-player drills", "Four 4-week training plans, level 1–6", "Session log and blank drill courts", "Glossary of padel terms"]},
 {"key": "drill2", "slug": "the-padel-drill-book-intermediate-advanced", "short": "Drill Book: Intermediate & Advanced",
  "title": "The Padel Drill Book: Intermediate & Advanced", "sub": "80 drills for levels 3 to 6: reads, patterns and pressure (2027)",
- "cover": "/cover-drill2.jpg", "price": "€6.99", "pages": 165, "checkout": None,
+ "cover": "/cover-drill2.jpg", "price": "€6.99", "pages": 165, "checkout": LS + "0a42654f-c53d-456c-94c5-8981e1c6b2ba",
  "level": "Level 3 → 6",
  "about": """<p><strong>You already know the shots. This book trains the decisions.</strong> Past level 3, points are rarely lost because a shot is missing. They are lost because the wrong shot was chosen, a beat too late, or because a pair moved in two directions at once. Every one of these 80 drills puts a real read in front of you, from "bajada or lob?" to "go forward or stay back?", so the right answer becomes automatic in a match.</p>
 <p>The drills are grouped by the moment of the point they train: glass mastery, owning the net, the overhead arsenal (bandeja, víbora, rulo, gancho, por tres and por cuatro), transitions, defence under fire, serve, return and the first four shots, pair patterns and the Australian formation, and twelve pressure games that make every point cost something.</p>
