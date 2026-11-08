@@ -12,7 +12,7 @@ for m, v in (("batch8_a", "B8_A"), ("batch8_b", "B8_B"), ("batch8_c", "B8_C"), (
     try: A += getattr(importlib.import_module(m), v)
     except ModuleNotFoundError: pass
 ref = open('the-padel-drill-book.html').read()
-APAY = re.search(r'(<svg class="apay".*?</svg>)', ref, re.S).group(1)
+APAY = ""
 CSSV = re.search(r'journal\.css\?v=([0-9a-f]+)', open('padel-lob.html').read()).group(1)
 JS = re.search(r'(<script>\(function\(\)\{var s=document.getElementById\("stickybuy"\).*?</script>)', open('padel-lob.html').read(), re.S).group(1)
 LS = 'https://discover.lemonsqueezy.com/checkout/buy/'
@@ -25,7 +25,7 @@ def card(k, slug, eyebrow="From our book"):
     b = BK[k]; t = html.escape(b['title']); line = html.escape(PITCH[k]['pitch'])
     return (f'<aside class="buycard" aria-label="Book"><a href="/{b["slug"]}"><img src="{b["cover"][:-4]}-sm.jpg" alt="Cover of {t}" width="78" height="117" loading="lazy"></a>'
             f'<div><span class="eyebrow">{eyebrow}</span><b>{t}</b><p>{line}</p>'
-            f'<div class="row"><a class="btn primary" href="{url(b, slug)}" aria-label="Buy {t} with Apple Pay, {b["price"]}">Buy with {APAY} · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>\n\n')
+            f'<div class="row"><a class="btn primary" href="{url(b, slug)}" aria-label="Buy {t}, {b["price"]}">Buy now · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>\n\n')
 
 def sticky(k, slug):
     b = BK[k]; t = html.escape(b['title'])

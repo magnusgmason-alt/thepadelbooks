@@ -3,7 +3,7 @@ sys.path.insert(0,'/home/claude/build')
 import books as B
 BK={b['slug']:b for b in B.BOOKLIST}
 ref=open('the-padel-drill-book.html').read()
-APAY=re.search(r'(<svg class="apay".*?</svg>)',ref,re.S).group(1)
+APAY = ""
 LS='https://discover.lemonsqueezy.com/checkout/buy/'
 CSS='''
 /* buy card + sticky mobile bar (articles) */
@@ -29,7 +29,7 @@ def card(b,line,slug):
     t=html.escape(b['title'])
     c=(f'<aside class="buycard" aria-label="Book"><a href="/{b["slug"]}"><img src="{b["cover"][:-4]}-sm.jpg" alt="Cover of {t}" width="78" height="117" loading="lazy"></a>'
        f'<div><span class="eyebrow">From our book</span><b>{t}</b><p>{line}</p>'
-       f'<div class="row"><a class="btn primary" href="{url}" aria-label="Buy {t} with Apple Pay, {b["price"]}">Buy with {APAY} · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>\n\n')
+       f'<div class="row"><a class="btn primary" href="{url}" aria-label="Buy {t}, {b["price"]}">Buy now · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>\n\n')
     st=(f'<div class="stickybuy" id="stickybuy" aria-hidden="true"><img src="{b["cover"][:-4]}-sm.jpg" alt="" width="34" height="51"><span>{t}<br><i>Ebook · {b["price"]}</i></span>'
         f'<a class="btn primary" href="{url}" tabindex="-1">Buy {b["price"]}</a></div>\n')
     return c,st

@@ -63,8 +63,8 @@ def buy_block(b):
     amz = [(n, u) for n, u in st if n.startswith("Amazon")]
     rest = [(n, u) for n, u in st if not n.startswith("Amazon")]
     if b["checkout"]:
-        h = f'<a class="btn primary buy" href="{b["checkout"]}" aria-label="Buy the ebook with Apple Pay, {b["price"]}">Buy with {APAY} · {b["price"]}</a>'
-        h += '<p class="pay">' + b['price'] + ' ≈ ' + {'€4.99': '$5.60', '€6.99': '$7.80'}.get(b['price'], '') + ' · also PayPal and card · instant download: EPUB + PDF</p>'
+        h = f'<a class="btn primary buy" href="{b["checkout"]}" aria-label="Buy the ebook, {b["price"]}">Buy now · {b["price"]}</a>'
+        h += '<p class="pay">' + b['price'] + ' ≈ ' + {'€4.99': '$5.60', '€6.99': '$7.80'}.get(b['price'], '') + ' · card, PayPal, Apple Pay or Google Pay · instant download: EPUB + PDF</p>'
     else:
         h = f'<span class="btn primary buy soon" aria-disabled="true">Ebook coming soon · {b["price"]}</span>'
         h += '<p class="pay">Launching soon on Amazon and in our store</p>'
@@ -146,7 +146,8 @@ def book_page(b, head, FOOTER):
   show();
 }})();
 </script>
-{FOOTER}</body></html>'''
+{FOOTER}<script src="/upsell.js" defer></script>
+</body></html>'''
 
 BOOK_CSS = """
 /* book pages */

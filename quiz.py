@@ -49,13 +49,13 @@ def book_pair(lvl, junior):
     return ["advanced", "drill2"]
 
 ref = open('the-padel-drill-book.html').read()
-APAY = re.search(r'(<svg class="apay".*?</svg>)', ref, re.S).group(1)
+APAY = ""
 LS = 'https://discover.lemonsqueezy.com/checkout/buy/'
 def card(k):
     b = BK[k]; t = e(b['title']); u = LS + b['checkout'].split('/')[-1] + '?checkout%5Bcustom%5D%5Bsite%5D=thepadelbooks.com&checkout%5Bcustom%5D%5Bsource%5D=' + SLUG
     return (f'<aside class="buycard" aria-label="Book"><a href="/{b["slug"]}"><img src="{b["cover"][:-4]}-sm.jpg" alt="Cover of {t}" width="78" height="117" loading="lazy"></a>'
             f'<div><span class="eyebrow">For your level</span><b>{t}</b><p>{e(PITCH[k]["pitch"])}</p>'
-            f'<div class="row"><a class="btn primary" href="{u}" aria-label="Buy {t} with Apple Pay, {b["price"]}">Buy with {APAY} · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>')
+            f'<div class="row"><a class="btn primary" href="{u}" aria-label="Buy {t}, {b["price"]}">Buy now · {b["price"]}</a><a class="look" href="/{b["slug"]}#look-inside">Look inside →</a></div></div></aside>')
 CARDS = {k: card(k) for k in BK}
 
 who = '''<fieldset class="qz-q" data-id="who"><legend><span class="qz-n">Q1</span>Who is this quiz for?</legend>
