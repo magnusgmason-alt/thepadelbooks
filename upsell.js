@@ -22,8 +22,9 @@
     // The Padel Playbook: Intermediate & Advanced
     "78a88497-8f59-4fba-b0cc-94ae54aa6ac2": { title: "The Padel Playbook: Intermediate & Advanced", cover: "/cover-advanced-sm.jpg", adds: [B.drill2, B.fit], extra: { a: "€2.99", b: "€2.99", ab: "€4.99" }, bundles: { a: "", b: "", ab: "" } },
     // The Padel Playbook: Kids Edition
-    "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a": { title: "The Padel Playbook: Kids Edition", cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€2.99" }, bundles: { a: "" } }
-    // The Padel Fitness Book: add its checkout id here once the product exists → adds: [B.drill, B.pbAdv]
+    "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a": { title: "The Padel Playbook: Kids Edition", cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€2.99" }, bundles: { a: "" } },
+    // The Padel Fitness Book
+    "8f1a0aa9-5f81-43fb-974d-33f99194216b": { title: "The Padel Fitness Book", cover: "/cover-fitness-sm.jpg", adds: [B.drill, B.pbAdv], extra: { a: "€3.00", b: "€3.00", ab: "€5.00" }, bundles: { a: "", b: "", ab: "" } }
   };
   function idOf(href) { var m = /checkout\/buy\/([0-9a-f-]{36})/.exec(href || ""); return m ? m[1] : null; }
   function live(o) { if (!o) return false; for (var k in o.bundles) if (o.bundles[k]) return true; return false; }
