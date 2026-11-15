@@ -351,5 +351,6 @@ document.getElementById("shelf").innerHTML=books.map(b=>`
  </article>`).join("");
 document.getElementById("signup").addEventListener("submit",e=>{e.preventDefault();const em=document.getElementById("email").value.trim();const n=document.getElementById("signup-note");n.textContent="Opening your free download…";n.className="note ok";location.href="https://discover.lemonsqueezy.com/checkout/buy/8185f139-e559-4e41-80d8-5453943e35a2?checkout%5Bemail%5D="+encodeURIComponent(em)+"&checkout%5Bcustom%5D%5Bsource%5D=thepadelbooks.com"});
 </script>
+<script src="/upsell.js?v=3" defer></script>
 </body>
 </html>

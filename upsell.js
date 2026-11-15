@@ -13,18 +13,19 @@
   };
   // single-book checkout id → offer. extra/total per combination; bundles = Lemon Squeezy bundle checkout links.
   var OFFERS = {
-    // The Padel Drill Book
-    "848dda56-9f8d-438e-a2bf-14601b1cbe39": { title: "The Padel Drill Book", cover: "/cover-drill-sm.jpg", adds: [B.pbBeg, B.fit], extra: { a: "€2.99", b: "€2.99", ab: "€4.99" }, bundles: { a: "", b: "", ab: "" } },
-    // The Padel Drill Book: Intermediate & Advanced
-    "0a42654f-c53d-456c-94c5-8981e1c6b2ba": { title: "The Padel Drill Book: Intermediate & Advanced", cover: "/cover-drill2-sm.jpg", adds: [B.pbAdv, B.fit], extra: { a: "€2.99", b: "€2.99", ab: "€4.99" }, bundles: { a: "", b: "", ab: "" } },
-    // The Padel Playbook: Beginner & Intermediate
-    "a44e1d09-6ff9-475b-901d-65291fad3bf1": { title: "The Padel Playbook: Beginner & Intermediate", cover: "/cover-beginner-sm.jpg", adds: [B.drill, B.fit], extra: { a: "€2.99", b: "€2.99", ab: "€4.99" }, bundles: { a: "", b: "", ab: "" } },
-    // The Padel Playbook: Intermediate & Advanced
-    "78a88497-8f59-4fba-b0cc-94ae54aa6ac2": { title: "The Padel Playbook: Intermediate & Advanced", cover: "/cover-advanced-sm.jpg", adds: [B.drill2, B.fit], extra: { a: "€2.99", b: "€2.99", ab: "€4.99" }, bundles: { a: "", b: "", ab: "" } },
-    // The Padel Playbook: Kids Edition
-    "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a": { title: "The Padel Playbook: Kids Edition", cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€2.99" }, bundles: { a: "" } },
-    // The Padel Fitness Book
-    "8f1a0aa9-5f81-43fb-974d-33f99194216b": { title: "The Padel Fitness Book", cover: "/cover-fitness-sm.jpg", adds: [B.drill, B.pbAdv], extra: { a: "€3.00", b: "€3.00", ab: "€5.00" }, bundles: { a: "", b: "", ab: "" } }
+    // The Padel Drill Book → + The Padel Fitness Book
+    "848dda56-9f8d-438e-a2bf-14601b1cbe39": { title: "The Padel Drill Book", price: 6.99, cover: "/cover-drill-sm.jpg", adds: [B.fit], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/284eb680-81f6-4ce1-8b11-34d66edf1df1" } },
+    // The Padel Drill Book: Intermediate & Advanced → + Playbook: Intermediate & Advanced
+    "0a42654f-c53d-456c-94c5-8981e1c6b2ba": { title: "The Padel Drill Book: Intermediate & Advanced", price: 6.99, cover: "/cover-drill2-sm.jpg", adds: [B.pbAdv], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/8588816f-ec9b-46ee-8930-6df3209ef5e0" } },
+    // The Padel Playbook: Beginner & Intermediate → + The Padel Drill Book
+    "a44e1d09-6ff9-475b-901d-65291fad3bf1": { title: "The Padel Playbook: Beginner & Intermediate", price: 4.99, cover: "/cover-beginner-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/4a8ffef1-d1df-4e56-a6fe-edce7c7e9ffa" } },
+    // The Padel Playbook: Intermediate & Advanced → + Drill Book: Intermediate & Advanced
+    "78a88497-8f59-4fba-b0cc-94ae54aa6ac2": { title: "The Padel Playbook: Intermediate & Advanced", price: 6.99, cover: "/cover-advanced-sm.jpg", adds: [B.drill2], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/8588816f-ec9b-46ee-8930-6df3209ef5e0" } },
+    // The Padel Playbook: Kids Edition → + The Padel Drill Book
+    "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a": { title: "The Padel Playbook: Kids Edition", price: 4.99, cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/63c40184-a54b-45f8-ae93-769a776efeea" } },
+    // The Padel Fitness Book → + The Padel Drill Book
+    "8f1a0aa9-5f81-43fb-974d-33f99194216b": { title: "The Padel Fitness Book", price: 7.99, cover: "/cover-fitness-sm.jpg", adds: [B.drill], extra: { a: "€2.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/284eb680-81f6-4ce1-8b11-34d66edf1df1" } }
+    // Second add-on (phase 2): add B.fit as adds[1] with bundles.b / bundles.ab once those bundle products exist.
   };
   function idOf(href) { var m = /checkout\/buy\/([0-9a-f-]{36})/.exec(href || ""); return m ? m[1] : null; }
   function live(o) { if (!o) return false; for (var k in o.bundles) if (o.bundles[k]) return true; return false; }
@@ -42,6 +43,7 @@
     ".up-opt:has(input:checked){border-color:#CFEA3E;background:rgba(207,234,62,.14)}.up-opt input{position:absolute;top:10px;right:10px;accent-color:#CFEA3E;width:20px;height:20px;margin:0}" +
     ".up-opt img{width:60px;height:90px;box-shadow:0 3px 10px rgba(0,0,0,.35)}.up-opt b{display:block;font-size:14px;line-height:1.3}.up-opt small{display:block;font-size:12px;line-height:1.35;opacity:.75}" +
     ".up-opt .up-p{font-weight:700;color:#CFEA3E;font-size:15px;margin-top:auto}" +
+    ".up-opts.one .up-opt{flex-direction:row;align-items:center;gap:14px;padding-right:44px}.up-opts.one .up-opt .up-p{margin:0 0 0 auto;font-size:17px;white-space:nowrap}"+
     ".up-go{display:block;width:100%;text-align:center;margin-top:18px}.up-pay{font-size:12px;text-align:center;margin:10px 0 0;opacity:.7}" +
     ".up-x{position:absolute;top:10px;right:10px;width:36px;height:36px;border:0;background:transparent;font-size:18px;cursor:pointer;color:#fff}" +
     "@media(max-width:420px){.up-in{padding:18px}.up-opt img{width:48px;height:72px}}";
@@ -68,7 +70,7 @@
     if (!a || a.closest(".up-box")) return;
     var o = OFFERS[idOf(a.href)]; if (!live(o) || !d.showModal) return;
     e.preventDefault(); cur = o; single = a.href;
-    var pm = /€\d+\.\d\d/.exec(a.textContent + " " + (a.getAttribute("aria-label") || "")); price = pm ? eur(pm[0]) : 0;
+    var pm = /€\d+\.\d\d/.exec(a.textContent + " " + (a.getAttribute("aria-label") || "")); price = o.price || (pm ? eur(pm[0]) : 0);
     d.querySelector(".up-h").textContent = o.title + (price ? " · €" + price.toFixed(2) : "");
     d.querySelector(".up-main img").src = o.cover;
     opts.innerHTML = "";
