@@ -1,6 +1,6 @@
 /* Pre-checkout "add another book" panel for book pages.
-   A click on any Lemon Squeezy buy link whose product has an offer opens a small panel first, with up to two
-   matching add-on books. Each combination needs its own Lemon Squeezy bundle checkout link in `bundles`
+   A click on any Polar buy link whose product has an offer opens a small panel first, with up to two
+   matching add-on books. Each combination needs its own Polar bundle checkout link in `bundles`
    ("a" = first add-on, "b" = second, "ab" = both). An add-on whose bundle link is empty is hidden;
    when no bundle link exists at all, the buy link works exactly as before. */
 (function () {
@@ -11,23 +11,23 @@
     drill2: { name: "The Padel Drill Book: Intermediate & Advanced", cover: "/cover-drill2-sm.jpg", line: "80 drills for levels 3–6: glass, net, overheads and pressure games.", sub: "80 drills · level 3 → 6" },
     fit:    { name: "The Padel Fitness Book", cover: "/cover-fitness-sm.jpg", line: "Warm-ups, strength and injury prevention, with 8-week plans for every level.", sub: "Warm-ups · strength · injury prevention" }
   };
-  // single-book checkout id → offer. extra/total per combination; bundles = Lemon Squeezy bundle checkout links.
+  // single-book checkout id → offer. extra/total per combination; bundles = Polar bundle checkout links.
   var OFFERS = {
     // The Padel Drill Book → + The Padel Fitness Book
-    "848dda56-9f8d-438e-a2bf-14601b1cbe39": { title: "The Padel Drill Book", price: 6.99, cover: "/cover-drill-sm.jpg", adds: [B.fit], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/284eb680-81f6-4ce1-8b11-34d66edf1df1" } },
+    "polar_cl_LH13UmV8gfDKMEk9uEalyw8uXkBfWHa1Jgr6P2VuNrI": { title: "The Padel Drill Book", price: 6.99, cover: "/cover-drill-sm.jpg", adds: [B.fit], extra: { a: "€3.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_7y4fUsHvDUMdCt8SIO4SLMqJgD7E1dRHLx3Oe3T4P98" } },
     // The Padel Drill Book: Intermediate & Advanced → + Playbook: Intermediate & Advanced
-    "0a42654f-c53d-456c-94c5-8981e1c6b2ba": { title: "The Padel Drill Book: Intermediate & Advanced", price: 6.99, cover: "/cover-drill2-sm.jpg", adds: [B.pbAdv], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/8588816f-ec9b-46ee-8930-6df3209ef5e0" } },
+    "polar_cl_KYMXeXo81m7hA7PWM4sDeVUj5j0k9JSpwMSkA21lEJx": { title: "The Padel Drill Book: Intermediate & Advanced", price: 6.99, cover: "/cover-drill2-sm.jpg", adds: [B.pbAdv], extra: { a: "€3.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_G8x0ZATTuJhr3MFQhVmwjRZQhxkaxSYHBwOj235zn8c" } },
     // The Padel Playbook: Beginner & Intermediate → + The Padel Drill Book
-    "a44e1d09-6ff9-475b-901d-65291fad3bf1": { title: "The Padel Playbook: Beginner & Intermediate", price: 4.99, cover: "/cover-beginner-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/4a8ffef1-d1df-4e56-a6fe-edce7c7e9ffa" } },
+    "polar_cl_dfL9klLLVtyAC9uddfFfYrrMtlymVjqGXB02E0DN8nJ": { title: "The Padel Playbook: Beginner & Intermediate", price: 4.99, cover: "/cover-beginner-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_BzayRujWBd8ftgrlX9LCLqbPuwUS5GMU09SbE1hHhSN" } },
     // The Padel Playbook: Intermediate & Advanced → + Drill Book: Intermediate & Advanced
-    "78a88497-8f59-4fba-b0cc-94ae54aa6ac2": { title: "The Padel Playbook: Intermediate & Advanced", price: 6.99, cover: "/cover-advanced-sm.jpg", adds: [B.drill2], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/8588816f-ec9b-46ee-8930-6df3209ef5e0" } },
+    "polar_cl_W4iyLZtbAJMJUtJ0d2dJsICI1lrcdhOiKGLOh0SyJrV": { title: "The Padel Playbook: Intermediate & Advanced", price: 6.99, cover: "/cover-advanced-sm.jpg", adds: [B.drill2], extra: { a: "€3.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_G8x0ZATTuJhr3MFQhVmwjRZQhxkaxSYHBwOj235zn8c" } },
     // The Padel Playbook: Kids Edition → + The Padel Drill Book
-    "6f5aac7c-7d2b-4f11-b964-1c4cd2ee158a": { title: "The Padel Playbook: Kids Edition", price: 4.99, cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/63c40184-a54b-45f8-ae93-769a776efeea" } },
+    "polar_cl_8dOactNdb9TMUNc3ppWHjEMyq9moIkU2Pieok3PgXEJ": { title: "The Padel Playbook: Kids Edition", price: 4.99, cover: "/cover-kids-sm.jpg", adds: [B.drill], extra: { a: "€3.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_ZOtdGCAA8swvZ8kDzUTQ6whhtG5aZIrKrAvCD3KLmqf" } },
     // The Padel Fitness Book → + The Padel Drill Book
-    "8f1a0aa9-5f81-43fb-974d-33f99194216b": { title: "The Padel Fitness Book", price: 7.99, cover: "/cover-fitness-sm.jpg", adds: [B.drill], extra: { a: "€2.00" }, bundles: { a: "https://discover.lemonsqueezy.com/checkout/buy/284eb680-81f6-4ce1-8b11-34d66edf1df1" } }
+    "polar_cl_igNwrUKTNxMeSrD2vf1kUz5qlmT2bSJupqcGs103tJL": { title: "The Padel Fitness Book", price: 7.99, cover: "/cover-fitness-sm.jpg", adds: [B.drill], extra: { a: "€2.00" }, bundles: { a: "https://buy.polar.sh/polar_cl_7y4fUsHvDUMdCt8SIO4SLMqJgD7E1dRHLx3Oe3T4P98" } }
     // Second add-on (phase 2): add B.fit as adds[1] with bundles.b / bundles.ab once those bundle products exist.
   };
-  function idOf(href) { var m = /checkout\/buy\/([0-9a-f-]{36})/.exec(href || ""); return m ? m[1] : null; }
+  function idOf(href) { var m = /buy\.polar\.sh\/(polar_cl_[A-Za-z0-9]+)/.exec(href || ""); return m ? m[1] : null; }
   function live(o) { if (!o) return false; for (var k in o.bundles) if (o.bundles[k]) return true; return false; }
   var any = false; for (var k in OFFERS) if (live(OFFERS[k])) any = true;
   if (!any) return;
@@ -66,7 +66,7 @@
   d.querySelector(".up-x").onclick = function () { d.close(); };
   d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
   document.addEventListener("click", function (e) {
-    var a = e.target.closest && e.target.closest('a[href*="lemonsqueezy.com/checkout/buy/"]');
+    var a = e.target.closest && e.target.closest('a[href*="buy.polar.sh/polar_cl_"]');
     if (!a || a.closest(".up-box")) return;
     var o = OFFERS[idOf(a.href)]; if (!live(o) || !d.showModal) return;
     e.preventDefault(); cur = o; single = a.href;
