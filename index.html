@@ -210,6 +210,27 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
 </style>
 <link rel="stylesheet" href="/reviews.css?v=2">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+/* book carousel on navy */
+.books-nav{background:var(--navy);color:var(--on-navy);border-top:1px solid rgba(255,255,255,.12)}
+.books-nav .sec-head h2{color:#fff}.books-nav .eyebrow{color:var(--lime)}
+.books-nav .book h3 a{color:#fff}.books-nav .book .meta{color:var(--on-navy-soft)}.books-nav .book .meta b{color:#fff}
+.books-nav .book .btn.amzn{color:#fff;border-color:rgba(255,255,255,.7)}
+.books-nav .cover-img{box-shadow:0 18px 34px -16px rgba(0,0,0,.7)}
+.shelf-wrap{position:relative}
+.books-nav .shelf{display:flex;grid-template-columns:none;max-width:none;gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:18px 4px 6px;margin:-18px -4px 0}
+.books-nav .shelf::-webkit-scrollbar{display:none}
+.books-nav .shelf .book{flex:0 0 calc((100% - 72px)/4);scroll-snap-align:start}
+@media (max-width:980px){.books-nav .shelf .book{flex-basis:calc((100% - 48px)/3)}}
+@media (max-width:700px){.books-nav .shelf{gap:16px}.books-nav .shelf .book{flex-basis:calc((100% - 16px)/2.15)}.books-nav .book h3{font-size:15px}.books-nav .book .meta{flex-direction:column;align-items:flex-start;gap:2px}.books-nav .book .buy .btn{padding:9px 10px;font-size:11px}}
+.sh-nav{position:absolute;top:32%;width:46px;height:46px;border-radius:50%;border:0;background:var(--lime);color:var(--lime-ink);font-size:20px;font-weight:700;cursor:pointer;box-shadow:0 8px 20px -8px rgba(0,0,0,.6);z-index:2}
+.sh-nav.prev{left:-18px}.sh-nav.next{right:-18px}.sh-nav[disabled]{opacity:0;pointer-events:none}
+@media (max-width:700px){.sh-nav{display:none}}
+.books-nav .cover-link .badge{right:6px}
+.sh-dots{display:flex;justify-content:center;gap:8px;margin-top:26px}
+.sh-dots i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.3);transition:background .2s,width .2s}
+.sh-dots i.on{background:var(--lime);width:22px;border-radius:4px}
+</style>
 </head>
 <body>
 <header class="top">
@@ -271,10 +292,10 @@ footer .logo span,footer h4,footer .legal,footer p{color:var(--on-navy-soft)!imp
 
   <section class="rv" id="reviews"><div class="wrap"><div class="rv-head"><div><div class="eyebrow">Reader reviews</div><h2>What players say</h2></div></div><div class="rv-grid n3"><article class="rv-card"><span class="rv-book">The Padel Drill Book</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Excellent Padel Resource</h3><blockquote>As a beginner, this book felt like an excellent resource full of contextualised experiences, examples and descriptions of technique. I think the book also offers something to the more advanced player, but I can&#x27;t really comment on that. Great book!</blockquote></div><div class="rv-who"><strong>Tanguy Aerts</strong><span class="rv-meta">Reviewed in Belgium on September 15, 2026</span></div></article><article class="rv-card"><span class="rv-book">The Padel Drill Book</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Highly recommended!</h3><blockquote>Great book - very well written and easy to understand. I’m a high level intermediate player and I found the strategy tips very helpful. …</blockquote></div><div class="rv-who"><strong>Amazon Customer</strong><span class="rv-meta">Reviewed in the United Kingdom on August 26, 2026</span></div></article><article class="rv-card"><span class="rv-book">The Padel Playbook: Intermediate &amp; Advanced</span><div class="rv-body"><div class="rv-top"><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><span class="vp"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="8" fill="#2E7D4F"/><path d="M4.5 8.3l2.2 2.2 4.8-4.9" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Amazon Verified Purchase</span></div><h3>Very effective and practical!</h3><blockquote>This is a book that really helps to improve your skills and your play! It’s like a manual, which you can read, learn and go to the court to try and improve. Starting from the first time, after reading about 20%, I went to the court and played a great match, due to a really improved position during the match and the rallies. I can say if you read it, you’ll always do a good thing! I started to play almost 2 years ago, I’m an “advanced beginner” I guess 😄 I found it really easy to understand, clear and effective! …</blockquote></div><div class="rv-who"><strong>MaxM83</strong><span class="rv-meta">Reviewed in Italy on September 28, 2024</span></div></article></div><p class="rv-foot">Reviews quoted from Amazon customer reviews of our books.</p></div></section>
 
-  <section class="block" id="books">
+  <section class="block books-nav" id="books">
     <div class="wrap">
       <div class="sec-head"><div class="eyebrow">The series</div><h2>The Padel Playbook</h2></div>
-      <div class="shelf" id="shelf"></div>
+      <div class="shelf-wrap"><div class="shelf" id="shelf"></div><button class="sh-nav prev" type="button" aria-label="Previous books">&#8592;</button><button class="sh-nav next" type="button" aria-label="Next books">&#8594;</button></div><div class="sh-dots" id="sh-dots" aria-hidden="true"></div>
     </div>
   </section>
 
@@ -352,6 +373,7 @@ document.getElementById("shelf").innerHTML=books.map(b=>`
  </article>`).join("");
 document.getElementById("signup").addEventListener("submit",e=>{e.preventDefault();const em=document.getElementById("email").value.trim();const n=document.getElementById("signup-note");n.textContent="Opening your free download…";n.className="note ok";location.href="https://discover.lemonsqueezy.com/checkout/buy/8185f139-e559-4e41-80d8-5453943e35a2?customer_email="+encodeURIComponent(em)+"&utm_source=thepadelbooks.com"});
 </script>
+<script>(function(){var sh=document.getElementById("shelf"),d=document.getElementById("sh-dots"),w=sh.parentNode,pv=w.querySelector(".prev"),nx=w.querySelector(".next");var cards=sh.querySelectorAll(".book");d.innerHTML=Array.prototype.map.call(cards,function(){return"<i></i>"}).join("");var dots=d.querySelectorAll("i");function step(){return cards[0]?cards[0].getBoundingClientRect().width+parseFloat(getComputedStyle(sh).columnGap||24):300}function up(){var i=Math.round(sh.scrollLeft/step());dots.forEach(function(e,k){e.classList.toggle("on",k===i)});pv.disabled=sh.scrollLeft<5;nx.disabled=sh.scrollLeft+sh.clientWidth>=sh.scrollWidth-5}pv.onclick=function(){sh.scrollBy({left:-step()*2})};nx.onclick=function(){sh.scrollBy({left:step()*2})};sh.addEventListener("scroll",up,{passive:true});addEventListener("resize",up);up()})();</script>
 <script src="/upsell.js?v=3" defer></script>
 <script>if(matchMedia("(prefers-reduced-motion: reduce)").matches){var hv=document.querySelector(".hero-board video");if(hv){hv.removeAttribute("autoplay");hv.pause()}}</script>
 </body>
